@@ -117,7 +117,11 @@ Por definición todo es nivel básico, pero en partes del contenido se incluyen 
 
 **CMS (Back-End)**
 
-![img](https://www.inqbation.com/wp-content/uploads/2011/03/how-cms-works-0.jpg) 
+![img](https://i.pinimg.com/originals/76/31/53/763153e6fd099ae268c7cf17c3968c20.jpg)
+
+**Ajax**
+
+![img](https://d2v4zi8pl64nxt.cloudfront.net/javascript-seo/59482f1f55c475.72629357.png)
 
 **CDN (Content Delivery Network)**
 
