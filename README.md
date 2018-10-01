@@ -38,7 +38,7 @@ Teoría y Recursos
 =================
 Fecha | Teoría | Recursos | Contenido
 ------------ | ------------ | ------------- | -------------
-01/10/18 | Clase 1 | Clase 1 | Intro al Curso
+01/10/18 | [Clase 1](teoria/clase1.md) | [Clase 1](recursos/clase1.md) | Intro al Curso
 
 
 [Temario](https://coggle.it/diagram/W5ZfeGRd293lprIt/t/master-js-y-node-de-fictizia)
