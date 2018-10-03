@@ -39,6 +39,7 @@ Teoría y Recursos
 Fecha | Teoría | Recursos | Contenido
 ------------ | ------------ | ------------- | -------------
 01/10/18 | [Clase 1](teoria/clase1.md) | [Clase 1](recursos/clase1.md) | Intro al Curso
+03/10/18 | [Clase 2](teoria/clase2.md) | [Clase 2](recursos/clase2.md) | Git/Github/Gitlab/Bitbucket
 
 
 [Temario](https://coggle.it/diagram/W5ZfeGRd293lprIt/t/master-js-y-node-de-fictizia)
