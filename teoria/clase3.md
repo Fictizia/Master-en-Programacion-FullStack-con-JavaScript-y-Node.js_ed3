@@ -315,7 +315,7 @@
 **9 -** Diseña un algoritmo introducido un numero y pasarlo a número romanos.
 - Esperamos que el número sea menor de 50
 
-![numeros_romanos](https://4.bp.blogspot.com/-Wla6ZUPzEc0/T8C_JofDt8I/AAAAAAAAZg0/-Uq5XTizJxA/s640/numeros%252Bromanos.png)
+![numeros_romanos](https://4.bp.blogspot.com/-oR3XcstycfY/WclGA457UuI/AAAAAAAAD5c/thke5x9K534r28OBOR0eoQMXhXKrlQ4LwCLcBGAs/s1600/U1-Romanos2.jpg)
 
 ```
 	// Tu solución
