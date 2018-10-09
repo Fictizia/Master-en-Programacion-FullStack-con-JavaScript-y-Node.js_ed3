@@ -317,7 +317,16 @@ FinProceso
 
 **4 -** Diseña un programa que simula el lanzamiento de una moneda al aire e imprimir si ha salido cara o cruz.
 ```
-	// Tu solución
+Proceso azarMoneda
+	valor <- azar(2)
+	
+	Si valor = 1 Entonces
+		Escribir "Salio Cara!"
+	Sino
+		Escribir "Salio Cruz!"
+	Fin Si
+	
+FinProceso
 ```
 
 **5 -** Diseña un programa que simula cien tiradas de dos dados y contar las veces que entre los dos suman 10.
