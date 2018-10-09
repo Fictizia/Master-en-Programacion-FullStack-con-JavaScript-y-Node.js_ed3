@@ -280,7 +280,20 @@ FinProceso
 
 **2 -** Diseña un programa que muestre los numeros del 100 al 0.
 ```
-	// Tu solución
+Proceso contadorNegativo
+	
+	controlador = 100
+	
+	Escribir "Empieza la cuenta!"
+	
+	Mientras controlador >= 0 Hacer
+		Escribir controlador
+		controlador = controlador -1
+	Fin Mientras
+	
+	Escribir "Terminó la cuenta mágica..."
+	
+FinProceso
 ```
 
 **3 -** Diseña un programa que muestre los numeros pares entre 0 y 100.
