@@ -298,7 +298,20 @@ FinProceso
 
 **3 -** Diseña un programa que muestre los numeros pares entre 0 y 100.
 ```
-	// Tu solución
+Proceso contadorPares
+	
+	controlador = 0
+	
+	Escribir "Empieza la cuenta!"
+	
+	Mientras controlador <= 100 Hacer
+		Escribir controlador
+		controlador = controlador +2
+	Fin Mientras
+	
+	Escribir "Terminó la cuenta mágica..."
+	
+FinProceso 
 ```
 
 
