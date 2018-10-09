@@ -331,7 +331,28 @@ FinProceso
 
 **5 -** Diseña un programa que simula cien tiradas de dos dados y contar las veces que entre los dos suman 10.
 ```
-	// Tu solución
+Proceso azarMoneda
+
+	coincidencias <- 0
+	controlador <- 0
+	
+	Mientras controlador <= 100 Hacer
+		
+		dado1 <- azar(7)
+		dado2 <- azar(7)
+		tirada <- dado1 + dado2
+
+		Si tirada = 10 Entonces
+			coincidencias = coincidencias +1
+		Fin Si
+		
+		controlador = controlador + 1
+		
+	Fin Mientras
+	
+	Escribir "El azar ... sumó 10 un total de " coincidencias " veces"
+
+FinProceso
 ```
 
 
