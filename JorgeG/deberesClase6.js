@@ -11,14 +11,26 @@ else if (num1 > num2) {
   console.log("el 1er numero es mayor");
 }
 else {
-  console.log("el 2º numero es mayor")
+  console.log("el 2º numero es mayor");
 }
 
 // usando switch
 
 let num1 = prompt("escriba un 1er numero","");
 let num2 = prompt("escriba un 2º numero","");
-switch (num1 > num2)
+
+let num = num1/num2
+
+switch (true) {
+  case (num > 1):
+    console.log("el primer numero es mayor");
+    break;
+  case (num < 1):
+    console.log("el segundo es mayor");
+    break;
+  case (num = 1):
+    console.log("los numeros son iguales");
+}
 
 //Ejercicio 2
 
