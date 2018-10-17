@@ -1,4 +1,4 @@
-```javascript
+// javascript
 
 var lista = [1,2,3,4,5]
 
@@ -43,4 +43,4 @@ const lista_nueva = lista.map(elemento => elemento*10)
 
 
 
-```
+
