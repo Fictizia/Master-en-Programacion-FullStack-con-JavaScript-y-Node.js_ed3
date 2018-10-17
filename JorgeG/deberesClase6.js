@@ -26,5 +26,5 @@ else if (num2 > num1) && (num2 > num3) {
 console.log("el 2º numero es mayor");
 }
 else {
-console.log("el 3er numero es mayor")
+console.log("el 3er numero es mayor");
 }
