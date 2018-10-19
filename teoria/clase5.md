@@ -359,17 +359,24 @@ Otras palabras reservadas en modo estricto:
 
 ### Ejercicios
 
-**2 -** Diseña un algoritmo que lea dos números y realice los siguientes cálculos:
+**1 -** Diseña un algoritmo que lea dos números y realice los siguientes cálculos:
 - Valor de su suma
 - Valor de su resta
 - Valor de su division
 - Valor de su producto
 
 ```javascript
-    // Tu solución
+	function calculosVarios(valor1, valor2){
+		console.info("El valor de la suma es:", valor1+valor2);
+		console.info("El valor de la resta es:",valor1-valor2);
+		console.info("El valor de la división es:", valor1/valor2);
+		console.info("El valor de la división es:", valor1*valor2)
+	};
+	
+	calculosVarios(5,5);
 ```
 
-**3 -** Diseña un algoritmo para calcular el porcentaje de hombres y mujeres en nuestro curso.
+**2 -** Diseña un algoritmo para calcular el porcentaje de hombres y mujeres en nuestro curso.
 - Trucos:
 	- Calcular porcentajes (segmento*100)/total
 
