@@ -268,17 +268,34 @@ Realiza los siguientes ejercicios usando en cada uno los tres tipos de condicion
 
 - Usando *if...else*
 ```javascript
-    // Tu solución
+	function jugandoConNumeros (valor1, valor2, valor3) {
+		if (valor1 < 0) {
+			console.log("El resultado de la suma es", valor2+valor3)
+		} else {
+			console.log("El resutlado de la multiplicacion es", valor1 * valor2 * valor3)
+		};
+	}
 ```
 
 - Usando *Operador Ternario (?:)*
 ```javascript
-    // Tu solución
+	function jugandoConNumeros (valor1, valor2, valor3) {
+		(valor1 < 0) ? console.log("El resultado de la suma es", valor2+valor3) 
+			: console.log("El resutlado de la multiplicacion es", valor1 * valor2 * valor3);
+	}
 ```
 
 - Usando *Switch*
 ```javascript
-    // Tu solución
+	function jugandoConNumeros (valor1, valor2, valor3) {
+		switch(true){
+			case (valor1 < 0):
+				console.log("El resultado de la suma es", valor2+valor3)
+				break;
+			default:
+				console.log("El resutlado de la multiplicacion es", valor1 * valor2 * valor3);
+		}
+	}
 ```
 
 
