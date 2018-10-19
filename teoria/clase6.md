@@ -182,17 +182,40 @@ Realiza los siguientes ejercicios usando en cada uno los tres tipos de condicion
 
 - Usando *if...else*
 ```javascript
-    // Tu solución
+	function compararNumeros (valor1, valor2) {
+		if (valor1 > valor2) {
+			console.info(valor1, "es mayor.")
+		} else if (valor1 < valor2){
+			console.info(valor2, "es mayor.")
+		} else {
+			console.info("Son iguales")
+		};
+	}
 ```
 
 - Usando *Operador Ternario (?:)*
 ```javascript
-    // Tu solución
+	function compararNumeros (valor1, valor2) {
+		(valor1 > valor2) ? console.info(valor1, "es mayor.") 
+			: (valor1 < valor2) ? console.info(valor2, "es mayor.") 
+			: console.info("Son iguales");
+	}
 ```
 
 - Usando *Switch*
 ```javascript
-    // Tu solución
+	function compararNumeros (valor1, valor2) {
+		switch (true){
+			case (valor1 > valor2):
+				console.info(valor1, "es mayor.");
+				break;
+			case (valor1 < valor2):
+				console.info(valor2, "es mayor.");
+				break;
+			default:
+				console.info("Son iguales");
+		}
+	}
 ```
 
 **2 -** Diseña un script que lea tres números distintos y nos diga cual de ellos es el mayor.
