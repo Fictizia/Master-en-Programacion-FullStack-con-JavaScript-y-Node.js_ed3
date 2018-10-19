@@ -306,18 +306,61 @@ Realiza los siguientes ejercicios usando en cada uno los tres tipos de condicion
 
 - Usando *if...else*
 ```javascript
-    // Tu solución
+	function calcularDescuento (mes, diaSemana, precio) {
+
+		var descuento = 25*precio/100;
+		var precioConDescuento = precio - descuento;
+
+		if (mes === "Diciembre" || mes === "Enero" || mes === "Febrero") {
+			
+			if(diaSemana === "Viernes" || diaSemana === "Sabado" || diaSemana === "Domingo"){
+				console.warn("No se aplica descuento aunque sea invierno.. ven durante la semana mejor!. Debes pagar", precio);
+			} else {
+				console.info("BINGO! Has acertado de mes y días. Debes pagar solamente", precioConDescuento);
+			}
+
+		} else {
+			console.warn("No se aplica descuento.. ven en invierno mejor!. Debes pagar", precio);
+		};
+
+	}
 ```
 
 - Usando *Operador Ternario (?:)*
 ```javascript
-    // Tu solución
+	function calcularDescuento (mes, diaSemana, precio) {
+
+		var descuento = 25*precio/100;
+		var precioConDescuento = precio - descuento;
+
+		(mes === "Diciembre" || mes === "Enero" || mes === "Febrero") ? 
+				(diaSemana === "Viernes" || diaSemana === "Sabado" || diaSemana === "Domingo") ?
+				 console.warn("No se aplica descuento aunque sea invierno.. ven durante la semana mejor!. Debes pagar", precio)
+				 : console.info("BINGO! Has acertado de mes y días. Debes pagar solamente", precioConDescuento)
+		: console.warn("No se aplica descuento.. ven en invierno mejor!. Debes pagar", precio);
+	}
 ```
 
 - Usando *Switch*
 
 ```javascript
-    // Tu solución
+	function calcularDescuento (mes, diaSemana, precio) {
+
+		var descuento = 25*precio/100;
+		var precioConDescuento = precio - descuento;
+
+		switch (true) {
+			case ((mes === "Diciembre" || mes === "Enero" || mes === "Febrero") && (diaSemana !== "Viernes" && diaSemana !== "Sabado" && diaSemana !== "Domingo")):
+				console.info("BINGO! Has acertado de mes y días. Debes pagar solamente", precioConDescuento);
+				break;
+			case (mes !== "Diciembre" && mes !== "Enero" && mes !== "Febrero"):
+				console.warn("No se aplica descuento.. ven en invierno mejor!. Debes pagar", precio);
+				break;
+			default:
+				console.warn("No se aplica descuento aunque sea invierno.. ven durante la semana mejor!. Debes pagar", precio);
+		}
+
+	}
 ```
 
 
