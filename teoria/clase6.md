@@ -406,17 +406,37 @@ Realiza los siguientes ejercicios usando en cada uno los tres tipos de condicion
 
 - Usando *if...else*
 ```javascript
-    // Tu solución
+	function esPar (numero) {
+
+		if(numero %2 === 0 ){
+			console.info(numero, " es par");
+		} else {
+			console.info(numero, " es impar");
+		}
+	}
 ```
 
 - Usando *Operador Ternario (?:)*
 ```javascript
-    // Tu solución
+	function esPar (numero) {
+		(numero %2 === 0) ? console.info(numero, " es par")
+			: console.info(numero, " es impar");
+	}
 ```
 
 - Usando *Switch*
 ```javascript
-    // Tu solución
+	function esPar (numero) {
+
+		switch(true){
+			case (numero %2 === 0):
+				console.info(numero, " es par");
+				break;
+			default:
+				console.info(numero, " es impar");
+		}
+
+	}
 ```
 
 
