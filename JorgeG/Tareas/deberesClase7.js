@@ -11,9 +11,9 @@ for (var i = 0; i < 100; i++) {
 var i = 1;
 while (i <= 1000) {
     console.log(i);
-    i++;
 if (i === 100) 
-    	break; 
+    	break;
+    i++;
     }
 
 // Usando do..while
@@ -22,4 +22,5 @@ var i = 0;
 do {
    i++;
    console.log(i);
-} while (i < 100);
+while (i < 100);
+}
