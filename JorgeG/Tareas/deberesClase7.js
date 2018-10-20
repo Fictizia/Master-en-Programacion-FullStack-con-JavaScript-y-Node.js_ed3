@@ -2,26 +2,24 @@
 
 // Usando for
 
-for (var n = 0; n < 100; n++) {
-    console.log(n);
+for (var i = 0; i < 100; i++) {
+    console.log(i);
 }
 
 // Usando while y break
 
-var n = 1;
-while (n <= 100) {
-    console.log(n);
-    n++;
-}
-
-if (n === 100) { 
+var i = 1;
+while (i <= 1000) {
+    console.log(i);
+    i++;
+if (i === 100) 
     	break; 
     }
 
 // Usando do..while
 
-var n = 0;
+var i = 0;
 do {
-   n++;
-   console.log(n);
-} while (n < 100);
+   i++;
+   console.log(i);
+} while (i < 100);
