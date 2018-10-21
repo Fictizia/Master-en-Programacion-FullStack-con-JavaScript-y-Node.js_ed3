@@ -45,3 +45,15 @@
 - https://media2.giphy.com/media/CEyvatrJlP9mM/giphy.gif 
 - https://4.bp.blogspot.com/-oR3XcstycfY/WclGA457UuI/AAAAAAAAD5c/thke5x9K534r28OBOR0eoQMXhXKrlQ4LwCLcBGAs/s1600/U1-Romanos2.jpg 
 - https://media.giphy.com/media/3o7TKSjRrfIPjeiVyM/giphy.gif 
+
+
+### clase4
+
+- http://krystianczaplicki.com/wp-content/uploads/2018/07/chrome-devtools.jpg 
+- https://upload.wikimedia.org/wikipedia/commons/2/26/Logo_Google_Chrome_Canary.jpg 
+- https://borjaarandavaquero.com/wp-content/uploads/2017/01/google-pagespeed.png 
+- https://searchengineland.com/figz/wp-content/seloads/2018/05/google-lighthouse-800x364.jpg 
+- https://testinproduction.files.wordpress.com/2017/09/articleocw-599af35e5ad57.png?w=1000 
+- https://csbun.github.io/workbox-examples/workbox-get-started/images/workbox_logo.png 
+- https://articles.tbscg.com/wp-content/uploads/2015/09/google-chrome-devtools-banner.png 
+- https://media.kasperskydaily.com/wp-content/uploads/sites/92/2018/01/30060157/browser-extensions-security-featured-1024x672.jpg 
