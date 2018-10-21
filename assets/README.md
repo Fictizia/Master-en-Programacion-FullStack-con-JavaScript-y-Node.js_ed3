@@ -70,3 +70,5 @@
 ### clase7
 
 - https://eloviparo.files.wordpress.com/2009/09/numeros-romans.jpg?w=466&h=172 
+
+### clase8
