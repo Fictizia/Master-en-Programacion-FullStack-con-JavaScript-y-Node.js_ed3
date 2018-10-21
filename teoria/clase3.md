@@ -1,6 +1,6 @@
-![shieldsIO](https://img.shields.io/github/issues/Fictizia/Master-en-programacion-fullstack-con-JavaScript-y-Node.js_ed2.svg)
-![shieldsIO](https://img.shields.io/github/forks/Fictizia/Master-en-programacion-fullstack-con-JavaScript-y-Node.js_ed2.svg)
-![shieldsIO](https://img.shields.io/github/stars/Fictizia/Master-en-programacion-fullstack-con-JavaScript-y-Node.js_ed2.svg)
+![shieldsIO](https://img.shields.io/github/issues/Fictizia/Master-en-Programacion-FullStack-con-JavaScript-y-Node.js_ed3.svg)
+![shieldsIO](https://img.shields.io/github/forks/Fictizia/Master-en-Programacion-FullStack-con-JavaScript-y-Node.js_ed3.svg)
+![shieldsIO](https://img.shields.io/github/stars/Fictizia/Master-en-Programacion-FullStack-con-JavaScript-y-Node.js_ed3.svg)
 
 ![WideImg](http://fictizia.com/img/github/Fictizia-plan-estudios-github.jpg)
 
@@ -29,7 +29,7 @@
 
 **Ginger Code**
 
-![logo](https://raw.githubusercontent.com/GingerCode/Art/master/Logo/Logo%20-%20formato%20horizontal%402x.png)
+![logo](../assets/clase3/7956aa91-6036-4b2f-96e1-7b6a54b6449d.png)
 
 - [@gingerCode en Github](https://github.com/GingerCode)
 - [Especificación](https://github.com/GingerCode/gingercode.org/wiki/Especificaci%C3%B3n)
@@ -37,7 +37,7 @@
 
 **PSeInt:**
 
-![PSeInt_logo](http://pseint.sourceforge.net/logo-header.png)
+![PSeInt_logo](../assets/clase3/5d736986-9032-4ad6-9ca8-8186041811d5.png)
 
 > ...una invitación a entrar en el maravilloso mundo de la programación...
 
@@ -168,11 +168,11 @@
 
 
 - **Teoría**
-![img_simbolos](https://image.jimcdn.com/app/cms/image/transf/dimension=480x10000:format=jpg/path/s37cc796afdd27ec2/image/ib9531583fa25cd50/version/1367814535/image.jpg)
+![img_simbolos](../assets/clase3/a1628b56-9e1f-4a30-8a3e-ba328cb28c28.jpeg)
 
 
 - **Ejemplo**
-![img_diagrama](https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/DiagramaFlujoLampara.svg/440px-DiagramaFlujoLampara.svg.png) 
+![img_diagrama](../assets/clase3/95bb03b3-b430-4827-9d4d-f107d2b6b219.png) 
 
 
 - *Herramientas*
@@ -215,7 +215,7 @@
 
 ### Lenguaje unificado de modelado
 
-![img](https://upload.wikimedia.org/wikipedia/commons/8/81/UML_Diagrams.jpg)
+![img](../assets/clase3/f7776011-519a-4e2b-81df-7e0c815730d2.jpeg)
 
 
 > El lenguaje unificado de modelado (UML, por sus siglas en inglés, Unified Modeling Language) es el lenguaje de modelado de sistemas de software más conocido y utilizado en la actualidad; está respaldado por el Object Management Group (OMG).
@@ -242,7 +242,7 @@
 
 ### Mejorando con juegos
 
-![img](https://media2.giphy.com/media/CEyvatrJlP9mM/giphy.gif)
+![img](../assets/clase3/99b89618-3163-45d5-bd73-60824dc7b37c.gif)
 
 - [Code Monkey](https://www.playcodemonkey.com/)
 - [Code Combat](https://codecombat.com/)
@@ -453,7 +453,7 @@ FinProceso
 **9 -** Diseña un algoritmo introducido un numero y pasarlo a número romanos.
 - Esperamos que el número sea menor de 50
 
-![numeros_romanos](https://4.bp.blogspot.com/-oR3XcstycfY/WclGA457UuI/AAAAAAAAD5c/thke5x9K534r28OBOR0eoQMXhXKrlQ4LwCLcBGAs/s1600/U1-Romanos2.jpg)
+![numeros_romanos](../assets/clase3/588d205f-9c48-4036-bb72-178d649961d5.jpeg)
 
 ```
 Proceso conversionRomana
@@ -530,7 +530,7 @@ FinProceso
 
 ### ¡Nuestro primer proyecto!
 
-![img](https://media.giphy.com/media/3o7TKSjRrfIPjeiVyM/giphy.gif)
+![img](../assets/clase3/ae93e4fa-6e8d-4f89-a1f6-df8ca74b6911.gif)
 
 **Funcionamiento:**
 - Usaremos los [issues de nuestro repositorio](https://github.com/Fictizia/Curso-JS-para-desarrolladores-web_ed8/issues) para coordinar todas las dudas que tengais.

@@ -34,3 +34,14 @@
 - https://cdn.worldvectorlogo.com/logos/gitlab-1.svg 
 - https://www.atlassian.com/dam/jcr:bd56917e-e361-4f03-b672-9f5ef5b06e80/Bitbucket-blue.svg 
 - https://c2.staticflickr.com/6/5547/12317670703_bc38a3ec49_b.jpg 
+
+### clase3
+
+- https://raw.githubusercontent.com/GingerCode/Art/master/Logo/Logo%20-%20formato%20horizontal%402x.png 
+- http://pseint.sourceforge.net/logo-header.png 
+- https://image.jimcdn.com/app/cms/image/transf/dimension=480x10000:format=jpg/path/s37cc796afdd27ec2/image/ib9531583fa25cd50/version/1367814535/image.jpg 
+- https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/DiagramaFlujoLampara.svg/440px-DiagramaFlujoLampara.svg.png 
+- https://upload.wikimedia.org/wikipedia/commons/8/81/UML_Diagrams.jpg 
+- https://media2.giphy.com/media/CEyvatrJlP9mM/giphy.gif 
+- https://4.bp.blogspot.com/-oR3XcstycfY/WclGA457UuI/AAAAAAAAD5c/thke5x9K534r28OBOR0eoQMXhXKrlQ4LwCLcBGAs/s1600/U1-Romanos2.jpg 
+- https://media.giphy.com/media/3o7TKSjRrfIPjeiVyM/giphy.gif 
