@@ -1,6 +1,6 @@
-![shieldsIO](https://img.shields.io/github/issues/Fictizia/Master-en-programacion-fullstack-con-JavaScript-y-Node.js_ed2.svg)
-![shieldsIO](https://img.shields.io/github/forks/Fictizia/Master-en-programacion-fullstack-con-JavaScript-y-Node.js_ed2.svg)
-![shieldsIO](https://img.shields.io/github/stars/Fictizia/Master-en-programacion-fullstack-con-JavaScript-y-Node.js_ed2.svg)
+![shieldsIO](https://img.shields.io/github/issues/Fictizia/Master-en-Programacion-FullStack-con-JavaScript-y-Node.js_ed3.svg)
+![shieldsIO](https://img.shields.io/github/forks/Fictizia/Master-en-Programacion-FullStack-con-JavaScript-y-Node.js_ed3.svg)
+![shieldsIO](https://img.shields.io/github/stars/Fictizia/Master-en-Programacion-FullStack-con-JavaScript-y-Node.js_ed3.svg)
 
 ![WideImg](http://fictizia.com/img/github/Fictizia-plan-estudios-github.jpg)
 
@@ -442,4 +442,4 @@ Realiza los siguientes ejercicios usando en cada uno los tres tipos de condicion
 
 ### Tiempo para proyecto personal
 
-![img_promo](https://media.giphy.com/media/7cALdpVCbmaMU/giphy.gif)
+![img_promo](../assets/clase6/aa82a7c6-8485-4f55-a64c-59b0157d369d.gif)
