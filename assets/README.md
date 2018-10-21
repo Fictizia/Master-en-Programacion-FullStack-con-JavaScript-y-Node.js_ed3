@@ -57,3 +57,7 @@
 - https://csbun.github.io/workbox-examples/workbox-get-started/images/workbox_logo.png 
 - https://articles.tbscg.com/wp-content/uploads/2015/09/google-chrome-devtools-banner.png 
 - https://media.kasperskydaily.com/wp-content/uploads/sites/92/2018/01/30060157/browser-extensions-security-featured-1024x672.jpg 
+
+### clase5
+
+- https://media.giphy.com/media/FnGJfc18tDDHy/giphy.gif 

@@ -1,6 +1,6 @@
-![shieldsIO](https://img.shields.io/github/issues/Fictizia/Master-en-programacion-fullstack-con-JavaScript-y-Node.js_ed2.svg)
-![shieldsIO](https://img.shields.io/github/forks/Fictizia/Master-en-programacion-fullstack-con-JavaScript-y-Node.js_ed2.svg)
-![shieldsIO](https://img.shields.io/github/stars/Fictizia/Master-en-programacion-fullstack-con-JavaScript-y-Node.js_ed2.svg)
+![shieldsIO](https://img.shields.io/github/issues/Fictizia/Master-en-Programacion-FullStack-con-JavaScript-y-Node.js_ed3.svg)
+![shieldsIO](https://img.shields.io/github/forks/Fictizia/Master-en-Programacion-FullStack-con-JavaScript-y-Node.js_ed3.svg)
+![shieldsIO](https://img.shields.io/github/stars/Fictizia/Master-en-Programacion-FullStack-con-JavaScript-y-Node.js_ed3.svg)
 
 ![WideImg](http://fictizia.com/img/github/Fictizia-plan-estudios-github.jpg)
 
@@ -477,4 +477,4 @@ console.log("valor boleano de NaN:", Boolean(NaN));
 
 ### Tiempo para proyecto personal :muscle:
 
-![img_promo](https://media.giphy.com/media/FnGJfc18tDDHy/giphy.gif)
+![img_promo](../assets/clase5/227dcf43-3671-42eb-8c5f-96e99076028c.gif)
