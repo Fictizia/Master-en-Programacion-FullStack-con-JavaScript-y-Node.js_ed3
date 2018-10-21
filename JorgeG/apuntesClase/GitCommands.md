@@ -1,15 +1,15 @@
 ### Trabajando desde Cloud 9
 
-- git status
-- git pull _(sincronizar con repositorio)_
+1. git status
+2. git pull _(sincronizar con repositorio)_
 
 ```
 trabajo en mi fichero/codigo
 ```
 
-- git status
-- git add . _(agregar todo lo he hecho en todos los archivos)_
-- git status
-- git commit -m "" _(permite poner un mensaje explicativo del commit)_
-- git status
-- git push
+3. git status
+4. git add . _(agregar todo lo he hecho en todos los archivos)_
+5. git status
+6. git commit -m "" _(permite poner un mensaje explicativo del commit)_
+7. git status
+8. git push
