@@ -1,6 +1,6 @@
-![shieldsIO](https://img.shields.io/github/issues/Fictizia/Master-en-programacion-fullstack-con-JavaScript-y-Node.js_ed2.svg)
-![shieldsIO](https://img.shields.io/github/forks/Fictizia/Master-en-programacion-fullstack-con-JavaScript-y-Node.js_ed2.svg)
-![shieldsIO](https://img.shields.io/github/stars/Fictizia/Master-en-programacion-fullstack-con-JavaScript-y-Node.js_ed2.svg)
+![shieldsIO](https://img.shields.io/github/issues/Fictizia/Master-en-Programacion-FullStack-con-JavaScript-y-Node.js_ed3.svg)
+![shieldsIO](https://img.shields.io/github/forks/Fictizia/Master-en-Programacion-FullStack-con-JavaScript-y-Node.js_ed3.svg)
+![shieldsIO](https://img.shields.io/github/stars/Fictizia/Master-en-Programacion-FullStack-con-JavaScript-y-Node.js_ed3.svg)
 
 ![WideImg](http://fictizia.com/img/github/Fictizia-plan-estudios-github.jpg)
 
@@ -45,7 +45,7 @@ Por definición todo es nivel básico, pero en partes del contenido se incluyen 
 
 ### Sobre los profesores
 
-![panda_developer](https://pbs.twimg.com/media/C4I8FJzWQAUVNVR.jpg)
+![panda_developer](../assets/clase1/dbfd8dba-3d30-4dd6-b4b6-2ffdc7c1cdbb.jpeg)
 
 **Bio:**
 "#Maker, #IoT, #OpenSource | #JavaScript, #Node, #Python | Co-organizador de [@os_weekends](http://osweekends.com/) | Profe en [@fictiziaescuela](http://www.fictizia.com/profesores/) | Mentor en [@TetuanValley](https://twitter.com/tetuanvalley) | Autor de [#JavaScriptInspirate](https://leanpub.com/javascript-inspirate) | Freelance | xIBMer"
@@ -57,7 +57,7 @@ Por definición todo es nivel básico, pero en partes del contenido se incluyen 
 
 
 
-![awesome_carlos](https://avatars3.githubusercontent.com/u/7394623?s=400&v=4)
+![awesome_carlos](../assets/clase1/bcc15ba4-253b-4615-a36f-d81ed2fa810b.jpeg)
 
 **Bio:**
 "A veces sueño que tengo que tomar decisiones con if else, o masticar con while. Entreprenú. Lio a gente en @os_weekends. Cuando me dejan, prestidigito un poco. Cuando no, hago música. Papá de @gamify_es."
@@ -109,31 +109,31 @@ Por definición todo es nivel básico, pero en partes del contenido se incluyen 
 ### Arquitectura de Internet 
 **Navegación**
 
-![img](http://www.simplimation.com/uploads/news/images/full/5-how-the-web-works.jpg)
+![img](../assets/clase1/0baa7f90-db14-4c15-96fe-28e703399957.jpeg)
 
 **Hosting**
 
-![img](http://dodynamic.com/wp-content/uploads/2009/08/website-house-analogy.jpg)
+![img](../assets/clase1/508dd8f4-dbd4-4567-a17e-e9953c374af0.jpeg)
 
 **CMS (Back-End)**
 
-![img](https://i.pinimg.com/originals/76/31/53/763153e6fd099ae268c7cf17c3968c20.jpg)
+![img](../assets/clase1/aa800eb5-4917-424b-9098-1d72f28cb190.jpeg)
 
 **Ajax**
 
-![img](https://d2v4zi8pl64nxt.cloudfront.net/javascript-seo/59482f1f55c475.72629357.png)
+![img](../assets/clase1/803aee8b-de88-49c5-93e5-70756b11d3fe.png)
 
 **CDN (Content Delivery Network)**
 
-![img](http://premium.wpmudev.org/blog/wp-content/uploads/2014/09/cdns.png)
+![img](../assets/clase1/7762253b-1140-46dd-ab80-2a5d201a4171.html)
 
 **Tracking**
 
-![img](https://fpf.org/wp-content/uploads/2009/11/data.gif)
+![img](../assets/clase1/ee9d6c88-2e4f-4d65-9fe2-8f089326be7a.gif)
 
 **[W3C - World Wide Web Consortium](https://www.w3.org/)**
 
-![img](https://upload.wikimedia.org/wikipedia/commons/e/ed/W3C%C2%AE_Icon.svg)
+![img](../assets/clase1/d16597a0-ef7e-429e-9b40-0b4550679bca.svg)
 
 - [historia y logros](https://www.w3.org/2005/01/timelines/timeline-2500x998.png)
 
@@ -141,7 +141,7 @@ Por definición todo es nivel básico, pero en partes del contenido se incluyen 
 ## Front-end
 ### HTML
 
-![img](https://programacion.net/files/article/20170421010425_html5.jpg)
+![img](../assets/clase1/c09c2e43-ab9d-4191-8030-1f40e2d9b68e.jpeg)
 
   > HTML, sigla en inglés de HyperText Markup Language (lenguaje de marcas de hipertexto), hace referencia al lenguaje de marcado para la elaboración de páginas web. Es un estándar que sirve de referencia del software que conecta con la elaboración de páginas web en sus diferentes versiones, define una estructura básica y un código (denominado código HTML) para la definición de contenido de una página web, como texto, imágenes, videos, juegos, entre otros. Es un estándar a cargo del World Wide Web Consortium (W3C) o Consorcio WWW, organización dedicada a la estandarización de casi todas las tecnologías ligadas a la web, sobre todo en lo referente a su escritura e interpretación. Se considera el lenguaje web más importante siendo su invención crucial en la aparición, desarrollo y expansión de la World Wide Web (WWW). Es el estándar que se ha impuesto en la visualización de páginas web y es el que todos los navegadores actuales han adoptado.1
 
@@ -156,7 +156,7 @@ Por definición todo es nivel básico, pero en partes del contenido se incluyen 
 
 ### CSS
 
-![img_logo](http://nexttechltd.com/wp-content/uploads/2017/04/html-5-css-3.jpg)
+![img_logo](../assets/clase1/a8468d18-d3e3-49bd-97aa-a432eb845d44.jpeg)
 
   > Hoja de estilo en cascada o CSS (siglas en inglés de cascading style sheets) es un lenguaje usado para definir y crear la presentación de un documento estructurado escrito en HTML o XML2 (y por extensión en XHTML). El World Wide Web Consortium (W3C) es el encargado de formular la especificación de las hojas de estilo que servirán de estándar para los agentes de usuario o navegadores.
   > La idea que se encuentra detrás del desarrollo de CSS es separar la estructura de un documento de su presentación.[CSS Wikiwand](https://es.wikipedia.org/wiki/Hoja_de_estilos_en_cascada)
@@ -173,7 +173,7 @@ Por definición todo es nivel básico, pero en partes del contenido se incluyen 
 
 ### JavaScript
 
-![js_logo](https://pre00.deviantart.net/f72e/th/pre/f/2013/052/6/d/jake_the_dog___pure_css_adventure_time_wallpaper_by_sangreprimitiva-d5vs51f.png)
+![js_logo](../assets/clase1/45bca90b-8e0e-4f24-b293-23a4b39fabd5.jpeg)
 
 > JavaScript (abreviado comúnmente JS) es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos, basado en prototipos, imperativo, débilmente tipado y dinámico.
 
@@ -247,14 +247,14 @@ Por definición todo es nivel básico, pero en partes del contenido se incluyen 
 
 ### Node.js
 
-![Node_logo](https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/2000px-Node.js_logo.svg_.png)
+![Node_logo](../assets/clase1/6ecc8f43-0f65-4a93-a453-a2ec05b6b4f9.png)
 
 > Node.js es un entorno en tiempo de ejecución multiplataforma, de código abierto, para la capa del servidor (pero no limitándose a ello) basado en el lenguaje de programación ECMAScript, asíncrono, con I/O de datos en una arquitectura orientada a eventos y basado en el motor V8 de Google. Fue creado con el enfoque de ser útil en la creación de programas de red altamente escalables, como por ejemplo, servidores web. Fue creado por Ryan Dahl en 2009 y su evolución está apadrinada por la empresa Joyent, que además tiene contratado a Dahl en plantilla - [Wikipedia](https://www.wikiwand.com/es/Node.js)
 
 
 **Otra manera es posible**
 
-![bloqueo](https://servercheck.in/sites/servercheck.in/files/node-drupal-queue-comparison.jpg)
+![bloqueo](../assets/clase1/021c6968-2b56-4835-80a4-639158bd4965.jpeg)
 
 
 **Puntos Fuertes**
@@ -347,7 +347,7 @@ Por definición todo es nivel básico, pero en partes del contenido se incluyen 
   - etc...
 
 ### Entorno de desarollo moderno
-![Diversos Entornos](http://cdn.softwaretestinghelp.com/wp-content/qa/uploads/2014/05/test-dev-and-production-environment.jpg)
+![Diversos Entornos](../assets/clase1/b608bb4b-5736-423c-a9c4-6a23cf912bd7.jpeg)
 - **[JSON](https://es.wikipedia.org/wiki/JSON)**
 - **[AJAX](https://es.wikipedia.org/wiki/AJAX)**
 - **[APIs Rest](https://es.wikipedia.org/wiki/Representational_State_Transfer)**
@@ -376,7 +376,7 @@ Por definición todo es nivel básico, pero en partes del contenido se incluyen 
 
 **Cambios, cambios... y más cambios**
 
-![humor](https://camo.githubusercontent.com/fde3ba248dbb5c9c6f630159b9a6d48708f228e6/687474703a2f2f7777772e636f6d6d697473747269702e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031352f30392f53747269702d5072656e6472652d6c652d747261696e2d656e2d6d61726368652d3635302d66696e616c656e676c697368312e6a7067)
+![humor](../assets/clase1/90b2f3df-0964-4a0a-a41f-42d438c98459.jpeg)
 
 - [State of the Art JavaScript in 2016](https://medium.com/javascript-and-opinions/state-of-the-art-javascript-in-2016-ab67fc68eb0b#.8byumpq6f)
 - [If Loving Computers is Wrong, I Don't Want to Be Right](http://blog.codinghorror.com/if-loving-computers-is-wrong-i-dont-want-to-be-right/)
@@ -433,7 +433,7 @@ Por definición todo es nivel básico, pero en partes del contenido se incluyen 
 
 ### C9.io
 
-![c9_logo](https://dka575ofm4ao0.cloudfront.net/pages-transactional_logos/retina/8389/vz1XuNqHTyfO4YsqI3f2)
+![c9_logo](../assets/clase1/759ed66e-4bc4-4b6f-af14-e0c74fc56fe3.png)
 
 **Características estrella**
 - Code together in real time
