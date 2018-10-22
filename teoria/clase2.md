@@ -1,6 +1,6 @@
-![shieldsIO](https://img.shields.io/github/issues/Fictizia/Master-en-programacion-fullstack-con-JavaScript-y-Node.js_ed2.svg)
-![shieldsIO](https://img.shields.io/github/forks/Fictizia/Master-en-programacion-fullstack-con-JavaScript-y-Node.js_ed2.svg)
-![shieldsIO](https://img.shields.io/github/stars/Fictizia/Master-en-programacion-fullstack-con-JavaScript-y-Node.js_ed2.svg)
+![shieldsIO](https://img.shields.io/github/issues/Fictizia/Master-en-Programacion-FullStack-con-JavaScript-y-Node.js_ed3.svg)
+![shieldsIO](https://img.shields.io/github/forks/Fictizia/Master-en-Programacion-FullStack-con-JavaScript-y-Node.js_ed3.svg)
+![shieldsIO](https://img.shields.io/github/stars/Fictizia/Master-en-Programacion-FullStack-con-JavaScript-y-Node.js_ed3.svg)
 
 ![WideImg](http://fictizia.com/img/github/Fictizia-plan-estudios-github.jpg)
 
@@ -12,7 +12,7 @@
 
 ### Importante
 
-![img](https://hacktoberfest.digitalocean.com/assets/hacktoberfest-2018-social-card-c8d2e1489f647f2e0a26e6f598adeb760872818905b34cd437afc7ac2857ceab.png)
+![img](../assets/clase2/bb8d9a32-db37-4e4b-a7aa-645c408aa725.png)
 
 
 ### Control de Versiones
@@ -43,7 +43,7 @@
 
 **Working Flow**
 
-![Como trabajar con Git](http://nvie.com/img/git-model@2x.png)
+![Como trabajar con Git](../assets/clase2/d8b002ae-6b02-400d-aa64-5d3da142c176.png)
 
 
 ### Github
@@ -87,8 +87,8 @@ git --version
 
 Configuración (entornos):
 
-[Repositorios locales y remotos](http://media.tumblr.com/tumblr_lbnpoxYtNm1qaku05.png)
-![Repositorios locales y remotos](http://media.tumblr.com/tumblr_lbnpoxYtNm1qaku05.png)
+[Repositorios locales y remotos](../assets/clase2/6df35fb1-2c7e-4d2b-8db6-38c667c0dc2a.png)
+![Repositorios locales y remotos](../assets/clase2/6df35fb1-2c7e-4d2b-8db6-38c667c0dc2a.png)
 
 - System (todos los usuarios)
     - git config --system
@@ -105,7 +105,7 @@ Configuración (entornos):
 
 **Comandos básicos**
 
-![data transport commands](https://s3.amazonaws.com/media-p.slid.es/uploads/479298/images/4043813/Screen-Shot-2015-06-24-at-8.37.13-PM-1024x663.png)
+![data transport commands](../assets/clase2/1b7516c3-7c39-4986-a5e9-fe014f8f07a9.png)
 
 versión
 ```
@@ -657,13 +657,13 @@ Recuerda que debes incluir este comando antes de tu próximo *git push*
 - [https://api.github.com/repos/{user}/{repo}](https://api.github.com/repos/OSWeekends/c9scripts)
 
 ### Resumen
-![Trabajar con Git/Github](http://www.geekgumbo.com/wp-content/uploads/2011/08/nvie-git-workflow-commands.png)
-[tamaño original](http://www.geekgumbo.com/wp-content/uploads/2011/08/nvie-git-workflow-commands.png)
+![Trabajar con Git/Github](../assets/clase2/0b734102-cb02-4dfd-89d3-faf0b7a97880.png)
+[tamaño original](../assets/clase2/0b734102-cb02-4dfd-89d3-faf0b7a97880.png)
 
 
 ### Git Drama: Microsfot compró Github
 
-![img](https://thepracticaldev.s3.amazonaws.com/i/5ccop0xkp5y5d81tfwi2.png)
+![img](../assets/clase2/1f884862-2e88-4dcb-8d60-103c9c39f96b.png)
 
 - [Con la compra de GitHub, Microsoft hace honor a su mantra: desarrolladores, desarrolladores, desarrolladores](https://www.xataka.com/aplicaciones/microsoft-punto-adquirir-github-desarrolladores-desarrolladores-desarrolladores)
 - [Confirmado: Microsoft compra GitHub por 7.500 millones de dólares](https://www.genbeta.com/actualidad/confirmado-microsoft-compra-github-7-500-millones-dolares)
@@ -684,7 +684,7 @@ Recuerda que debes incluir este comando antes de tu próximo *git push*
 
 ### Los principales jugadores
 
-![img](https://www.amarinfotech.com/wp-content/uploads/2017/05/GitLab-vs-GitHub-vs-bitbucket-1.jpg)
+![img](../assets/clase2/6f8db636-3735-425d-bd2f-f03ddb79127b.jpeg)
 
 - [GitHub vs. Bitbucket vs. GitLab vs. Coding](https://medium.com/flow-ci/github-vs-bitbucket-vs-gitlab-vs-coding-7cf2b43888a1)
 - [The Key Differences : GitLab vs GitHub vs bitbucket](https://medium.com/@ramoliya/the-key-differences-gitlab-vs-github-vs-bitbucket-3d76c4bcf5e6)
@@ -695,12 +695,12 @@ Recuerda que debes incluir este comando antes de tu próximo *git push*
 
 ### Terminología
 
-![terminologia](https://about.gitlab.com/images/blogimages/gitlab-terminology.png)
+![terminologia](../assets/clase2/e781748a-e49e-4c95-a468-4b328006a33a.png)
 
 
 ### Gitlab
 
-![logo](https://cdn.worldvectorlogo.com/logos/gitlab-1.svg)
+![logo](../assets/clase2/43b37f53-bb2d-4d49-b5d6-8c11ad52161e.svg)
 
 **Recursos**
 - [Canal oficial de Youtube](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg)
@@ -730,7 +730,7 @@ Recuerda que debes incluir este comando antes de tu próximo *git push*
 
 ### Bitbucket
 
-![Logo](https://www.atlassian.com/dam/jcr:bd56917e-e361-4f03-b672-9f5ef5b06e80/Bitbucket-blue.svg)
+![Logo](../assets/clase2/f2a50c3e-70cf-4579-876e-e4d0d4ac3a0e.svg)
 
 **Recursos**
 - [@bitbucket en Twitter](https://twitter.com/bitbucket)
@@ -768,7 +768,7 @@ Recuerda que debes incluir este comando antes de tu próximo *git push*
 
 ### Ejercicios
 
-![logo](https://c2.staticflickr.com/6/5547/12317670703_bc38a3ec49_b.jpg)
+![logo](../assets/clase2/3dfe0dc1-e53f-41e9-bb1c-a3c6fc81d1df.jpeg)
 
 
 **1 -** Creamos una cuenta en Github y creamos un workespace con referencia a nuestro repositorio de GitHub en [c9.io](https://c9.io/) una vez hayamos recibido la invitación.

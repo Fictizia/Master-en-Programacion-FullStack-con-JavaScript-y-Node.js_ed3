@@ -1,6 +1,6 @@
-![shieldsIO](https://img.shields.io/github/issues/Fictizia/Master-en-programacion-fullstack-con-JavaScript-y-Node.js_ed2.svg)
-![shieldsIO](https://img.shields.io/github/forks/Fictizia/Master-en-programacion-fullstack-con-JavaScript-y-Node.js_ed2.svg)
-![shieldsIO](https://img.shields.io/github/stars/Fictizia/Master-en-programacion-fullstack-con-JavaScript-y-Node.js_ed2.svg)
+![shieldsIO](https://img.shields.io/github/issues/Fictizia/Master-en-Programacion-FullStack-con-JavaScript-y-Node.js_ed3.svg)
+![shieldsIO](https://img.shields.io/github/forks/Fictizia/Master-en-Programacion-FullStack-con-JavaScript-y-Node.js_ed3.svg)
+![shieldsIO](https://img.shields.io/github/stars/Fictizia/Master-en-Programacion-FullStack-con-JavaScript-y-Node.js_ed3.svg)
 
 ![WideImg](http://fictizia.com/img/github/Fictizia-plan-estudios-github.jpg)
 
@@ -12,7 +12,7 @@
 
 ## Tools for Web Developers
 
-![IMG](http://krystianczaplicki.com/wp-content/uploads/2018/07/chrome-devtools.jpg)
+![IMG](../assets/clase4/4be71ce5-c5a0-4c70-a31d-54848ad49a0c.jpeg)
 
 **Recursos**
 - [Blog de Chromium](https://blog.chromium.org/)
@@ -34,13 +34,13 @@
 
 ### Canary
 
-![Logo](https://upload.wikimedia.org/wikipedia/commons/2/26/Logo_Google_Chrome_Canary.jpg)
+![Logo](../assets/clase4/8693b555-451d-4afd-bba1-25bdb31bc1c5.jpeg)
 
 - [Web oficial](https://www.google.com/intl/en/chrome/canary/)
 
 ### PageSpeed
 
-![Logo](https://borjaarandavaquero.com/wp-content/uploads/2017/01/google-pagespeed.png)
+![Logo](../assets/clase4/46ea543c-75c3-4c8b-be41-d3ebc65034d1.html)
 
 **Doc**
 - [PageSpeed](https://developers.google.com/speed/)
@@ -50,7 +50,7 @@
 
 ### Lighthouse
 
-![img](https://searchengineland.com/figz/wp-content/seloads/2018/05/google-lighthouse-800x364.jpg)
+![img](../assets/clase4/42000a74-681c-4d8f-b473-bc60ac5a51ad.jpeg)
 
 **Doc**
 - [Lighthouse en Github](https://github.com/GoogleChrome/lighthouse)
@@ -58,7 +58,7 @@
 
 ### puppeteer
 
-![img_logo](https://testinproduction.files.wordpress.com/2017/09/articleocw-599af35e5ad57.png?w=1000)
+![img_logo](../assets/clase4/b394dea1-025f-401e-8bc7-d87e04a1dfc1.png)
 
 **Doc**
 - [Web Oficial](https://pptr.dev/)
@@ -70,7 +70,7 @@
 
 ### Workbox
 
-![img_logo](https://csbun.github.io/workbox-examples/workbox-get-started/images/workbox_logo.png)
+![img_logo](../assets/clase4/63d7c897-030f-4d91-9326-b256dc3e9f54.png)
 
 **Doc**
 - [Video presentación](https://youtu.be/DtuJ55tmjps)
@@ -80,7 +80,7 @@
 
 ### ChromeDevTools
 
-![img_logo](https://articles.tbscg.com/wp-content/uploads/2015/09/google-chrome-devtools-banner.png)
+![img_logo](../assets/clase4/44e0d768-a076-4c5d-ab46-714663eb800c.png)
 
 **Recursos**
 - [Slack](https://chromiumdev.slack.com/?redir=%2Fmessages%2Fdevtools)
@@ -191,7 +191,7 @@
 
 
 ### Extensiones para developers: SAFETY FIRST
-![IMG](https://media.kasperskydaily.com/wp-content/uploads/sites/92/2018/01/30060157/browser-extensions-security-featured-1024x672.jpg)
+![IMG](../assets/clase4/31337334-18d1-4b80-87dc-fff653c3501b.jpeg)
 
 - [Browser Extensions Are a Privacy Nightmare: Stop Using So Many of Them](https://www.howtogeek.com/188346/why-browser-extensions-can-be-dangerous-and-how-to-protect-yourself/)
 - [Google Chrome WARNING – Using these popular extensions could put your computer at risk](https://www.express.co.uk/life-style/science-technology/907189/Google-Chrome-update-store-extensions-malware-browser-security-risk)

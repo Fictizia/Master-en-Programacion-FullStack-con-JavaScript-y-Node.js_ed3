@@ -1,6 +1,6 @@
-![shieldsIO](https://img.shields.io/github/issues/Fictizia/Master-en-programacion-fullstack-con-JavaScript-y-Node.js_ed2.svg)
-![shieldsIO](https://img.shields.io/github/forks/Fictizia/Master-en-programacion-fullstack-con-JavaScript-y-Node.js_ed2.svg)
-![shieldsIO](https://img.shields.io/github/stars/Fictizia/Master-en-programacion-fullstack-con-JavaScript-y-Node.js_ed2.svg)
+![shieldsIO](https://img.shields.io/github/issues/Fictizia/Master-en-Programacion-FullStack-con-JavaScript-y-Node.js_ed3.svg)
+![shieldsIO](https://img.shields.io/github/forks/Fictizia/Master-en-Programacion-FullStack-con-JavaScript-y-Node.js_ed3.svg)
+![shieldsIO](https://img.shields.io/github/stars/Fictizia/Master-en-Programacion-FullStack-con-JavaScript-y-Node.js_ed3.svg)
 
 ![WideImg](http://fictizia.com/img/github/Fictizia-plan-estudios-github.jpg)
 
@@ -359,22 +359,43 @@ Otras palabras reservadas en modo estricto:
 
 ### Ejercicios
 
-**2 -** Diseña un algoritmo que lea dos números y realice los siguientes cálculos:
+**1 -** Diseña un algoritmo que lea dos números y realice los siguientes cálculos:
 - Valor de su suma
 - Valor de su resta
 - Valor de su division
 - Valor de su producto
 
 ```javascript
-    // Tu solución
+	function calculosVarios(valor1, valor2){
+		console.info("El valor de la suma es:", valor1+valor2);
+		console.info("El valor de la resta es:",valor1-valor2);
+		console.info("El valor de la división es:", valor1/valor2);
+		console.info("El valor de la división es:", valor1*valor2)
+	};
+	
+	calculosVarios(5,5);
 ```
 
-**3 -** Diseña un algoritmo para calcular el porcentaje de hombres y mujeres en nuestro curso.
+**2 -** Diseña un algoritmo para calcular el porcentaje de hombres y mujeres en nuestro curso.
 - Trucos:
 	- Calcular porcentajes (segmento*100)/total
 
 ```javascript
-    // Tu solución
+	function porcentajeAlumnos(totalHombres, totalMujeres){
+		var totalAlumnos = totalHombres + totalMujeres;
+		var porcentajeMujeres = (totalMujeres*100)/totalAlumnos;
+		var porcentajeHombres = (totalHombres*100)/totalAlumnos;
+		
+		console.info("El total de alumnos es:", totalAlumnos)
+		
+		console.log("El total de mujeres es:", totalMujeres);
+		console.info("El % de mujeres es:", porcentajeMujeres);
+		
+		console.log("El total de hombres es:", totalHombres);
+		console.info("El % de hombres es:", porcentajeHombres);
+	};
+	
+	porcentajeAlumnos(2,4);
 ```
 
 
@@ -456,4 +477,4 @@ console.log("valor boleano de NaN:", Boolean(NaN));
 
 ### Tiempo para proyecto personal :muscle:
 
-![img_promo](https://media.giphy.com/media/FnGJfc18tDDHy/giphy.gif)
+![img_promo](../assets/clase5/227dcf43-3671-42eb-8c5f-96e99076028c.gif)
