@@ -52,8 +52,26 @@ do {
 
 // Ejercicio 5
 
+// usando for
+
+let num = 10
+let count = 1
+
+for (num = 10; count = 50 ; i--) {
+    console.log(i);
+}
+
+var numeroUsuario = 8;
+for (let i = numeroUsuario; i <= numeroUsuario + 50; i +2) {
+  console.log(i)  
+}
+num % 2 === 0
+
+// usando do...while
+
 let num = prompt("escriba un número")
 
 num % 2 === 0 
 do { num + 2
+    console.log(num)
 
