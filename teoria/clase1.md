@@ -39,7 +39,7 @@ Este master puede ser útil para diversos niveles (Básico, Medio y Avanzado).
 
 Por definición todo es nivel básico, pero en partes del contenido se incluyen teoria y ejercicios para niveles superiores, para indicarlo usaremos:
 - `Básico` :four_leaf_clover: o nada, primeros pasos en el mundo del desarollo web
-- `Médio` :spades: buen nivel de programación y una expriencia media que domina los conceptos básicos y medios
+- `Medio` :spades: buen nivel de programación y una expriencia media que domina los conceptos básicos y medios
 - `Avanzado` :diamonds: gran nivel y experiencia que domina que domina los conceptos avanzados
 
 

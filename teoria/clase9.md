@@ -409,7 +409,7 @@ console.log('  Fictizia '.trim()); // 'Fictizia'
 ```
 
 
-### `Nivel Médio` :spades: Arreglos avanzados
+### `Nivel Medio` :spades: Arreglos avanzados
 ```javascript
 var arreglo1 = ["plátano", "fresa", "lima", "manzana"];
 var arreglo2 = ["entrante", "primero", "segundo", "postre"];
