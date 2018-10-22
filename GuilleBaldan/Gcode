@@ -1,1 +1,40 @@
+/*Transformation  Table
+IIIII = V
+VV = X
+XXXXX = L
+LL = C
+CCCCC = D
+DD = M
+*/
+var column1 = ["IIIII","VV","XXXXX","LL","CCCCC","DD"];
+var column2 = ["V","X","L","C","D","M"];
+var detector;
+var number = 5;
+var cadenaprueba ="IIIII"
+//Mision 1 Convertir cualquier número en una ristra de I.
+function firstConversion(number){
+var result = "";
+for(i = 0;i<number;i++){
+  result += "I"
+}
+  return result;
+}
+console.log("Mission 1: "+number+" = "+firstConversion(number));
+//Mision 2 Crear grupos de V
+/*Descripción del algoritmo:
+1º Sustituye las I ¿Hay cadenas "IIIII"?
+2º Sustituye las V ¿Hay cadenas "VV"?
+3º Sustituyes las X ¿Hay cadenas "XXXXX"?
+*/
 
+function sustitution(iChain){
+ for(i=0;i<column1.length;i++){
+   do {
+    detector = iChain.replace(column1[i],column2[i]);
+   }while(detector === column1[i])
+
+  }
+  return iChain;
+}
+console.log("Esto es una prueba: "+cadenaprueba.replace("IIIII","V"));
+//console.log("Mission 2: "+number+" = "+sustitution(firstConversion(number)));
