@@ -329,7 +329,95 @@ sum(7);
 
 /* 7 - Nivel Avanzado ♦️ Diseña un algoritmo introducido un numero y pasarlo a número romanos. */
 //Usando for
+function toRomanNumber(num) {
+  let numberList = num.toString().split('');
+  let result = '';
 
-//Usando while y break
+  if (numberList.length === 4) {
+    if (Number(numberList[0]) > 3) {
+      console.log(
+        'Sorry, that number is too large! It has to be less than 4000.'
+      );
+      return;
+    }
+    for (let i = 0; i < Number(numberList[0]); i++) {
+      result = result.concat('M');
+    }
+    numberList.shift();
+  }
+  console.log(numberList);
+  if (numberList.length === 3 && Number(numberList[0]) !== 0) {
+    if (Number(numberList[0]) <= 3) {
+      for (let i = 0; i < Number(numberList[0]); i++) {
+        result = result.concat('C');
+      }
+    }
+    if (Number(numberList[0]) === 4) {
+      result = result.concat('CD');
+    }
+    if (Number(numberList[0]) === 5) {
+      result = result.concat('D');
+    }
+    if (Number(numberList[0]) > 5 && Number(numberList[0]) < 9) {
+      result = result.concat('D');
+      for (let i = 0; i < Number(numberList[0]) - 5; i++) {
+        result = result.concat('C');
+      }
+    }
+    if (Number(numberList[0]) === 9) {
+      result = result.concat('CM');
+    }
+    numberList.shift();
+  }
 
-//Usando Do...While
+  if (numberList.length === 2) {
+    if (Number(numberList[0]) <= 3) {
+      for (let i = 0; i < Number(numberList[0]); i++) {
+        result = result.concat('X');
+      }
+    }
+    if (Number(numberList[0]) === 4) {
+      result = result.concat('XL');
+    }
+    if (Number(numberList[0]) === 5) {
+      result = result.concat('L');
+    }
+    if (Number(numberList[0]) > 5 && Number(numberList[0]) < 9) {
+      result = result.concat('L');
+      for (let i = 0; i < Number(numberList[0]) - 5; i++) {
+        result = result.concat('X');
+      }
+    }
+    if (Number(numberList[0]) === 9) {
+      result = result.concat('XC');
+    }
+    numberList.shift();
+  }
+
+  if (numberList.length === 1) {
+    if (Number(numberList[0]) <= 3) {
+      for (let i = 0; i < Number(numberList[0]); i++) {
+        result = result.concat('I');
+      }
+    }
+    if (Number(numberList[0]) === 4) {
+      result = result.concat('IV');
+    }
+    if (Number(numberList[0]) === 5) {
+      result = result.concat('V');
+    }
+    if (Number(numberList[0]) > 5 && Number(numberList[0]) < 9) {
+      result = result.concat('V');
+      for (let i = 0; i < Number(numberList[0]) - 5; i++) {
+        result = result.concat('I');
+      }
+    }
+    if (Number(numberList[0]) === 9) {
+      result = result.concat('IX');
+    }
+  }
+  console.log('result', result);
+  return result;
+}
+
+toRomanNumber(3295);
