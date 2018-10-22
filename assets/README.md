@@ -62,7 +62,6 @@
 
 - https://media.giphy.com/media/FnGJfc18tDDHy/giphy.gif 
 
-
 ### clase6
 
 - https://media.giphy.com/media/7cALdpVCbmaMU/giphy.gif 
@@ -72,3 +71,7 @@
 - https://eloviparo.files.wordpress.com/2009/09/numeros-romans.jpg?w=466&h=172 
 
 ### clase8
+
+### clase9
+
+- https://media.giphy.com/media/GG2UAv9uRblny/giphy.gif 

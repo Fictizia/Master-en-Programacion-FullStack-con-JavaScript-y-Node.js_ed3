@@ -46,7 +46,7 @@ Fecha | Teoría | Recursos | Contenido
 15/10/18 | [Clase 6](teoria/clase6.md) | [Clase 6](recursos/clase6.md) | Condicionales: If...else, Switch y Operador ternario
 17/10/18 | [Clase 7](teoria/clase7.md) | [Clase 7](recursos/clase7.md) | Bucles: For, While, Do...while, Break & Continue
 19/10/18 | [Clase 8](teoria/clase8.md) | [Clase 8](recursos/clase8.md) | Números, Math y Fechas
-
+22/10/18 | [Clase 9](teoria/clase9.md) | [Clase 9](recursos/clase9.md) | Cadenas y Arrays
 
 
 [Temario](https://coggle.it/diagram/W5ZfeGRd293lprIt/t/master-js-y-node-de-fictizia)
