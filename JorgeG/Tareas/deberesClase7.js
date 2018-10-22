@@ -49,3 +49,11 @@ do {
    i--;
    console.log(i);
 } while (i => 0);
+
+// Ejercicio 5
+
+let num = prompt("escriba un número")
+
+num % 2 === 0 
+do { num + 2
+
