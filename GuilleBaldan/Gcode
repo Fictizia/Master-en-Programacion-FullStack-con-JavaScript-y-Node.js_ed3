@@ -6,10 +6,13 @@ LL = C
 CCCCC = D
 DD = M
 */
-var column1 = ["IIIII","VV","XXXXX","LL","CCCCC","DD"];
-var column2 = ["V","X","L","C","D","M"];
-var detector;
-var number = 5;
+var symbolRepeated = ["IIIII","VV","XXXXX","LL","CCCCC","DD"];
+var basic = ["V","X","L","C","D","M"];
+var symbolRepeatedII = ["IIII","XXXX","CCCC"];
+var basicII = ["IV","XL","CD"];
+var symbolRepeatedIII = ["VIV","XIX","IXXX"];
+var basicIII =["IX","IXX","IXXL"];
+var number = 39;
 var cadenaprueba ="IIIII"
 //Mision 1 Convertir cualquier número en una ristra de I.
 function firstConversion(number){
@@ -26,15 +29,26 @@ console.log("Mission 1: "+number+" = "+firstConversion(number));
 2º Sustituye las V ¿Hay cadenas "VV"?
 3º Sustituyes las X ¿Hay cadenas "XXXXX"?
 */
-
 function sustitution(iChain){
- for(i=0;i<column1.length;i++){
+  
+  for(i=0;i<symbolRepeated.length;i++){ //Process ONE
    do {
-    detector = iChain.replace(column1[i],column2[i]);
-   }while(detector === column1[i])
+   iChain=  iChain.replace(symbolRepeated[i],basic[i]);
+    }while(iChain.indexOf(symbolRepeated[i]) !== -1)
 
   }
-  return iChain;
+   for(i=0;i<symbolRepeatedII.length;i++){ //Process TWO
+   do {
+   iChain=  iChain.replace(symbolRepeatedII[i],basicII[i]);
+    }while(iChain.indexOf(symbolRepeatedII[i]) !== -1)
+
+  }
+    for(i=0;i<symbolRepeatedIII.length;i++){ //Process THREE
+   do {
+   iChain=  iChain.replace(symbolRepeatedIII[i],basicIII[i]);
+    }while(iChain.indexOf(symbolRepeatedIII[i]) !== -1)
+
+  }
+  
+return iChain;  
 }
-console.log("Esto es una prueba: "+cadenaprueba.replace("IIIII","V"));
-//console.log("Mission 2: "+number+" = "+sustitution(firstConversion(number)));
