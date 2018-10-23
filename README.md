@@ -22,7 +22,7 @@ Durante este Máster en Programación FullStack con JavaScript y Node.js, irás 
 
 Sobre el Curso
 =================
-* Horario: Lunes, Miercoles y Viernes de 16h a 29h
+* Horario: Lunes, Miercoles y Viernes de 16h a 19h
 * Fechas: 1/10/18 - 02/07/19
 * Observaciones:
     * 11-12/10/18 Puente de la Hispanidad
