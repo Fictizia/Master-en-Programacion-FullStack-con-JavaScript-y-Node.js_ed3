@@ -75,3 +75,8 @@
 ### clase9
 
 - https://media.giphy.com/media/GG2UAv9uRblny/giphy.gif 
+
+
+### clase10
+
+- https://media.giphy.com/media/AhjXalGPAfJg4/giphy.gif 
