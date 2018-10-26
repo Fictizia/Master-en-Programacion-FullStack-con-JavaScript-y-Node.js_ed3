@@ -5,6 +5,15 @@
 
 //codigo js
 
+//objeto maquina
+
+var vendingMachine = {
+  customers: ,
+    items:
+    customers:
+};
+
+
 ```
 
 ### Notas...
