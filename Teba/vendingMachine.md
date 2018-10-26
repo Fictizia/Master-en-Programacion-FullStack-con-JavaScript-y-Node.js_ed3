@@ -6,8 +6,48 @@
 4) La maquina no concederá creditos, solo trabaja en base a los puntos disponibles.
 5) La maquina debe controlar en stock, para agilizar la reposición de lo consumido..
 
+
+### Planificación
 - Comentarios de lo que voy a hacer - estructura, cómo voy a hacerlo
 - Estimación 
 - Tareas pequeñas
 - Cómo comprobaría que eso funciona (test)
 - Programar 👩‍💻👩‍💻
+
+#### Paso 1
+
+```javascript
+
+// Máquina expendedora 
+
+var maquinaExpendedora = {}
+
+
+// Demo producto
+var producto = []
+
+
+// Demo cliente 
+var clientes = [{
+  nombre: 
+  usuario: 
+  contraseña: 
+  tipo: 
+  presupuesto: 
+  gasto: [array de objetos para controlar lo que has comprado]
+},{
+  nombre: 
+  usuario: 
+  contraseña: 
+  tipo: 
+  presupuesto: 
+  gasto: [array de objetos para controlar lo que has comprado]
+}, 
+
+
+
+
+
+]
+
+```
