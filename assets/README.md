@@ -80,3 +80,7 @@
 ### clase10
 
 - https://media.giphy.com/media/AhjXalGPAfJg4/giphy.gif 
+
+### clase11
+
+- https://cdn-images-1.medium.com/max/1600/1*6daVASIQ_gt916KRq2fWTA.jpeg 
