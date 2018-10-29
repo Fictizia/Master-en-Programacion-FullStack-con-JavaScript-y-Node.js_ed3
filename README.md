@@ -49,6 +49,8 @@ Fecha | Teoría | Recursos | Contenido
 22/10/18 | [Clase 9](teoria/clase9.md) | [Clase 9](recursos/clase9.md) | Cadenas y Arrays
 24/10/18 | [Clase 10](teoria/clase10.md) | [Clase 10](recursos/clase10.md) | Objetos y Funciones
 26/10/18 | [Clase 11](teoria/clase11.md) | Clase 11 | Práctica: Maquina Expendedora por consola
+29/10/18 | [Clase 12](teoria/clase12.md) | [Clase 12](recursos/clase12.md) | BOM y DOM I
+
 
 [Temario](https://coggle.it/diagram/W5ZfeGRd293lprIt/t/master-js-y-node-de-fictizia)
 =================
