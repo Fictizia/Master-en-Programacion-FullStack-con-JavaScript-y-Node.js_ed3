@@ -172,7 +172,6 @@ article[data-columns='4'] {
 
 ### DOM Selectores: Root Nodes
 - `document`
-- `document.documentElement`
 - `document.head`
 - `document.body`
 
