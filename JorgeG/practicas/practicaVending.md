@@ -2,15 +2,10 @@
 
 
 ```js
-
-//codigo js
-
-//objeto maquina
-
 var vendingMachine = {
-    admin:
-    customers:
-    items:
+    admin: null,
+    customers: null,
+    items: null
 };
 
 //array productos
@@ -19,22 +14,17 @@ var products = ['snacks', 'beverages', 'sandwiches']
 
 // array consumers
 
-var customers = ['Crispin', 'Benedict', 'Juniper']
-
-// perfiles clientes
-
-//Cliente Crispin
-
-var Crispin = [
-  {
+var customers = [{
     name: 'Crispin',
     user: 'Cris',
     password: 'password1',
     usertype: 'customer',
     credit: 5,
-    expenses: {}
-    }
-
+    expenses: [{
+        time: null,
+        cash: //...
+    }]
+    }, 'Benedict', 'Juniper']
 ```
 
 ### Notas...
