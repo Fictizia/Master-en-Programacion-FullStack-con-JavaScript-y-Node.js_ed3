@@ -8,7 +8,6 @@
 //objeto maquina
 
 var vendingMachine = {
-  customers: ,
     items:
     customers:
 };
