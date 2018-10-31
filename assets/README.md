@@ -90,3 +90,9 @@
 - https://cdn-images-1.medium.com/max/1600/1*GDGCFOr1d65UKnIo8IjArQ.png 
 - https://s3.amazonaws.com/media-p.slid.es/uploads/479298/images/4641757/browser-diagram-full-2.png 
 - https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/1200px-DOM-model.svg.png 
+
+
+### clase13
+
+- http://xitrus.es/blog/imgs/nojquery.png 
+- https://cdn.worldvectorlogo.com/logos/bootstrap-5.svg 
