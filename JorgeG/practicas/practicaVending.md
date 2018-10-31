@@ -10,21 +10,45 @@ var vendingMachine = {
 
 //array productos
 
-var products = ['snacks', 'beverages', 'sandwiches']
+var product = ['snacks', 'beverages', 'sandwiches']
 
 // array consumers
 
-var customers = [{
+var customer = [{
     name: 'Crispin',
     user: 'Cris',
-    password: 'password1',
+    password: 'passwordCrispin',
     usertype: 'customer',
-    credit: 5,
+    credit: 100,
     expenses: [{
         time: null,
-        cash: //...
+        cash: null,
+        product: null
+        },
+        {
+      name: 'Benedict',
+    user: 'Ben',
+    password: 'passwordBenedict',
+    usertype: 'customer',
+    credit: 90,
+    expenses: [{
+        time: null,
+        cash: null,
+        product: null
+        },
+        {
+        name: 'Juniper',
+    user: 'Joon',
+    password: 'passwordJuniper',
+    usertype: 'customer',
+    credit: 80,
+    expenses: [{
+        time: null,
+        cash: null,
+        product: null 
+           
     }]
-    }, 'Benedict', 'Juniper']
+    
 ```
 
 ### Notas...
