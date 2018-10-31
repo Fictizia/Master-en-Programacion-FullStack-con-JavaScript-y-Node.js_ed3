@@ -8,12 +8,33 @@
 //objeto maquina
 
 var vendingMachine = {
-    items:
+    admin:
     customers:
+    items:
 };
 
+//array productos
+
+var products = ['snacks', 'beverages', 'sandwiches']
+
+// array consumers
+
+var customers = ['Crispin', 'Benedict', 'Juniper']
+
+// perfiles clientes
+
+//Cliente Crispin
+
+var Crispin = [
+  {
+    name: 'Crispin',
+    user: 'Cris',
+    password: 'password1',
+    usertype: 'customer',
+    credit: 5,
+    expenses: {}
+    }
 
 ```
 
 ### Notas...
-
