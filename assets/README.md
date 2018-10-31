@@ -91,7 +91,6 @@
 - https://s3.amazonaws.com/media-p.slid.es/uploads/479298/images/4641757/browser-diagram-full-2.png 
 - https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/1200px-DOM-model.svg.png 
 
-
 ### clase13
 
 - http://xitrus.es/blog/imgs/nojquery.png 

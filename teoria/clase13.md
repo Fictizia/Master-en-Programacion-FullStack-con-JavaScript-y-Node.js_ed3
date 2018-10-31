@@ -1,6 +1,6 @@
-![shieldsIO](https://img.shields.io/github/issues/Fictizia/Master-en-Programacion-FullStack-con-JavaScript-y-Node.js_ed3.svg)
-![shieldsIO](https://img.shields.io/github/forks/Fictizia/Master-en-Programacion-FullStack-con-JavaScript-y-Node.js_ed3.svg)
-![shieldsIO](https://img.shields.io/github/stars/Fictizia/Master-en-Programacion-FullStack-con-JavaScript-y-Node.js_ed3.svg)
+![shieldsIO](https://img.shields.io/github/issues/Fictizia/Master-en-programacion-fullstack-con-JavaScript-y-Node.js_ed3.svg)
+![shieldsIO](https://img.shields.io/github/forks/Fictizia/Master-en-programacion-fullstack-con-JavaScript-y-Node.js_ed3.svg)
+![shieldsIO](https://img.shields.io/github/stars/Fictizia/Master-en-programacion-fullstack-con-JavaScript-y-Node.js_ed3.svg)
 
 ![WideImg](http://fictizia.com/img/github/Fictizia-plan-estudios-github.jpg)
 
@@ -153,7 +153,7 @@ element.hasAttribute('href');
 
 ### Trabajar sin JQuery
 
-![img](../assets/clase13/1132cadc-c84d-47d1-87a6-8e9cd760be53.png)
+![img](../assets/clase13/47909bc7-5848-4174-96c8-0992155d664d.png)
 
 - **[You Might Not Need Jquery](http://youmightnotneedjquery.com/)**
 - **[You Might Not Need Jquery(en GitHub)](https://github.com/HubSpot/youmightnotneedjquery)**
@@ -180,7 +180,7 @@ s
 
 ### Frameworks: Bootstrap
 
-![Bootstrap](../assets/clase13/59367dd9-98e0-4f7d-9303-67e744da74a0.svg)
+![Bootstrap](../assets/clase13/fbfd18b8-3629-4c25-a453-4472d559e1a8.svg)
 
 **Recursos**
 - [twbs/bootstrap](https://github.com/twbs/bootstrap)
