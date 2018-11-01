@@ -2,6 +2,9 @@
 
 
 ```js
+
+//objeto maquina
+
 var vendingMachine = {
     admin: null,
     customers: null,
@@ -12,7 +15,7 @@ var vendingMachine = {
 
 var product = ['snacks', 'beverages', 'sandwiches']
 
-// array consumers
+// array clientes
 
 var customer = [{
             name: 'Crispin',
