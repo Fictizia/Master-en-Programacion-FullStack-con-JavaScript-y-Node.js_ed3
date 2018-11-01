@@ -24,7 +24,7 @@ var customer = [{
                     time: null,
                     cash: null,
                     product: null
-                ]
+                }]
             },
             {
                 name: 'Benedict',
@@ -36,7 +36,7 @@ var customer = [{
                         time: null,
                         cash: null,
                         product: null
-                    ]
+                    }]
                 },
                 {
                     name: 'Juniper',
@@ -48,7 +48,7 @@ var customer = [{
                             time: null,
                             cash: null,
                             product: null
-                        ]
+                        }]
                     }]
     
 ```
