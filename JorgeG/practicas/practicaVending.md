@@ -15,39 +15,41 @@ var product = ['snacks', 'beverages', 'sandwiches']
 // array consumers
 
 var customer = [{
-    name: 'Crispin',
-    user: 'Cris',
-    password: 'passwordCrispin',
-    usertype: 'customer',
-    credit: 100,
-    expenses: [{
-        time: null,
-        cash: null,
-        product: null
-        },
-        {
-      name: 'Benedict',
-    user: 'Ben',
-    password: 'passwordBenedict',
-    usertype: 'customer',
-    credit: 90,
-    expenses: [{
-        time: null,
-        cash: null,
-        product: null
-        },
-        {
-        name: 'Juniper',
-    user: 'Joon',
-    password: 'passwordJuniper',
-    usertype: 'customer',
-    credit: 80,
-    expenses: [{
-        time: null,
-        cash: null,
-        product: null 
-           
-    }]
+            name: 'Crispin',
+            user: 'Cris',
+            password: 'passwordCrispin',
+            usertype: 'customer',
+            credit: 100,
+            expenses: [{
+                    time: null,
+                    cash: null,
+                    product: null
+                ]
+            },
+            {
+                name: 'Benedict',
+                user: 'Ben',
+                password: 'passwordBenedict',
+                usertype: 'customer',
+                credit: 90,
+                expenses: [{
+                        time: null,
+                        cash: null,
+                        product: null
+                    ]
+                },
+                {
+                    name: 'Juniper',
+                    user: 'Joon',
+                    password: 'passwordJuniper',
+                    usertype: 'customer',
+                    credit: 80,
+                    expenses: [{
+                            time: null,
+                            cash: null,
+                            product: null
+                        ]
+                    }]
     
 ```
 
