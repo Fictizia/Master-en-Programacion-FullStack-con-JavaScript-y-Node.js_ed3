@@ -163,7 +163,28 @@ Paso 5 - (Nivel Medio ♠️) Ahora podemos agregar los métodos para agregar, r
     Importante:
         Los saldos jamas pueden ser negativos.
 
-    // Tu solución
+```
+resetCredit
+@params admin password
+@params admin acción(add, subtract, reset)
+@params admin cantidad
+@returns credit
+Si (password === fictizimola) Entonces
+  Según acción Hacer
+    caso add:
+      créditoUsuario += cantidad
+    caso subtract:
+      créditoUsuario -= cantidad
+      Si créditoUsuario <= 0 Entonces
+        créditoUsuario = 0
+      Fin si
+    caso reset:
+      créditoUsuario = 0
+    De otro modo:
+      imprime Caso no encontrado
+  Fin Según
+Fin Si
+```
 
 Paso 6 - (Nivel Avanzado ♦️) Ahora podemos agregar el método para saber la disponibilidad de stock
 
@@ -226,4 +247,14 @@ Disponibilidad: true
 
 \*/
 
-    // Tu solución
+```
+@params admin password
+@returns stock
+Si(password === fictiziamola) entonces
+  Si(disponibilidad = true) entonces
+    Imprimir producto, código, stock,disponibilidad
+  Sino Imprimir producto no disponible,
+  producto, código, stock,disponibilidad
+  Imprimir fecha de hoy
+Fin Si
+```
