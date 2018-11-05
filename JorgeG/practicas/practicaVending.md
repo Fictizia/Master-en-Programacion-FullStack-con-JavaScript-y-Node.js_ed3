@@ -3,6 +3,20 @@
 
 ```js
 
+//objeto maquina
+
+var vendingMachine = {
+    admin: null,
+    customers: null,
+    items: null
+};
+
+//array productos
+
+var product = ['snacks', 'beverages', 'sandwiches'];
+
+// array clientes
+
 var customer = [{
             name: 'Crispin',
             user: 'Cris',
