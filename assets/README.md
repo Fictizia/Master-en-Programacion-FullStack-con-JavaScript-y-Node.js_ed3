@@ -95,3 +95,8 @@
 
 - http://xitrus.es/blog/imgs/nojquery.png 
 - https://cdn.worldvectorlogo.com/logos/bootstrap-5.svg 
+
+
+### clase14
+
+- http://i.stack.imgur.com/liJ5u.png 
