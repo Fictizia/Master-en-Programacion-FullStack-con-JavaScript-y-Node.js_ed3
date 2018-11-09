@@ -115,6 +115,7 @@
 ```js 
 
 // Paso 3: escribir sin código los procesos
+
 /*
 2.1. "consultar saldo":
     - Devolverá el saldo existente o -1 en caso de error
