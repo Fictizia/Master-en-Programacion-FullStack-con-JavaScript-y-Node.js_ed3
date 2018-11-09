@@ -126,10 +126,9 @@
 -> Acción Consultar saldo
 Si contraseña y usuario son correctas
   Si saldoActual es >= 0,
-  imprimo saldoActual;
-  Else,
-  imprimo "Tu saldo es negativo. Consulta a RRHH."
-Else imprimo "tu usuario  o contraseña no coinciden."
+   -> imprimo saldoActual;
+  Else imprimo "Tu saldo es negativo. Consulta a RRHH."
+Else imprimo "tu usuario o contraseña no coinciden."
 
 ****************************************************************
 
@@ -140,8 +139,8 @@ Else imprimo "tu usuario  o contraseña no coinciden."
 @parametros: contraseña, usuario
 @output: informe gastos
 Si contraseña y usuario son correctas,
--> Acción: Consultar gastos
-imprimo array gasto.clientes
+ -> Acción: Consultar gastos
+ -> imprimo array gasto.clientes
 Else imprimo "tu usuario  o contraseña no coinciden" o "error".
 
 ****************************************************************
