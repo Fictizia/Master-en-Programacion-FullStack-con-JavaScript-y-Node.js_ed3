@@ -85,24 +85,22 @@ var clientes = [{
 ```
 
 ### Paso 3 
-Creamos varios métodos para gestionar a los clientes y sus necesidades
+Creamos varios métodos para gestionar a los clientes y sus necesidades. 
 
-Metodos:
+Métodos:
+#### Cliente: 
+- Consultar saldo de un cliente: devolverá el saldo existente o -1 en caso de error, comprobaremos la contraseña y el usuario.
+- Consultar gastos de un cliente: devolverá un array o false en caso de error, comprobaremos la contraseña y el usuario.
 
-Consultar saldo de un cliente
-Devolverá el saldo existente o -1 en caso de error
-Comprobaremos la contraseña y el usuario
-Consultar gastos de un cliente
-Devolverá un array o false en caso de error
-Comprobaremos la contraseña y el usuario
-Agregar un cliente
-Eliminar un cliente
+#### Admin: 
+- Agregar un cliente
+- Eliminar un cliente
+
 Caracteristicas:
-
-Evitaremos que se registren usuarios que ya existan
-Evitaremos eliminar usuarios que no existan
-Evitaremos dar de alta usuarios que no esten debidamente cumplimentados
-Protegeremos las funciones de gestión de usuarios con la contraseña ficticiaMola
+- Evitaremos que se registren usuarios que ya existan
+- Evitaremos eliminar usuarios que no existan
+- Evitaremos dar de alta usuarios que no esten debidamente cumplimentados
+- Protegeremos las funciones de gestión de usuarios con la contraseña ficticiaMola
 
 
 
