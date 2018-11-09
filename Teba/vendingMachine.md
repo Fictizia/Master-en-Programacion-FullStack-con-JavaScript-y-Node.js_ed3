@@ -103,6 +103,24 @@ Caracteristicas:
 - Protegeremos las funciones de gestión de usuarios con la contraseña ficticiaMola
 
 
+### Paso 4 
+- Creamos varios métodos para gestionar a los productos y sus necesidades
+- Creamos 5 productos que estarán disponibles a la venta
+
+Métodos:
+
+- Consumir un producto (cliente): comprobaremos la contraseña y el usuarip, devolverá el producto o -1 en caso de no existir o estar agotado
+    - Actualizaremos el stock
+    - Actualizaremos el saldo del cliente
+- Agregar un producto a la máquina (administración)
+- Eliminar un productos de la máquina (administración)
+
+Caracteristicas:
+
+- Evitaremos agregar productos que ya existan
+- Evitaremos eliminar productos que no existan
+- Evitaremos agregar productos que no esten debidamente cumplimentados
+- Protegeremos las funciones de agregar y eliminar productos con la contraseña ficticiaMola
 
 
 
