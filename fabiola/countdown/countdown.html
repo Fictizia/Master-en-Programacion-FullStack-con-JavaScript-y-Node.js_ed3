@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Cuanta atrás</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Audiowide|Press+Start+2P" rel="stylesheet" />
+  </head>
+  <style>
+    html {
+      box-sizing: border-box;
+      font-size: 10px;
+      background: #001b44;
+      color: #e7040f;
+    }
+
+    *::before,
+    *::after {
+      box-sizing: inherit;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Press Start 2P', cursive;
+      text-align: center;
+    }
+
+    .container {
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-content: center;
+      height: 100vh;
+      width: 100vw;
+    }
+
+    .display-countdown {
+      font-size: 3em;
+    }
+
+    .title {
+      font-size: 1.5em;
+    }
+  </style>
+
+  <body>
+    <div class="container">
+      <h1 id="displayTime" class="display-countdown"></h1>
+      <div class="title">
+        <h3>Cuenta atrás para el fin del master</h3>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript">
+    (function () {
+      const displayTimeLeft = document.getElementById('displayTime');
+      let masterEnd = new Date(2019, 6, 1);
+      let endDateMSec = masterEnd.getTime();
+
+      const timeLeft = setInterval(function () {
+        let mSecsLeft = Math.floor(endDateMSec - Date.now());
+        if (mSecsLeft < 0) {
+          clearInterval(timeLeft);
+          return;
+        }
+        convertTime(mSecsLeft);
+      }, 1000);
+
+      const convertTime = function (mSecsLeft) {
+        const totalSeconds = Math.floor(mSecsLeft / 1000);
+        const totalMinutes = Math.floor(totalSeconds / 60);
+        const totalHours = Math.floor(totalMinutes / 60);
+        const days = Math.floor(totalHours / 24);
+
+        const seconds = totalSeconds % 60;
+        const minutes = totalMinutes % 60;
+        const hours = totalHours % 24;
+
+        const displaySecs = seconds < 10 ? `0${seconds}` : `${seconds}`;
+        const displayMins = minutes < 10 ? `0${minutes}` : `${minutes}`;
+
+        const display = `${days} días ${hours} horas ${displayMins} minutos ${displaySecs} segundos`;
+        displayTimeLeft.textContent = display;
+      };
+    })();
+  </script>
+
+</html>
