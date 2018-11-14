@@ -412,7 +412,7 @@ Server:
 
 **1 -** Utilizando la [API del NYTimes](http://developer.nytimes.com/docs) vamos a crear una web que nos muestre los libros más vendidos de la [categoria Hardcover Fiction](http://www.nytimes.com/best-sellers-books/2016-01-17/hardcover-fiction/list.html)
 
-![NYT_logo](../assets/clase17/48756885-f5a5-48a3-af44-a82b1daecfe1.jpeg)
+![NYT_logo](../assets/clase17/48756885-f5a5-48a3-af44-a82b1daecfe1.svg)
 
 **Especificaciones:**
 - [Consigue tus credenciales dandote de alta](https://myaccount.nytimes.com/auth/login?URI=http:/developer.nytimes.com/login/external)
@@ -439,4 +439,4 @@ Server:
 
 ### Tiempo para proyecto personal
 
-![img_promo](../assets/clase17/34c9f060-cb0e-40b2-8e83-b2bec2bc22c3.gif)
+![img_promo](../assets/clase17/34c9f060-cb0e-40b2-8e83-b2bec2bc22c3.jpg)
