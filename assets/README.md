@@ -119,3 +119,9 @@
 - https://www.htmlgoodies.com/imagesvr_ce/8497/proxy_server.jpg 
 - http://jsonpwrapper.com/intro.png 
 - https://qph.ec.quoracdn.net/main-qimg-4d442c9be049f302435ccecd9f2cd756.webp 
+
+### clase17
+
+- http://cdn1.theodysseyonline.com/files/2015/11/24/635839344246506130415536034_NYTimes-banner.jpg 
+- https://sinsip.com/medium/ts.png 
+- https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/XML_icon.svg/1280px-XML_icon.svg.png 
