@@ -55,6 +55,7 @@ Fecha | Teoría | Recursos | Contenido
 07/11/18 | [Clase 15](teoria/clase15.md) | Clase 15 | Práctica: Hacking Twitter
 12/11/18 | [Clase 16](teoria/clase16.md) | [Clase 16](recursos/clase16.md) | Ajax I: Ajax Básico
 14/11/18 | [Clase 17](teoria/clase17.md) | [Clase 17](recursos/clase17.md) | Ajax II: Ajax Avanzado y Seguridad
+16/11/18 | [Clase 18](teoria/clase18.md) | [Clase 18](recursos/clase18.md) | Ajax III: HTTP/2 & Fetch
 
 
 [Temario](https://coggle.it/diagram/W5ZfeGRd293lprIt/t/master-js-y-node-de-fictizia)

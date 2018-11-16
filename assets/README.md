@@ -125,3 +125,9 @@
 - http://cdn1.theodysseyonline.com/files/2015/11/24/635839344246506130415536034_NYTimes-banner.jpg 
 - https://sinsip.com/medium/ts.png 
 - https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/XML_icon.svg/1280px-XML_icon.svg.png 
+
+### clase18
+
+- https://pbs.twimg.com/media/C-8t5rGWsAAFHwF.jpg 
+- https://pbs.twimg.com/media/C-8t64sXYAEf7GG.jpg 
+- https://pbs.twimg.com/media/C-8t70YXoAEShUL.jpg 
