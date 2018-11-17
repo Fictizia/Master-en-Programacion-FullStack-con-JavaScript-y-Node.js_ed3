@@ -143,6 +143,27 @@ function addCustomer (customer, password){
         console.log ("wrong admin password");
     }   
 }
+
+function deleteCustomer (user, password) {
+    if (password === admin.password){
+    var customerFound = false;
+        for (i = 0; i < customers.length; i++){ 
+            if (customers.user === customer[i].user){
+                customerFound = true
+                customers.splice(i, 1);
+                break;
+            }
+        }
+        if (customerFound === true) {
+            console.log ("user deleted")
+        }
+        else if (cunstomerFound === false) {
+            console.log ("user not found")
+        }
+    }
+}
+
+
 ```
 
 ### Notas...
