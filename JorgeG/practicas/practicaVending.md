@@ -13,7 +13,28 @@ var vendingMachine = {
 
 //array productos
 
-var product = ['snacks', 'beverages', 'sandwiches'];
+// var product = ['snacks', 'beverages', 'sandwiches'];
+
+var product = [{
+                name: 'Snacks',
+                code: 'A1',
+                stock: 100,
+                price: 5
+            },
+            {
+                name: 'beverages',
+                code: 'A2',
+                stock: 50,
+                price: 2
+            },
+            {
+                name: 'sandwiches',
+                code: 'A3',
+                stock: 50,
+                price: 10
+            }
+            ]
+            
 
 // array clientes
 
@@ -30,29 +51,29 @@ var customer = [{
                 }]
             },
             {
-                name: 'Benedict',
-                user: 'Ben',
-                password: 'passwordBenedict',
-                usertype: 'customer',
-                credit: 90,
-                expenses: [{
-                        time: null,
-                        cash: null,
-                        product: null
-                    }]
-                },
-                {
-                    name: 'Juniper',
-                    user: 'Joon',
-                    password: 'passwordJuniper',
-                    usertype: 'customer',
-                    credit: 80,
-                    expenses: [{
-                            time: null,
-                            cash: null,
-                            product: null
-                        }]
-                    }];
+            name: 'Benedict',
+            user: 'Ben',
+            password: 'passwordBenedict',
+            usertype: 'customer',
+            credit: 90,
+            expenses: [{
+                    time: null,
+                    cash: null,
+                    product: null
+                }]
+            },
+            {
+            name: 'Juniper',
+            user: 'Joon',
+            password: 'passwordJuniper',
+            usertype: 'customer',
+            credit: 80,
+            expenses: [{
+                    time: null,
+                    cash: null,
+                    product: null
+                }]
+            }];
     
 ```
 
