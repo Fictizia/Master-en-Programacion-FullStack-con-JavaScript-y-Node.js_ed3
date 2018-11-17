@@ -3,19 +3,17 @@
 
 ```js
 
-//objeto maquina
+//object machine
 
 var vendingMachine = {
     admin: null,
-    customers: null,
-    items: null
+    customers: customers,
+    products: products
 };
 
-//array productos
+//array products
 
-// var product = ['snacks', 'beverages', 'sandwiches'];
-
-var product = [{
+var products = [{
                 name: 'Snacks',
                 code: 'A1',
                 stock: 100,
@@ -36,9 +34,9 @@ var product = [{
             ]
             
 
-// array clientes
+// array customers
 
-var customer = [{
+var customers = [{
             name: 'Crispin',
             user: 'Cris',
             password: 'passwordCrispin',
@@ -74,6 +72,28 @@ var customer = [{
                     product: null
                 }]
             }];
+            
+// customer's needs management methods
+
+function checkCredit(user, password){
+    var i;
+    for (i = 0; i < customers.length; i++){
+        if (customers[i].user = user && customers[i].password = password){ 
+            if (customers[i].credit >= 0){
+                console.log (customers[i].credit);
+                return customers[i].credit;
+            }
+            else {
+            console.log (customers[i].name + "has no credit left");
+            return -1;
+            }
+        }
+        else {
+            console.log ("wrong user or password");
+            return -1;
+        }
+    }
+}
     
 ```
 
