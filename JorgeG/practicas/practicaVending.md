@@ -11,6 +11,11 @@ var vendingMachine = {
     products: products
 };
 
+var admin = {
+    name: admin,
+    password : fictiziaMola
+}
+
 //array products
 
 var products = [{
@@ -40,36 +45,33 @@ var customers = [{
             name: 'Crispin',
             user: 'Cris',
             password: 'passwordCrispin',
-            usertype: 'customer',
             credit: 100,
             expenses: [{
                     time: null,
                     cash: null,
-                    product: null
+                    productName: null
                 }]
             },
             {
             name: 'Benedict',
             user: 'Ben',
             password: 'passwordBenedict',
-            usertype: 'customer',
             credit: 90,
             expenses: [{
                     time: null,
                     cash: null,
-                    product: null
+                    productName: null
                 }]
             },
             {
             name: 'Juniper',
             user: 'Joon',
             password: 'passwordJuniper',
-            usertype: 'customer',
             credit: 80,
             expenses: [{
-                    time: null,
-                    cash: null,
-                    product: null
+                    time: 20181117,
+                    cash: 10,
+                    productName: 'sandwiches'
                 }]
             }];
             
@@ -78,7 +80,7 @@ var customers = [{
 function checkCredit(user, password){
     var i;
     for (i = 0; i < customers.length; i++){
-        if (customers[i].user = user && customers[i].password = password){ 
+        if (customers[i].user === user && customers[i].password === password){ 
             if (customers[i].credit >= 0){
                 console.log (customers[i].credit);
                 return customers[i].credit;
@@ -88,13 +90,59 @@ function checkCredit(user, password){
             return -1;
             }
         }
-        else {
-            console.log ("wrong user or password");
-            return -1;
-        }
     }
+    console.log ("wrong user or password");
+            return -1;
 }
+
+function checkExpenses(user, password){
+    var i;
+    for (i = 0; i < customers.length; i++){
+        if (customers[i].user === user && customers[i].password === password){
+            if (customers[i].expenses.length > 0){
+                console.log (customers[i].expenses + "has expensed");
+                console.log (customers[i].expenses);
+                return customers[i].expenses;
+            }
+            else{
+                console.log (customers[i].name + "has no expenses");
+                return false;
+            }
+        }
+        
+    }
+    console.log ("wrong user or password");
+    return false;
+}
+
+
+// add customer
     
+function addCustomer (customer, password){
+    if (password === admin.password){
+        var customerFound = false;
+        if ((customer.name != null && customer.name != undefined && customer.name != "") &&
+            (customer.password != null && customer.password != undefined && customer.pasword != "") &&
+            (customer.user != null && customer.user != undefined && customer.user != "")){
+                var i;
+                for (i = 0; i < customers.length; i++){ 
+                    if (customer.user === customer[i].user){
+                        customerFound = true;
+                    }
+                }
+                if (customerFound === true) {
+                    console.log ("User already exists");
+                }
+                else {
+                    customers.push(customer);
+                }
+        }
+        
+    }
+    else {
+        console.log ("wrong admin password");
+    }   
+}
 ```
 
 ### Notas...
