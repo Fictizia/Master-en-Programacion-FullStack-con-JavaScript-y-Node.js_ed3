@@ -19,13 +19,13 @@ var admin = {
 //array products
 
 var products = [{
-                name: 'Snacks',
+                name: 'crisps',
                 code: 'A1',
-                stock: 100,
+                stock: 50,
                 price: 5
             },
             {
-                name: 'beverages',
+                name: 'biscuits',
                 code: 'A2',
                 stock: 50,
                 price: 2
@@ -36,7 +36,20 @@ var products = [{
                 stock: 50,
                 price: 10
             }
+            {
+                name: 'juices',
+                code: 'A4',
+                stock: 50,
+                price: 10
+            }
+            {
+                name: 'sodas',
+                code: 'A5',
+                stock: 50,
+                price: 10
+            }
             ]
+            
             
 
 // array customers
