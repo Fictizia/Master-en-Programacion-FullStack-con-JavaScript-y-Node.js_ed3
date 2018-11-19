@@ -178,6 +178,15 @@ function deleteCustomer (user, password) {
     }
 }
 
+// product's needs management methods
+
+function consumeProduct (code, customer, password){
+    var i;
+    for (i = 0; i < products.length; i++)
+        if (customer === customers.user && password === customers.password ){
+            if (
+
+
 
 ```
 
