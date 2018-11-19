@@ -147,7 +147,8 @@ function addCustomer (customer, password){
                     console.log ("User already exists");
                 }
                 else {
-                    customers.push(customer);
+                    customers.push(customer)
+                    console.log ("new user created");
                 }
         }
         
@@ -180,13 +181,28 @@ function deleteCustomer (user, password) {
 
 // product's needs management methods
 
-function consumeProduct (code, customer, password){
+function consumeProduct (user, password, code){
     var i;
-    for (i = 0; i < products.length; i++)
-        if (customer === customers.user && password === customers.password ){
-            if (
-
-
+    for (i = 0; i < customers.length; i++)
+        if (customers[i].user === user && customers[i].password === password ){
+            var j;
+            for (i = 0; i < products.length; i++){
+                if (products[j].code === code){
+                    customer[i].credit -= product[j].price;
+                    customer[i].expenses.push(
+                    product[j].stock -= 1
+                    console log (products[j].name + "sold")
+                    break;
+                    }
+                else {
+                console.log ("invalid product code")
+                }
+               }
+            else {
+            console.log ("wrong user or password")
+            } 
+          }                
+        }
 
 ```
 
