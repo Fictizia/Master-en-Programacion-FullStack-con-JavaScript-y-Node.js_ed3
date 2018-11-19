@@ -24,7 +24,7 @@ var products = [{
                 name: 'biscuits',
                 code: 'A2',
                 stock: 50,
-                price: 2
+                price: 5
             },
             {
                 name: 'sandwiches',
@@ -36,13 +36,13 @@ var products = [{
                 name: 'juices',
                 code: 'A4',
                 stock: 50,
-                price: 10
+                price: 3
             }
             {
                 name: 'sodas',
                 code: 'A5',
                 stock: 50,
-                price: 10
+                price: 2
             }
             ]
             
@@ -78,9 +78,9 @@ var customers = [{
             password: 'passwordJuniper',
             credit: 80,
             expenses: [{
-                    time: 20181117,
-                    cash: 10,
-                    productName: 'sandwiches'
+                    time: null,
+                    cash: null,
+                    productName: null
                 }]
             }];
             
@@ -185,7 +185,11 @@ function consumeProduct (user, password, code){
             for (i = 0; i < products.length; i++){
                 if (products[j].code === code){
                     customer[i].credit -= product[j].price;
-                    customer[i].expenses.push(
+                    customer[i].expenses.push({
+                    time: new Date,
+                    cash: products[j].price,
+                    productName: products[j].name
+                })
                     product[j].stock -= 1
                     console log (products[j].name + "sold")
                     break;
