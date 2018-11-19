@@ -201,7 +201,11 @@ function consumeProduct (user, password, code){
             else {
             console.log ("wrong user or password")
             } 
-          }                
-        }
+        }                
+}
+
+// add new product
+
+        
 
 
