@@ -156,6 +156,8 @@ function addCustomer (customer, password){
     }   
 }
 
+// delete customer
+
 function deleteCustomer (user, password) {
     if (password === admin.password){
     var customerFound = false;
