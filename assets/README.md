@@ -131,3 +131,10 @@
 - https://pbs.twimg.com/media/C-8t5rGWsAAFHwF.jpg 
 - https://pbs.twimg.com/media/C-8t64sXYAEf7GG.jpg 
 - https://pbs.twimg.com/media/C-8t70YXoAEShUL.jpg 
+
+### clase19
+
+- http://m.memegen.com/cpbitk.jpg 
+- http://www.jontejada.com/blog/assets/semver03.png 
+- https://css-tricks.com/wp-content/uploads/2018/02/chrome-devtools.jpg 
+- https://sinsip.com/medium/ts.png 
