@@ -138,3 +138,7 @@
 - http://www.jontejada.com/blog/assets/semver03.png 
 - https://css-tricks.com/wp-content/uploads/2018/02/chrome-devtools.jpg 
 - https://sinsip.com/medium/ts.png 
+
+### clase20
+
+- https://enterprise.github.com/assets/aws/aws-animation-teaser-large-5ac827d7617d87a2c90d5094773516f2b882ab8abe654bbc30f4ba816bfba51c.jpg 

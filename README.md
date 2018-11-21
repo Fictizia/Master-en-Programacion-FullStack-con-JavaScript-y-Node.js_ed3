@@ -57,7 +57,7 @@ Fecha | Teoría | Recursos | Contenido
 14/11/18 | [Clase 17](teoria/clase17.md) | [Clase 17](recursos/clase17.md) | Ajax II: Ajax Avanzado y Seguridad
 16/11/18 | [Clase 18](teoria/clase18.md) | [Clase 18](recursos/clase18.md) | Ajax III: HTTP/2 & Fetch
 19/11/18 | [Clase 19](teoria/clase19.md) | [Clase 19](recursos/clase19.md) | Rendimiento, JSDocs, Guías de estilo y SEMVER
-
+21/11/18 | [Clase 20](teoria/clase20.md) | Clase 20 | Live Coding: Github | Social Network Project
 
 
 [Temario](https://coggle.it/diagram/W5ZfeGRd293lprIt/t/master-js-y-node-de-fictizia)
