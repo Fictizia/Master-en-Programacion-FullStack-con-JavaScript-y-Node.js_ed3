@@ -206,6 +206,11 @@ function consumeProduct (user, password, code){
 
 // add new product
 
-        
+function addProduct (code, password)}
+    if (password === admin.password){
+        var productFound = false
+        if (product.code.length > 0 && product.code)
+    }
+}
 
 
