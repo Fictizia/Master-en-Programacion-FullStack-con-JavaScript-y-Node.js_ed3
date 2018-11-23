@@ -142,3 +142,8 @@
 ### clase20
 
 - https://enterprise.github.com/assets/aws/aws-animation-teaser-large-5ac827d7617d87a2c90d5094773516f2b882ab8abe654bbc30f4ba816bfba51c.jpg 
+
+### clase21
+
+- http://www.sice.com/sites/Sice/files/2017-01/proyecto1_plcastilla-04_ref00014_0_0.jpg 
+- http://babytribu.com/wp-content/uploads/2012/09/AyuntamientoMadrid.png 
