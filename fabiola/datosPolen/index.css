@@ -1,0 +1,33 @@
+body {
+  margin: 0 auto;
+  padding: 3em 2em;
+  background: #fafafa;
+}
+.container {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+.values {
+  display: flex;
+  flex-flow: row wrap;
+}
+.card {
+  width: 250px;
+  padding: 1em;
+  border: 1px solid #c7c7c7;
+  margin: 8px;
+  background: #fff;
+  border-radius: 8px;
+}
+.title {
+  color: #003c8f;
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 2em;
+}
+.subTitle {
+  font-size: 1.5em;
+  font-weight: 500;
+  color: #003c8f;
+}
