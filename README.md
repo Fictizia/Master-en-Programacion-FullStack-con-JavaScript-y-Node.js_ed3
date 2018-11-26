@@ -62,6 +62,7 @@ Fecha | Teoría | Recursos | Contenido
 26/11/18 | [Clase 22](teoria/clase22.md) | Clase 22 | Trabajo en el proyecto personal
 
 
+
 [Temario](https://coggle.it/diagram/W5ZfeGRd293lprIt/t/master-js-y-node-de-fictizia)
 =================
 
