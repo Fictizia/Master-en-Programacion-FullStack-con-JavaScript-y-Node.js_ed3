@@ -151,3 +151,7 @@
 ### clase22
 
 - https://media0.giphy.com/media/l3uGKbsTIyhyM/giphy.gif 
+
+### clase23
+
+- http://i0.kym-cdn.com/photos/images/original/000/177/486/tumblr_lrp6hz6Bxd1qjuciho2_500.gif 

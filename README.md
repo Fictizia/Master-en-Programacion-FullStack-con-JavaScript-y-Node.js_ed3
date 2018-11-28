@@ -60,7 +60,7 @@ Fecha | Teoría | Recursos | Contenido
 21/11/18 | [Clase 20](teoria/clase20.md) | Clase 20 | Live Coding: Github | Social Network Project
 23/11/18 | [Clase 21](teoria/clase21.md) | Clase 21 | Live Coding: Buenos días, Madrid!
 26/11/18 | [Clase 22](teoria/clase22.md) | Clase 22 | Trabajo en el proyecto personal
-
+28/11/18 | [Clase 23](teoria/clase23.md) | Clase 23 | Intro a JS Avanzado y definición de proyecto
 
 
 [Temario](https://coggle.it/diagram/W5ZfeGRd293lprIt/t/master-js-y-node-de-fictizia)
