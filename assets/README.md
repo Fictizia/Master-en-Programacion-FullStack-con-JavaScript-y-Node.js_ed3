@@ -155,3 +155,24 @@
 ### clase23
 
 - http://i0.kym-cdn.com/photos/images/original/000/177/486/tumblr_lrp6hz6Bxd1qjuciho2_500.gif 
+
+### clase24
+
+- http://spiritual-artwork.org/wp-content/uploads/2015/03/Browsers.png 
+- https://i.emezeta.com/weblog/guerra-de-navegadores/browser-wars.jpg 
+- https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Timeline_of_web_browsers.svg/800px-Timeline_of_web_browsers.svg.png 
+- https://upload.wikimedia.org/wikipedia/en/timeline/6e13eec446def3d241affb7c5b2df7b6.png 
+- https://i.emezeta.com/weblog/guerra-de-navegadores/firefox-vs-chrome.jpg 
+- https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/layers.png 
+- https://cdn-images-1.medium.com/max/800/1*lZ-KXoVNUSOwaq7q8zUBDg.png 
+- https://cdn-images-1.medium.com/max/800/1*9mv-g9E-87Sji9j7YR08Fw.gif 
+- https://cdn-images-1.medium.com/max/2000/1*Kd0UGiDvgooFooCy28rs8Q.jpeg 
+- http://klimas.lt/slides/3-you-dont-know-javascript/img/understanding-closures-is-like-when-neo-sees-the-matrix-for-the-first-time.jpg 
+- https://cdn-images-1.medium.com/max/2000/1*oPPs_dGbLnYmDraOawR0Ig.jpeg 
+- http://bernardisecurities.com/wp-content/uploads/2015/08/Liquidity_Illusion_0.png 
+- https://cdn-images-1.medium.com/max/965/1*hmECDVvkUVL6H_orThhd-g.png 
+- https://rux.vc/wp-content/uploads/2017/12/javascript-5954ff.jpg 
+- https://cdn-images-1.medium.com/max/1600/1*dianRzNAQevG4-ZXUfxpDg.png 
+- http://northstar-www.dartmouth.edu/doc/solaris-forte/manuals/tools++/tlsug/images/image2.gif 
+- https://i.imgur.com/8yKeaLf.jpg 
+- https://static.charlieharvey.org.uk/graphics/js-weird-parts.png 
