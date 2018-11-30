@@ -210,6 +210,12 @@ function addProduct (code, password)}
     if (password === admin.password){
         var productFound = false
         if (product.code.length > 0 && product.code)
+            for (i = 0; i < product.length; i++ ){
+                if (code === product[i].code)}
+                    console.log("product code already exists")
+                    }
+                }
+                else 
     }
 }
 
