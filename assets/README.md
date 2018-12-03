@@ -176,3 +176,8 @@
 - http://northstar-www.dartmouth.edu/doc/solaris-forte/manuals/tools++/tlsug/images/image2.gif 
 - https://i.imgur.com/8yKeaLf.jpg 
 - https://static.charlieharvey.org.uk/graphics/js-weird-parts.png 
+
+### clase25
+
+- https://www.vistacollege.edu/wp-content/uploads/2015/12/feature-undecided-major.jpg 
+- https://static1.squarespace.com/static/531fb456e4b087367275843a/53228d91e4b08e2f1a3ab96e/533c799be4b05fdb12d5a06d/1422685426748/Rover+%281+of+7%29.jpg?format=1000w 
