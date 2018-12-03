@@ -47,7 +47,30 @@ Características:
     - Presupuesto
 
 ```javascript
-	// Tu solución
+    // Máquina expendedora:
+    var maquinaExpendedora = {};
+    
+    // Demo Producto:
+    var productos = [];
+    
+    // Demo Cliente:
+
+    var clientes = [{
+        // admin
+        nombre: "Ulises Gascón",
+        usuario: "ulises",
+        contraseña: "pass",
+        tipo: "admin",
+        presupuesto: "1000",
+        gasto: []
+    }, {
+        nombre: "Carlos Perez",
+        usuario: "cPerez",
+        contraseña: "pass2",
+        tipo: "usuario",
+        presupuesto: "100",
+        gasto: []
+    }];
 ```
 
 **Paso 3** - Creamos varios métodos para gestionar a los clientes y sus necesidades
