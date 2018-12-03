@@ -92,7 +92,144 @@ Características:
     - Protegeremos las funciones de gestión de usuarios con la contraseña *ficticiaMola*
 
 ```javascript
-	// Tu solución
+    // Máquina expendedora:
+    var maquinaExpendedora = {
+        admin: {
+            secreto: "ficticiaMola"
+        },
+        herramientas: {
+            esUsuario: function(usuario) {
+                var existe = false;
+                for (var i = 0; i < clientes.length; i++) {
+                    if (clientes[i].usuario === usuario) {
+                        existe = true;
+                        break;
+                    }
+                }
+                return existe;
+            }
+        },
+        gestionClientes: {
+            agregar: function(clave, objeto) {
+                if (clave === maquinaExpendedora.admin.secreto) {
+                    if (!maquinaExpendedora.herramientas.esUsuario(objeto.usuario)) {
+                        if (objeto.nombre && objeto.pass && objeto.tipo && objeto.presupuesto) {
+                            clientes.push(objeto);
+                            console.info("usuario Agregado con exito");
+                            return true;
+                        } else {
+                            console.warn("ERROR - Faltan datos!");
+                            return false;
+                        }
+                    } else {
+                        console.warn("ERROR - El usuario ya existe!");
+                        return false;
+                    }
+                } else {
+                    console.warn("ERROR - Contraseña Erronea!");
+                    return false;
+                }
+            },
+            eliminar: function(clave, usuario) {
+                if (clave === maquinaExpendedora.admin.secreto) {
+                    if (maquinaExpendedora.herramientas.esUsuario(usuario)) {
+                        for (var i = 0; i < clientes.length; i++) {
+                            if (clientes[i].usuario === usuario) {
+                                clientes.splice(i, 1);
+                                break;
+                            }
+                        }
+                        console.info("Usuario Eliminado con exito");
+                        return true;
+    
+                    } else {
+                        console.warn("ERROR - El usuario no existe!");
+                        return false;
+                    }
+                } else {
+                    console.warn("ERROR - Contraseña Erronea!");
+                    return false;
+                }
+            },
+            saldoTotal: function(clave, usuario) {
+                var saldoDisponible = -1;
+                for (var i = 0; i < clientes.length; i++) {
+                    if (clientes[i].usuario === usuario && clientes[i].pass === clave) {
+                        saldoDisponible = clientes[i].presupuesto;
+                        break;
+                    }
+                }
+                return saldoDisponible;
+            },
+            gastoTotal: function(clave, usuario) {
+                var gastoAcumulado = false;
+                for (var i = 0; i < clientes.length; i++) {
+                    if (clientes[i].usuario === usuario && clientes[i].pass === clave) {
+                        gastoAcumulado = clientes[i].gasto;
+                        break;
+                    }
+                }
+                return gastoAcumulado;
+            }
+        }
+    };
+    
+    // Demo Producto:
+    var productos = [];
+    
+    // Demo Cliente:
+    var clientes = [{
+        // admin
+        nombre: "Ulises Gascón",
+        usuario: "ulises",
+        pass: "pass",
+        tipo: "admin",
+        presupuesto: 1000,
+        gasto: []
+    }, {
+        nombre: "Carlos Perez",
+        usuario: "cPerez",
+        pass: "pass2",
+        tipo: "usuario",
+        presupuesto: 100,
+        gasto: []
+    }];
+    
+    // Testeando esUsuario:
+    maquinaExpendedora.herramientas.esUsuario("ulises"); // true
+    maquinaExpendedora.herramientas.esUsuario("yo mismo"); // false
+    
+    // Testeando agregar:
+    maquinaExpendedora.gestionClientes.agregar(); // ERROR - Contraseña Erronea!
+    maquinaExpendedora.gestionClientes.agregar("hola"); // ERROR - Contraseña Erronea!
+    maquinaExpendedora.gestionClientes.agregar("ficticiaMola", {
+        usuario: "ulises"
+    }); // ERROR - El usuario ya existe!
+    maquinaExpendedora.gestionClientes.agregar("ficticiaMola", {
+        usuario: "ulises2",
+        presupuesto: 1000
+    }); // ERROR - Faltan datos! 
+    maquinaExpendedora.gestionClientes.agregar("ficticiaMola", {
+        usuario: "ulises2",
+        presupuesto: 1000,
+        tipo: "admin",
+        pass: "pass2",
+        nombre: "Ulises2"
+    }); // usuario Agregado con exito
+    
+    // Testeando borrar:
+    maquinaExpendedora.gestionClientes.eliminar(); // ERROR - Contraseña Erronea!
+    maquinaExpendedora.gestionClientes.eliminar("ficticiaMola"); // ERROR - El usuario no existe!
+    maquinaExpendedora.gestionClientes.eliminar("ficticiaMola", "Yo mismo"); // ERROR - El usuario no existe!
+    maquinaExpendedora.gestionClientes.eliminar("ficticiaMola", "ulises2"); // Usuario Eliminado con exito
+    
+    // Testeando Saldo:
+    maquinaExpendedora.gestionClientes.saldoTotal(); // -1
+    maquinaExpendedora.gestionClientes.saldoTotal("pass", "ulises"); // 1000
+    
+    // Testrando Gasto:
+    maquinaExpendedora.gestionClientes.gastoTotal(); // false
+    maquinaExpendedora.gestionClientes.gastoTotal("pass", "ulises"); // []
 ```
 
 **Paso 4** - Creamos varios métodos para gestionar a los productos y sus necesidades
