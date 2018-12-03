@@ -28,7 +28,14 @@ Características:
 - Clientes (Array)
 
 ```javascript
-	// Tu solución
+	// Máquina expendedora:
+	var maquinaExpendedora = {};
+	
+	// Demo Producto:
+	var productos = [];
+	
+	// Demo Cliente:
+	var clientes = [];
 ```
 
 **Paso 2** - Creamos los primeros perfiles en el Array de clientes:
