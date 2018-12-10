@@ -181,3 +181,12 @@
 
 - https://www.vistacollege.edu/wp-content/uploads/2015/12/feature-undecided-major.jpg 
 - https://static1.squarespace.com/static/531fb456e4b087367275843a/53228d91e4b08e2f1a3ab96e/533c799be4b05fdb12d5a06d/1422685426748/Rover+%281+of+7%29.jpg?format=1000w 
+
+### clase26
+
+- https://s3-us-west-2.amazonaws.com/devcodepro/media/tutorials/novedades-ecmascript6-t1.gif 
+- https://assets.contents.io/asset_Y9hpxcgL.png 
+- https://raw.githubusercontent.com/getify/You-Dont-Know-JS/master/es6%20%26%20beyond/fig1.png 
+- https://mdn.mozillademos.org/files/8629/typed_arrays.png 
+- https://cdn-images-1.medium.com/max/1600/1*4KPIzPcEPAI0um7OQ-ibYw.jpeg 
+- https://mdn.mozillademos.org/files/8633/promises.png 
