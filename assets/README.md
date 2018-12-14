@@ -196,3 +196,7 @@
 - https://cdn-images-1.medium.com/max/1446/1*JhDw7yiwv5YOJIncUhCXQg.png 
 - https://i.ytimg.com/vi/LsynbD9gwqg/maxresdefault.jpg 
 - https://cdn-images-1.medium.com/max/1000/1*ReeHV0eEsfmMskVUk1vVog.png 
+
+### clase28
+
+- https://marsblogger.files.wordpress.com/2015/04/giga.png 
