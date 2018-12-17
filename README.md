@@ -66,6 +66,8 @@ Fecha | Teoría | Recursos | Contenido
 10/12/18 | [Clase 26](teoria/clase26.md) | [Clase 26](recursos/clase26.md) | ECMA6, es7, es8, es9 I: Teoria I
 12/12/18 | [Clase 27](teoria/clase27.md) | [Clase 27](recursos/clase27.md) | ECMA6, es7, es8, es9 II: Teoria II
 14/12/18 | [Clase 28](teoria/clase28.md) | Clase 28 | ECMA6, es7, es8, es9 III: Ejercicios I
+17/12/18 | [Clase 29](teoria/clase29.md) | Clase 29 | ECMA6, es7, es8, es9 IV: Ejercicios II
+
 
 [Temario](https://coggle.it/diagram/W5ZfeGRd293lprIt/t/master-js-y-node-de-fictizia)
 =================
