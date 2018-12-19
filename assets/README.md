@@ -202,3 +202,8 @@
 - https://marsblogger.files.wordpress.com/2015/04/giga.png 
 
 ### clase29
+
+
+### clase30
+
+- https://learnmate.com.au/wp-content/uploads/2017/03/6a00d8341c5dea53ef0163035a4bd0970d-pi.jpg 
