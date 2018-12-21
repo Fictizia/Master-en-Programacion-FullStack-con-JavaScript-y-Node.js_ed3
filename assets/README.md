@@ -207,3 +207,10 @@
 ### clase30
 
 - https://learnmate.com.au/wp-content/uploads/2017/03/6a00d8341c5dea53ef0163035a4bd0970d-pi.jpg 
+
+### clase31
+
+- http://4.bp.blogspot.com/-YUyWf1Ey2nQ/VcUCyFjtPXI/AAAAAAAAACU/Hk9ylpwa-3g/s1600/1.jpg 
+- https://cdn-images-1.medium.com/max/1000/1*vYtDyAbOMTJnArJvXix5wg.jpeg 
+- http://nmp90.com/wp-content/uploads/2017/12/object-oriented-programming.jpg 
+- https://cdn-images-1.medium.com/max/800/1*cBFSQ9Ytv_D0jwGtpuL5WA.png 

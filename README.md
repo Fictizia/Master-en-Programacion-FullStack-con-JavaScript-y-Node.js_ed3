@@ -68,6 +68,7 @@ Fecha | Teoría | Recursos | Contenido
 14/12/18 | [Clase 28](teoria/clase28.md) | Clase 28 | ECMA6, es7, es8, es9 III: Ejercicios I
 17/12/18 | [Clase 29](teoria/clase29.md) | Clase 29 | ECMA6, es7, es8, es9 IV: Ejercicios II
 19/12/18 | [Clase 30](teoria/clase30.md) | [Clase 30](recursos/clase30.md) | Router Frontend + templates
+21/12/18 | [Clase 31](teoria/clase31.md) | [Clase 31](recursos/clase31.md) | Paradigmas: Programación orientada a Objetos
 
 
 [Temario](https://coggle.it/diagram/W5ZfeGRd293lprIt/t/master-js-y-node-de-fictizia)
