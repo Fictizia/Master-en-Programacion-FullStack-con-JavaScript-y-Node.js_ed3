@@ -17,3 +17,14 @@ for (i = 100; i >= 0; i--){
   console.info(i)
     }
   }
+
+// 4 - Diseña un programa que simula el lanzamiento de una moneda al aire e imprimir si ha salido cara o cruz
+
+function rollDice
+
+// 5 - diseña un programa que simula cien tiradas de dos dados y contar las veces que entre los dos suman 10
+
+function roll2Dices (num1; num2)
+  for (i = 0; i < 100; i++){
+    if (num1 + num2 = 10)
+      var coincidences = coincidences++
