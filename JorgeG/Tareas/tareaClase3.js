@@ -40,3 +40,5 @@ function roll2Dices (dice1; dice2)
       coincidences += 1
     }
 
+// 6 - Diseña un programa para calcular el porcentaje de hombres y mujeres en nuestro curso
+
