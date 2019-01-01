@@ -38,6 +38,6 @@ var coincidences = 0
 function roll2Dices (dice1; dice2)
   for (i = 0; i < 100; i++){
     if (num1 + num2 = 10)
-      var coincidences += 1
+      coincidences += 1
     }
 
