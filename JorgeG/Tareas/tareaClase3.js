@@ -51,3 +51,24 @@ var pctwomen = numwoman*100 / total
 
 console.log("el procentaje de hombres es" + pctmen)
 console.log("el porcentaje de mujeres es" + pctwomen)
+
+/* 7 - Diseña un algoritmo que aplique al precio de un producto un descuento cuando se den las siguientes caracteristicas:
+Se aplica un 25% cuando:
+Estamos en los meses de invierno
+Y no es viernes o fin de semana.
+*/
+
+var month = prompt("escribe el mes en el que estamos")
+var day = prompt("escribe el día de la semana que es hoy")
+var price = prompt("escribe el precio del producto")
+var dicountedPrice = price*0,75
+
+month = month.toLowerCase()
+day = day.toLowerCase()
+
+if (((month === "enero") || (month === "febrero") || (month === "marzo")) && ((day !== "viernes") && (day !== "sabado") && (weekday !== "domingo"))){
+  console.log("Precio rebajado!" + discountedPrice)
+}
+  else {
+    console.log("Precio normal" + price)
+  }
