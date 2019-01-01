@@ -34,7 +34,7 @@ var dice1 = Math.round(Math.random()*(6 -1) + 1);
 var dice2 = Math.round(Math.random()*(6 -1) + 1);
 var coincidences = 0;
 
-function roll2Dices (dice1; dice2) {
+function roll2Dices (dice1, dice2) {
   for (i = 0; i < 100; i++){
     if (dice1 + dice2 = 10){
       coincidences += 1;
