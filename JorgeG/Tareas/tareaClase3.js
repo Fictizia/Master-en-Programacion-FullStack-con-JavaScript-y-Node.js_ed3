@@ -20,7 +20,14 @@ for (i = 100; i >= 0; i--){
 
 // 4 - Diseña un programa que simula el lanzamiento de una moneda al aire e imprimir si ha salido cara o cruz
 
-function rollDice
+
+  var coin = Math.round(Math.random()*(1 -0) + 0);
+  if (coin === 1){
+    console.log("ha salido cara")
+  }
+  else {
+    console.log("ha salido cruz")
+  }
 
 // 5 - diseña un programa que simula cien tiradas de dos dados y contar las veces que entre los dos suman 10
 
