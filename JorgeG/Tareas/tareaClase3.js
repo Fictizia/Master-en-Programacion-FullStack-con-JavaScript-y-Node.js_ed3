@@ -42,3 +42,12 @@ function roll2Dices (dice1; dice2)
 
 // 6 - Diseña un programa para calcular el porcentaje de hombres y mujeres en nuestro curso
 
+var nummen = prompt("introduce el numero de hombres")
+var numwomen = prompt("introduce el numero de mujeres")
+var total = nummen + numwomen
+
+var pctmen = nummen*100 / total
+var pctwomen = numwoman*100 / total
+
+console.log("el procentaje de hombres es" + pctmen)
+console.log("el porvcentaje de mujeres es + pctwomen)
