@@ -34,4 +34,4 @@ for (i = 100; i >= 0; i--){
 function roll2Dices (num1; num2)
   for (i = 0; i < 100; i++){
     if (num1 + num2 = 10)
-      var coincidences = coincidences++
+      var coincidences += 1
