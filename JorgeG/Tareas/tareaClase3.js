@@ -20,7 +20,6 @@ for (i = 100; i >= 0; i--){
 
 // 4 - Diseña un programa que simula el lanzamiento de una moneda al aire e imprimir si ha salido cara o cruz
 
-
   var coin = Math.round(Math.random()*(1 -0) + 0);
   if (coin === 1){
     console.log("ha salido cara")
