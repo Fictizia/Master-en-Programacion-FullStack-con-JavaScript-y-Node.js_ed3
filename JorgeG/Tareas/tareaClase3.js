@@ -31,7 +31,12 @@ for (i = 100; i >= 0; i--){
 
 // 5 - diseña un programa que simula cien tiradas de dos dados y contar las veces que entre los dos suman 10
 
+var dice1 = Math.round(Math.random()*(1 -0) + 0)
+var dice2 = Math.round(Math.random()*(1 -0) + 0)
+
 function roll2Dices (num1; num2)
   for (i = 0; i < 100; i++){
     if (num1 + num2 = 10)
       var coincidences += 1
+    }
+
