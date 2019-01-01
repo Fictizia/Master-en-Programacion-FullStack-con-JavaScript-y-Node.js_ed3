@@ -64,7 +64,7 @@ Y no es viernes o fin de semana.
 var month = prompt("escribe el mes en el que estamos");
 var day = prompt("escribe el día de la semana que es hoy");
 var price = prompt("escribe el precio del producto");
-var dicountedPrice = price*0.75
+var dicountedPrice = price*0.75;
 
 month = month.toLowerCase();
 day = day.toLowerCase();
