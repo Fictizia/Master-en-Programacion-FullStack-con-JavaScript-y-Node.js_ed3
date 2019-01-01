@@ -4,7 +4,7 @@ var nombre = "Jorge";
 console.assert(nombre === "Jorge", "Right name");
 
 var nombre = "Paco";
-console.assert(nombre === "Jorge"', "Wrong name");
+console.assert(nombre === "Jorge", "Wrong name");
 
 /* 2 - Crea un script que nos permita calcular el tiempo que se necesita para realizar la siguientes acciones.
 Especificaciones:
