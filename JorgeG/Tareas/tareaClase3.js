@@ -50,4 +50,4 @@ var pctmen = nummen*100 / total
 var pctwomen = numwoman*100 / total
 
 console.log("el procentaje de hombres es" + pctmen)
-console.log("el porcentaje de mujeres es + pctwomen)
+console.log("el porcentaje de mujeres es" + pctwomen)
