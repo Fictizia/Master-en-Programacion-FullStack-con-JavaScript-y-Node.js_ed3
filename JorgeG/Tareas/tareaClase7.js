@@ -81,3 +81,9 @@ num % 2 === 0
 do { num + 2
     console.log(num)
 
+//6 - Diseña un algoritmo que imprima la suma de los 50 primeros numeros pares y el total de números impares partiendo de un número dado por el usuario
+
+/*7 - Diseña un algoritmo introducido un numero y pasarlo a número romanos.
+Esperamos que el número sea menor de 50
+*/
+
