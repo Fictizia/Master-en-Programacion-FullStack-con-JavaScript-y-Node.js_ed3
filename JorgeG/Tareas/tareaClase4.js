@@ -36,7 +36,6 @@ console.timeEnd("Medición de la impresión de mi nombre");
 
 // 4 - Agrupa cada tipo de mensaje y añade un contador de tiempo por cada grupo.
 
-
 console.group("logGroup");
 console.time("logTime");
 console.log("%c Jorge", "background: #16A085; color: #FFF; font-size:25px;");
