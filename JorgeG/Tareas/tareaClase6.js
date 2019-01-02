@@ -94,6 +94,10 @@ let num1 = prompt("escriba un primer numero","");
 let num2 = prompt("escriba un segundo numero","");
 let num3 = prompt("escriba un tercer numero","");
 
+num1 = num1.trim()
+num2 = num2.trim()
+num3 = num3.trim()
+
 switch (true) {
   case (num1 < 0):
     console.log("primer numero negativo, sumo los otros dos " + (num2 + num3));
