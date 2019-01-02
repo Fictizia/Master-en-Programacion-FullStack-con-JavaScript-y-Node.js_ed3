@@ -26,9 +26,11 @@ console.timeEnd("Medición de la impresión de mi nombre");
 
 console.time("Medición de la impresión de mi nombre");
 
-console.log("%c Jorge", "background: #16A085; color: #FFF; font-size:25px;");
-console.info("%c Jorge", "background: #8E44AD; color: #FFF; font-size:25px;");
-console.warn("%c Jorge", "background: #C0392B; color: #FFF; font-size:25px;");
+var name = "Jorge"
+
+console.log("%c" + name, "background: #16A085; color: #FFF; font-size:25px;");
+console.info("%c" + name, "background: #8E44AD; color: #FFF; font-size:25px;");
+console.warn("%c" + name, "background: #C0392B; color: #FFF; font-size:25px;");
 
 console.timeEnd("Medición de la impresión de mi nombre");
 
