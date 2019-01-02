@@ -65,7 +65,5 @@ var claseMasterJs = [
      { nombre: "Eva", posicion: "5"},
      { nombre: "Fabiola", posicion: "6"}
  ];
- 
 console.table(claseMasterJs);
- 
 console.table(claseMasterJs, "posicion");
