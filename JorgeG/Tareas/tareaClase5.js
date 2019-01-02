@@ -23,6 +23,6 @@ let numMen = prompt("introduzca el numero de hombres", "");
 let numWom = prompt("introduzca el numero de mujeres", "");
 let total = numMen + numWom
 
-console.log("el porcentaje de hombres es" + (numMen/(total)*100));
-console.log("el porcentaje de mujeres es" + (numWom/(total)*100));
-console.log("el total de alumnos es" + (total));
+console.log("el porcentaje de hombres es " + (numMen/(total)*100));
+console.log("el porcentaje de mujeres es " + (numWom/(total)*100));
+console.log("el total de alumnos es " + (total));
