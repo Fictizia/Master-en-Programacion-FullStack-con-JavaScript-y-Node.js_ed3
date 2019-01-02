@@ -1,10 +1,10 @@
 // 1 - Utiliza .assert para controlar cuando se muestra tu nombre por consola.
 
 var name = "Jorge";
-console.assert(nombre === "Jorge", "Right name");
+console.assert(name === "Jorge", "Right name");
 
 var name = "Paco";
-console.assert(nombre === "Jorge", "Wrong name");
+console.assert(name === "Jorge", "Wrong name");
 
 /* 2 - Crea un script que nos permita calcular el tiempo que se necesita para realizar la siguientes acciones.
 Especificaciones:
