@@ -101,3 +101,9 @@ switch (true) {
   default:
     console.log("primer numero positivo, multiplico todos entre ellos " + (num1 * num2 * num3));
 }
+
+//4 - Diseña un algoritmo que aplique al precio de un producto un descuento cuando se den las siguientes caracteristicas.
+
+//5 - Diseña un algoritmo que al introducir un numero nos diga si es positivo o negativo.
+
+//6 - Diseña un algoritmo que al introducir un número nos diga si es par o impar.
