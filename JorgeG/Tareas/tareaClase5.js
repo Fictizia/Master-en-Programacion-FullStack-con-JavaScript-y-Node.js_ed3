@@ -13,10 +13,10 @@ let num1 = prompt("introduzca un numero", "");
 let num2 = prompt("introduzca un numero", "");
 
 function basicCalculations(num1, num2){
-console.info("el resultado de la suma es " + (num1 + num2);
-console.info("el resultado de la resta es " + (num1 - num2);
-console.info("el resultado de la multiplicacion es " + (num1 * num2);
-console.info("el resultado de la division es " + (num1 / num2);
+console.info("el resultado de la suma es " + (num1 + num2));
+console.info("el resultado de la resta es " + (num1 - num2));
+console.info("el resultado de la multiplicacion es " + (num1 * num2));
+console.info("el resultado de la division es " + (num1 / num2));
              }
 
 //2 - Diseña un algoritmo para calcular el porcentaje de hombres y mujeres en nuestro curso.
