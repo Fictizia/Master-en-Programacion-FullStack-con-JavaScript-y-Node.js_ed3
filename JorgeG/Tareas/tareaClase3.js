@@ -69,7 +69,7 @@ var dicountedPrice = price*0.75;
 month = month.toLowerCase();
 day = day.toLowerCase();
 
-if (((month === "enero") || (month === "febrero") || (month === "marzo")) && ((day !== "viernes") && (day !== "sabado") && (weekday !== "domingo"))){
+if (((month === "enero") || (month === "febrero") || (month === "marzo")) && ((day !== "viernes") && (day !== "sabado") && (day !== "domingo"))){
   console.log("Precio rebajado!" + discountedPrice)
 }
   else {
