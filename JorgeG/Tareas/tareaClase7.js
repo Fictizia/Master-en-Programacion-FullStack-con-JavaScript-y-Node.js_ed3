@@ -1,4 +1,7 @@
-// Ejercicio 2
+//1 - Diseña un algoritmo para identificar a los clientes autorizados a entrar a nuestro sistema
+
+
+//2 - Diseña un algoritmo que imprima los numeros del 1 al 100.
 
 // Usando for
 
@@ -16,7 +19,7 @@ if (i === 100)
     i++;
     }
 
-// Usando do..while
+// Usando do-while
 
 var i = 0;
 do {
@@ -24,7 +27,7 @@ do {
    console.log(i);
 } while (i < 100);
 
-// Ejercicio 3
+//3 - Diseña un algoritmo que imprima los numeros del 100 al 0.
 
 // usando for
 
@@ -42,7 +45,7 @@ if (i === 0)
     i--;
     }
 
-// usando do...while
+// usando do-while
 
 var i = 100;
 do {
@@ -50,7 +53,10 @@ do {
    console.log(i);
 } while (i => 0);
 
-// Ejercicio 5
+//4 - Diseña un algoritmo que imprima los numeros pares entre 0 y 100.
+
+
+//5 - Diseña un algoritmo que imprima los números impares entre un número dado por el usuario y los siguientes 50 números.
 
 // usando for
 
