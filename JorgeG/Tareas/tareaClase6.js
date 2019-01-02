@@ -95,7 +95,7 @@ let num2 = prompt("escriba un segundo numero","");
 let num3 = prompt("escriba un tercer numero","");
 
 switch (true) {
-  case ((num1 < 0):
+  case (num1 < 0):
     console.log("primer numero negativo, sumo los otros dos " + (num2 + num3));
     break;
   default:
