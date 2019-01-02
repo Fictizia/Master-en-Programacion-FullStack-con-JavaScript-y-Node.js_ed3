@@ -77,5 +77,32 @@ Mostrar el resultado final incluyendo una referencia a la operación realizada.
 
 //usando if-else
 
+let num1 = prompt("escriba un primer numero","");
+let num2 = prompt("escriba un segundo numero","");
+let num3 = prompt("escriba un tercer numero","");
+
+if (num1 < 0) {
+  console.log("primer numero negativo, sumo los otros dos " + (num2 + num3));
+}
+else {
+  console.log("primer numero positivo, multiplico todos entre ellos " + (num1 * num2 * num3));
+}
+
 //usando switch
+
+let num1 = prompt("escriba un primer numero","");
+let num2 = prompt("escriba un segundo numero","");
+let num3 = prompt("escriba un tercer numero","");
+
+switch (true) {
+  case ((num1 < 0):
+    console.log("primer numero negativo, sumo los otros dos " + (num2 + num3));
+    break;
+  default:
+    console.log("primer numero positivo, multiplico todos entre ellos " + (num1 * num2 * num3));
+}
+
+
+
+
 
