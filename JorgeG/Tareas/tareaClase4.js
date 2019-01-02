@@ -37,6 +37,23 @@ console.timeEnd("Medición de la impresión de mi nombre");
 // 4 - Agrupa cada tipo de mensaje y añade un contador de tiempo por cada grupo.
 
 
+console.group(logGroup);
+console.time(logTime);
+console.log("%c Jorge", "background: #16A085; color: #FFF; font-size:25px;");
+console.timeEnd(logTime);
+console.groupEnd(logGroup);
+
+console.group(infoGroup);
+console.time(infoTime);
+console.info("%c Jorge", "background: #8E44AD; color: #FFF; font-size:25px;");
+console.timeEnd(infoTime);
+console.groupEnd(infoGroup);
+
+console.group(warnGroup);
+console.time(warnTime);
+console.warn("%c Jorge", "background: #C0392B; color: #FFF; font-size:25px;");
+console.timeEnd(warnTime);
+console.groupEnd(warnGroup);
 
 // 5 -tabla de posiciones de compañeros (de izquierda a derecha, de delante hacia atrás)
 
