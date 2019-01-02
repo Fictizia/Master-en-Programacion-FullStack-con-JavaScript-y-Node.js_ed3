@@ -64,16 +64,16 @@ Y no es viernes o fin de semana.
 var month = prompt("escribe el mes en el que estamos");
 var day = prompt("escribe el día de la semana que es hoy");
 var price = prompt("escribe el precio del producto");
-var dicountedPrice = price*0.75;
+var discountedPrice = price*0.75;
 
 month = month.toLowerCase();
 day = day.toLowerCase();
 
 if (((month === "enero") || (month === "febrero") || (month === "marzo")) && ((day !== "viernes") && (day !== "sabado") && (day !== "domingo"))){
-  console.log("Precio rebajado!" + discountedPrice)
+  console.log("Precio rebajado! " + discountedPrice)
 }
   else {
-    console.log("Precio normal" + price);
+    console.log("Precio normal " + price);
   }
 
 /*8 - Diseña un algoritmo para identificar a los clientes autorizados a entrar a nuestro sistema.
