@@ -11,6 +11,14 @@ Especificaciones:
 Imprimir tu nombre usando console.log, console.info, console.warn
 */
 
+console.time("Medición de la impresión de mi nombre");
+
+console.log("Jorge");
+console.info("Jorge");
+console.warn("Jorge");
+
+console.timeEnd("Medición de miArray");
+
 
 // 3 - Partiendo del ejercicio anterior mejora los estilos de cada mensaje usando estilos.
 
