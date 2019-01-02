@@ -11,26 +11,26 @@ Especificaciones:
 Imprimir tu nombre usando console.log, console.info, console.warn
 */
 
-console.time("Medición de la impresión de mi nombre iniciada");
+console.time("Medición de la impresión de mi nombre");
 
 var name = "Jorge";
 console.log(name);
 console.info(name);
 console.warn(name);
 
-console.timeEnd("Medición de la impresión de mi nombre finalizada");
+console.timeEnd("Medición de la impresión de mi nombre");
 
 
 // 3 - Partiendo del ejercicio anterior mejora los estilos de cada mensaje usando estilos.
 
 
-console.time("Medición de la impresión de mi nombre iniciada");
+console.time("Medición de la impresión de mi nombre");
 
 console.log("%c Jorge", "background: #16A085; color: #FFF; font-size:25px;");
 console.info("%c Jorge", "background: #8E44AD; color: #FFF; font-size:25px;");
 console.warn("%c Jorge", "background: #C0392B; color: #FFF; font-size:25px;");
 
-console.timeEnd("Medición de la impresión de mi nombre finalizada");
+console.timeEnd("Medición de la impresión de mi nombre");
 
 // 4 - Agrupa cada tipo de mensaje y añade un contador de tiempo por cada grupo.
 
