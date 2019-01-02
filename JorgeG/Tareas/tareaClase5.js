@@ -19,7 +19,10 @@ console.info("el resultado de la division es " + (num1 / num2));
 
 //2 - Diseña un algoritmo para calcular el porcentaje de hombres y mujeres en nuestro curso.
 
-let nummen = prompt("introduzca el numero de hombres", "");
-let numwom = prompt("introduzca el numero de mujeres", "");
-console.log("el porcentaje de hombres es" + (nummen/(nummen+numwom)*100);
-console.log("el porcentaje de mujeres es" + (numwom/(nummen+numwom)*100);
+let numMen = prompt("introduzca el numero de hombres", "");
+let numWom = prompt("introduzca el numero de mujeres", "");
+let total = numMen + numWom
+
+console.log("el porcentaje de hombres es" + (nummen/(total)*100);
+console.log("el porcentaje de mujeres es" + (numwom/(total)*100);
+console.log("el total de alumnos es" + (total));
