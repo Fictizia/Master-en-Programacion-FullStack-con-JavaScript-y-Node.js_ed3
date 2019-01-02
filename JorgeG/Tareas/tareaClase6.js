@@ -1,6 +1,6 @@
-// Ejercicio 1
+//1 - Diseña un algoritmo que lea dos números y los compare. Como resultado esperamos que nos diga cual es mayor... o si son iguales.
 
-// usando if..else
+//usando if-else
 
 let num1 = prompt("escriba un 1er numero","");
 let num2 = prompt("escriba un 2º numero","");
@@ -14,27 +14,25 @@ else {
   console.log("el 2º numero es mayor");
 }
 
-// usando switch
+//usando switch
 
 let num1 = prompt("escriba un 1er numero","");
 let num2 = prompt("escriba un 2º numero","");
 
-let num = num1/num2
-
 switch (true) {
-  case (num > 1):
+  case (num1 > num2):
     console.log("el primer numero es mayor");
     break;
-  case (num < 1):
+  case (num1 < num2):
     console.log("el segundo es mayor");
     break;
-  case (num = 1):
+  default:
     console.log("los numeros son iguales");
 }
 
-//Ejercicio 2
+//2 - Diseña un script que lea tres números distintos y nos diga cual de ellos es el mayor.
 
-// usando if..else
+//usando if-else
 
 let num1 = prompt("escriba un 1er numero","");
 let num2 = prompt("escriba un 2º numero","");
@@ -49,3 +47,6 @@ console.log("el 2º numero es mayor");
 else {
 console.log("el 3er numero es mayor");
 }
+
+//usando switch
+
