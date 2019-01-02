@@ -69,5 +69,13 @@ switch (true) {
     console.log("los numeros son iguales");
 }
 
+/*3 - Diseña un script que siga el siguiente proceso:
+Si el primero es negativo, debe sumar los otros dos
+Sino multiplicará los tres numeros
+Mostrar el resultado final incluyendo una referencia a la operación realizada.
+*/
 
+//usando if-else
+
+//usando switch
 
