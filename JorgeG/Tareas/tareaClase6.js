@@ -121,4 +121,25 @@ if ((month = "enero") || (month = "febrero") || (month = "marzo") && (day !== "v
 
 //5 - Diseña un algoritmo que al introducir un numero nos diga si es positivo o negativo.
 
+var num = prompt("escribe un numero")
+switch (true) {
+  case (num < 0):
+    console.log("el numero es negativo");
+    break;
+  case (num > 0):
+    console.log("el numero es positivo");
+    break;
+  default:
+    console.log("los numeros son iguales");
+}
+
 //6 - Diseña un algoritmo que al introducir un número nos diga si es par o impar.
+
+var num = prompt("escribe un numero")
+
+if (num%2 = 0) {
+    console.log("el numero es par");
+}
+  else {
+    console.log("el numero es impar");
+  }
