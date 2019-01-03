@@ -107,16 +107,16 @@ Se aplica un 25% cuando:
 Estamos en los meses de invierno
 Y no es viernes o fin de semana.*/
 
-var day = prompt("escribe el dia de la semana que es hoy")
-var month = prompt("escribe el mes actual")
-var price = prompt("escribe el precio del producto", "€")
-var discountedPrice = price*0.75
+var day = prompt("escribe el dia de la semana que es hoy");
+var month = prompt("escribe el mes actual");
+var price = prompt("escribe el precio del producto", "€");
+var discountedPrice = price*0.75;
 
 if ((month = "enero") || (month = "febrero") || (month = "marzo") && (day !== "viernes") && (day !== "sabado") && (day !== "domingo")) {
-    console.log("precio rebajado " + discountedPrice)
+    console.log("precio rebajado " + discountedPrice);
 }
   else {
-    console.log("precio normal " + price)
+    console.log("precio normal " + price);
   }
 
 //5 - Diseña un algoritmo que al introducir un numero nos diga si es positivo o negativo.
