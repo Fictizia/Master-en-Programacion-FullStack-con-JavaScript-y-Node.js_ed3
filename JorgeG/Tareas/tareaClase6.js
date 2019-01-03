@@ -112,7 +112,7 @@ var month = prompt("escribe el mes actual");
 var price = prompt("escribe el precio del producto", "€");
 var discountedPrice = price*0.75;
 
-if ((month = "enero") || (month = "febrero") || (month = "marzo") && (day !== "viernes") && (day !== "sabado") && (day !== "domingo")) {
+if ((month === "enero") || (month === "febrero") || (month === "marzo") && (day !== "viernes") && (day !== "sabado") && (day !== "domingo")) {
     console.log("precio rebajado " + discountedPrice);
 }
   else {
@@ -135,9 +135,9 @@ switch (true) {
 
 //6 - Diseña un algoritmo que al introducir un número nos diga si es par o impar.
 
-var num = prompt("escribe un numero")
+var num = prompt("escribe un numero");
 
-if (num%2 = 0) {
+if (num%2 === 0) {
     console.log("el numero es par");
 }
   else {
