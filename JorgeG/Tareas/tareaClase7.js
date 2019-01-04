@@ -6,7 +6,7 @@ Si se pasan los tres intentos. Se despliega un mensaje informativo.*/
 var password = null;
 var loginAttempts = 0;
 
-while (loginAttempts <= 3) {
+while (loginAttempts < 3) {
     password = prompt("escribe la contraseña");
     if (password = "Fictizia mola mucho"){
         console.log("contraseña correcta");
@@ -15,8 +15,12 @@ while (loginAttempts <= 3) {
     else {
         console.log("contraseña incorrecta");
         loginAttempts += 1;
+        if (loginAttempts === 3) {
+            console.log("maximo numero de intentos alcanzado")
+            break;
+        }
     }
-} 
+}
 
 //2 - Diseña un algoritmo que imprima los numeros del 1 al 100.
 
