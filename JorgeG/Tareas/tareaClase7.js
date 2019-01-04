@@ -3,16 +3,18 @@ La palabra clave es "Fictizia mola mucho"
 Solo existen tres intentos
 Si se pasan los tres intentos. Se despliega un mensaje informativo.*/
 
-var password = prompt("escribe la contraseña");
+var password = null
 var loginAttempts = 0;
 
 while (loginAttempts <= 3) {
+    password = prompt("escribe la contraseña");
     if (password = "Fictizia mola mucho"){
         console.log("contraseña correcta");
+        break;
     }
     else {
         console.log("contraseña incorrecta");
-        loginAttempts += 1
+        loginAttempts += 1;
     }
 } 
 
