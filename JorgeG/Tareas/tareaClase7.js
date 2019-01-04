@@ -22,7 +22,7 @@ while (loginAttempts <= 3) {
 
 // Usando for
 
-for (var i = 0; i < 100; i++) {
+for (var i = 1; i <= 100; i++) {
     console.log(i);
 }
 
@@ -31,18 +31,19 @@ for (var i = 0; i < 100; i++) {
 var i = 1;
 while (i <= 1000) {
     console.log(i);
-if (i === 100) 
+    if (i === 100) {
     	break;
     i++;
     }
+}
 
 // Usando do-while
 
-var i = 0;
+var i = 1;
 do {
-   i++;
-   console.log(i);
-} while (i < 100);
+    console.log(i);
+    i++;
+} while (i <= 100);
 
 //3 - Diseña un algoritmo que imprima los numeros del 100 al 0.
 
