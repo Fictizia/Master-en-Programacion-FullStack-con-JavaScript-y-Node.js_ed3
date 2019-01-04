@@ -3,7 +3,7 @@ La palabra clave es "Fictizia mola mucho"
 Solo existen tres intentos
 Si se pasan los tres intentos. Se despliega un mensaje informativo.*/
 
-var password = null
+var password = null;
 var loginAttempts = 0;
 
 while (loginAttempts <= 3) {
