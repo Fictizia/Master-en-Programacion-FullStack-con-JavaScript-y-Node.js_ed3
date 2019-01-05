@@ -62,17 +62,18 @@ for (var i = 100; i >= 0; i--) {
 var i = 100;
 while (i => 0) {
     console.log(i);
-if (i === 0) 
+    if (i === 0) {
     	break;
     i--;
-    }
+    }  
+}
 
 // usando do-while
 
 var i = 100;
 do {
-   i--;
    console.log(i);
+   i--;
 } while (i => 0);
 
 //4 - Diseña un algoritmo que imprima los numeros pares entre 0 y 100.
