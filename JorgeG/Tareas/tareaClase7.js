@@ -78,6 +78,12 @@ do {
 
 //4 - Diseña un algoritmo que imprima los numeros pares entre 0 y 100.
 
+for (i = 0; i <= 100; i++){
+    console.log(i)
+    
+    if (i%2 = 0)
+    
+
 
 //5 - Diseña un algoritmo que imprima los números impares entre un número dado por el usuario y los siguientes 50 números.
 
