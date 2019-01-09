@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Buenos Días, Madrid</title>
+    <meta name="description" content="Good Morning Madrid">
+    <meta name="author" content="Ulises Gascón">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- owfont - symbol font for Open Weather Map API -->
+    <link href="css/owfont-regular.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="alert alert-dismissible alert-danger" id="error-ajax">
+        <button type="button" class="close" data-dismiss="alert">x</button>
+        <strong>Oh Error!</strong> Error al cargar los datos del <a href="http://airemad.com/api" target="_blank" class="alert-link">AireMAD API</a>
+      </div>
+      <div class="page-header">
+        <h3 id="titulo_lista">Buenos Días, Madrid!</h3>
+      </div>
+      <div id="cargando">
+        <img alt="fancy spinner" src="spinner.gif">
+      </div>
+      <div class="row" id="principal">
+        <div class="col-md-6" id="colAhora"></div>
+        <div class="col-md-6" id="colContaminacion"></div>
+      </div>
+      <hr>
+      <div class="row" id="row-contenido">
+        <div class="col-md-3" id="col1"></div>
+        <div class="col-md-3" id="col2"></div>
+        <div class="col-md-3" id="col3"></div>
+        <div class="col-md-3" id="col4"></div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

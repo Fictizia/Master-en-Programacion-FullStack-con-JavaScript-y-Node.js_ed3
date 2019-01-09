@@ -1,0 +1,50 @@
+ html {
+      position: relative;
+      min-height: 100%;
+      }
+      .azul-madrid {
+      color: #0676BE;
+      }
+      body {
+      /* Margin bottom by footer height */
+      margin-bottom: 60px;
+      }
+      .owf-12x {
+      font-size: 12em;
+      }
+      .amazon {
+      width: 125px;
+      }
+      .row {
+      display: none;
+      }
+      ul {
+      padding: 0px;
+      }
+      li {
+      list-style-type: none;
+      }
+      #cabecera-meteo {
+      font-size: 20px;
+      }
+      #camara-trafico {
+      height: 280px;
+      width: 500px;
+      }
+      #foto-portada {
+      margin-bottom: -15px;
+      }
+      #back-boton {
+      display: none;
+      margin-bottom: 20px;
+      }
+      #error-ajax {
+      display: none;
+      }
+      #cargando {
+      float: none;
+      margin: auto;
+      }
+      .caratula {
+      width: 230px;
+      }
