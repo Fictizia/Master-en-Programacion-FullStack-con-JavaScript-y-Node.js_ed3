@@ -229,6 +229,6 @@ The output should be the final coordinates and heading.
 function setup(5, “1 2 N”, [“L”, “M”, “L”, “M”, “L”, “M”, “L”, “M”, “M”])
 Expected Output: “1 3 N”
 
-```javascript
-    // Tu solución 
-```
+**Soluciones**
+- [Mejor explicación hasta la fecha](https://github.com/Fictizia/Curso-JS-para-desarrolladores-web_ed7/issues/9#issuecomment-269602582)
+- [Un solucion formal en código](https://gist.github.com/UlisesGascon/39f1ddf4500ed07dc510885b41183491)
