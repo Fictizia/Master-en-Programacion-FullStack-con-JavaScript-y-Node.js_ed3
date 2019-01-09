@@ -114,7 +114,38 @@ Notas:
 - Necesitas primero resolver el ejercicio anterior para poder tener una consola disponible
 
 ```javascript
-    // Tu solución
+    var scrollSpeed = 1000;
+    var totalUsuariosUnicos = 50;
+    var scrollInterval = setInterval(function(){
+      if(validFrame()){
+          console.log("¡Necesitamos scrollear más!")
+          window.scrollTo(0,document.body.scrollHeight);
+      }
+    }, scrollSpeed);
+
+    function validFrame (){
+        var users = getUsers();
+        console.log(`Ya tenemos ${users.size}/${totalUsuariosUnicos} usuarios únicos`);
+        if (users.size >= totalUsuariosUnicos) {
+            clearInterval(scrollInterval);
+            for (let user of users) {
+              console.log(`User: ${ user }`);
+            }
+            return false;
+        }  else {
+            return true;
+        }
+    }
+    
+    function getUsers() {
+        var usuariosSlctr = document.querySelectorAll(".stream-item-header > a")
+        var usuarios = new Set()
+    
+        for (var i = 0; i < usuariosSlctr.length; i++) {
+        	usuarios.add(usuariosSlctr[i].href.replace("https://twitter.com/", "@"))
+        }
+        return usuarios
+    }
 ```
 
 **3 -** Publica un tweet sin usar el ratón desde la web de Twitter.com... mencionando a @fictiziaEscuela :-)
