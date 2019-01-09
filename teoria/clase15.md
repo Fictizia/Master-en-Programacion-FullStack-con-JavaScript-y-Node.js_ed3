@@ -151,5 +151,7 @@ Notas:
 **3 -** Publica un tweet sin usar el ratón desde la web de Twitter.com... mencionando a @fictiziaEscuela :-)
 
 ```javascript
-    // Tu solución
+    document.getElementById("global-new-tweet-button").click()
+    document.querySelector("div.tweet-box.rich-editor.is-showPlaceholder > div").innerText = "@fictiziaEscuela Esto es una prueba... ignorar... Gracias! 🔥🔥🔥"
+    document.querySelector(".SendTweetsButton").click()
 ```
