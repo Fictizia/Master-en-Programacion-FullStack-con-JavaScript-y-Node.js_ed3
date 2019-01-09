@@ -69,6 +69,7 @@ Fecha | Teoría | Recursos | Contenido
 17/12/18 | [Clase 29](teoria/clase29.md) | Clase 29 | ECMA6, es7, es8, es9 IV: Ejercicios II
 19/12/18 | [Clase 30](teoria/clase30.md) | [Clase 30](recursos/clase30.md) | Router Frontend + templates
 21/12/18 | [Clase 31](teoria/clase31.md) | [Clase 31](recursos/clase31.md) | Paradigmas: Programación orientada a Objetos
+09/01/18 | [Clase 32](teoria/clase32.md) | [Clase 32](recursos/clase32.md) | Patrones en JS I: Antipatrones
 
 
 [Temario](https://coggle.it/diagram/W5ZfeGRd293lprIt/t/master-js-y-node-de-fictizia)
