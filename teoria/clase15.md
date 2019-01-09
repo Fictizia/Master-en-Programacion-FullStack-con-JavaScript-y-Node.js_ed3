@@ -25,7 +25,86 @@ for (var method in console){
 ```
 
 ```javascript
-// Tu solución
+var loggerDiv = document.createElement('div')
+loggerDiv.setAttribute("id", "logger")
+document.body.appendChild(loggerDiv)
+addCSS(document.getElementById("logger"), {
+    "z-index": 1000,
+    "font-family": "monospace",
+    "color": "rgb(21, 157, 25)",
+    "background-color": "black",
+    "position": "fixed",
+    "max-height": "300px",
+    "min-height": "75px",
+    "min-width": "100%",
+    "bottom": "0px",
+    "left": "0px",
+    "padding": "10px",
+    "overflow": "scroll",
+    "margin": "0px",
+    "box-sizing": "border-box",
+    "padding-top": "30px"
+})
+
+
+function addCSS (element, cssObj) {
+    for (var property in cssObj){
+       element.style[property] = cssObj[property]
+    }
+}
+
+
+
+
+var loggerHeader = document.createElement('h3')
+loggerHeader.setAttribute("id", "logger-header")
+loggerHeader.innerText = "H4CK3D TWITTER CONSOLE"
+document.getElementById("logger").appendChild(loggerHeader)
+
+
+addCSS(document.getElementById("logger-header"), {
+    "border-bottom": "1px solid rgb(21, 157, 25)",
+    "color": "rgb(21, 157, 25)",
+    "z-index": 10000,
+    "position":"fixed",
+    "display": "block",
+    "margin-top": "-30px",
+    "width": "100%",
+    "background-color": "black",
+    "line-height": "30px"
+})
+
+
+
+// Solve (edge case): Break `console = null` logic
+if (!console || typeof(console) !== "object"){
+    // poner en otra tab -> Object.keys(console)
+    var expectedThings = ["debug", "error", "info", "log", "warn", "dir", "dirxml", "table", "trace", "group", "groupCollapsed", "groupEnd", "clear", "count", "assert", "markTimeline", "profile", "profileEnd", "timeline", "timelineEnd", "time", "timeEnd", "timeStamp", "context", "memory"]
+    window.console = console || {}
+    
+    expectedThings.forEach(function(item){
+          console[item] = function (){}
+    });
+}
+
+
+
+// Restore beahviour with DOM support hack
+for (var method in console){
+	console[method] = function(msg){
+           loggerDiv.innerHTML += `<p>${method === "memory" ? new Date().getTime() : method }: ${msg}</p>`; 
+      }
+}
+
+console.log("Hi Twitter, U just got PWNED!")
+
+console.hide = function(){
+         loggerDiv.style.display = "none";
+}
+
+console.show = function(){
+        loggerDiv.style.display = "block";
+}
 ```
 
 
