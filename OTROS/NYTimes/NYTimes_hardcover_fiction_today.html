@@ -1,0 +1,153 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>NYTimes API</title>
+    <meta name="description" content="NYTimes API example">
+    <meta name="author" content="Ulises Gascón">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <style type="text/css">
+        html {
+            position: relative;
+            min-height: 100%;
+        }
+
+        body {
+            /* Margin bottom by footer height */
+            margin-bottom: 60px;
+        }
+
+        .amazon {
+            width: 125px;
+        }
+
+        #error-ajax {
+            display: none;
+        }
+
+        #cargando {
+            float: none;
+            margin: auto;
+        }
+
+        .caratula {
+            width: 230px;
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 40px;
+            background-color: #F1F1F1;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="alert alert-dismissible alert-danger" id="error-ajax">
+            <button type="button" class="close" data-dismiss="alert">x</button>
+            <strong>Oh Error!</strong> Error al cargar los datos del <a href="http://developer.nytimes.com/" target="_blank" class="alert-link">NYTimes API</a>
+        </div>
+
+        <div class="page-header">
+            <h1>Top Hardcover Fiction</h1>
+        </div>
+        <div id="cargando">
+            <img src="https://i.gifer.com/AGau.gif">
+        </div>
+
+        <div class="row" id="row-contenido">
+            <div class="col-md-3" id="col1"></div>
+            <div class="col-md-3" id="col2"></div>
+            <div class="col-md-3" id="col3"></div>
+            <div class="col-md-3" id="col4"></div>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="text-muted">
+                <a href="http://developer.nytimes.com/" target="_blank"><img src="http://graphics8.nytimes.com/packages/images/developer/logos/poweredby_nytimes_200b.png"></a>
+            </p>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script>
+        var apiKey = "";
+        var fecha = "2018-02-01";
+        var divID = "col4";
+
+        function pushToHTML(datos) {
+            var contenido;
+
+            if (divID === "col4") {
+                divID = "col1";
+            } else if (divID === "col1") {
+                divID = "col2";
+            } else if (divID === "col2") {
+                divID = "col3";
+            } else if (divID === "col3") {
+                divID = "col4";
+            }
+
+            console.info(divID);
+            contenido = '<div class="panel panel-default"><div class="panel-body">';
+            contenido += '<p><strong> #' + datos.rank + ' ' + datos.title + '</strong><p>';
+            contenido += '<img class="caratula" src="' + datos.book_image + '">';
+            contenido += '<p><i>Weeks on list: ' + datos.weeks_on_list + '</i></p>';
+            contenido += '<p>' + datos.description + '</p>';
+            contenido += '<a href="' + datos.amazon_product_url + '" target="_blank" class="btn btn-warning">Buy at Amazon <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span></a>';
+            contenido += '</div></div>';
+
+            document.getElementById(divID).innerHTML += contenido;
+
+        }
+
+        function peticionAjax(url) {
+            var xmlHttp = new XMLHttpRequest();
+
+            xmlHttp.onreadystatechange = function() {
+                if (xmlHttp.readyState === 4) {
+                    if (xmlHttp.status >= 100 && xmlHttp.status <= 300) {
+
+                        document.getElementById("cargando").style.display = 'none';
+                        var datosCrudos = JSON.parse(xmlHttp.responseText);
+
+                        var datos = datosCrudos.results.books;
+                        console.info(datos);
+
+                        for (var i = 0; i < datos.length; i++) {
+                            pushToHTML(datos[i]);
+                        }
+                    } else if (xmlHttp.status >= 400 && xmlHttp.status <= 600) {
+                        document.getElementById("cargando").style.display = 'none';
+                        document.getElementById("error-ajax").style.display = 'block';
+                        document.getElementById("row-contenido").innerHTML = '<img src="http://www.404notfound.fr/assets/images/pages/img/androiddev101.jpg">';
+                        console.error("ERROR! 404", JSON.parse(xmlHttp.responseText));
+                    }
+                }
+            };
+            xmlHttp.open("GET", url, true);
+            xmlHttp.send();
+        }
+
+        peticionAjax("http://api.nytimes.com/svc/books/v3/lists/" + fecha + "/hardcover-fiction.json?api-key=" + apiKey);
+    </script>
+</body>
+
+</html>

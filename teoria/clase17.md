@@ -432,9 +432,7 @@ Server:
 
 ![NYTimes.png](../OTROS/NYTimes.png)
 
-```javascript
-    // Tu solución
-```
+**[Solución](../OTROS/NYTimes/NYTimes_hardcover_fiction_today.html)**
 
 
 ### Tiempo para proyecto personal
