@@ -986,11 +986,6 @@ console.log(array2); //[1, 2, 3, "MANDARINA"]
 - [Immutable structures and cloning](http://www.jstips.co/en/javascript/immutable-structures-and-cloning/)
 
 
-### Librerías esenciales @@ULISES
-- http://elasticlunr.com/
-- https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore
-- https://blog.bitsrc.io/11-javascript-utility-libraries-you-should-know-in-2018-3646fb31ade
-
 ### Resumen de la clase :muscle::muscle:
 
 ![img](../assets/clase24/75efb44e-fb06-420c-afc8-ffba5257a4b0.jpeg)
