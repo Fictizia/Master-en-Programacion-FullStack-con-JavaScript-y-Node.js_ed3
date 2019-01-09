@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Github | OSINT Project</title>
+</head>
+<body>
+    <h1>Github | OSINT Project</h1>
+    <img style="max-width:600px;" src="https://enterprise.github.com/assets/aws/aws-animation-teaser-large-5ac827d7617d87a2c90d5094773516f2b882ab8abe654bbc30f4ba816bfba51c.jpg"></img>
+    <h3>Open-source intelligence (OSINT) is intelligence collected from publicly available sources. In the intelligence community (IC), the term “open” refers to overt, publicly available sources (as opposed to covert or clandestine sources); it is not related to open-source software or public intelligence.</h3>
+    <input id="user">
+    <h4> Resultados:</h4>
+    <hr>
+    <div id="resultados">
+        
+    </div>
+    <script type="text/javascript">
+    (function(){
+        document.getElementById("user").addEventListener("keypress", function(e){
+            if (e.keyCode == 13) {
+                var user = document.getElementById("user").value.trim();
+                console.log("Valor:", user)
+                
+                if(user){
+                    peticionAjax("https://api.github.com/users/"+user, function(data){
+                        data = JSON.parse(data);
+                        if(data.email){
+                            pintaDatos(data)
+                        } else {
+                           peticionAjax("https://api.github.com/users/"+user+"/events", function(data_events){
+                               
+                                // https://regex101.com/r/gm32zb/1/codegen?language=javascript
+                                var emails = []
+                                var  regex = /(?:[a-z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+\/=?^_`{|}~-]+)*|"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])/g;
+                                let m;
+                
+                                while ((m = regex.exec(data_events)) !== null) {
+                                    // This is necessary to avoid infinite loops with zero-width matches
+                                    if (m.index === regex.lastIndex) {
+                                        regex.lastIndex++;
+                                    }
+                                    
+                                    // The result can be accessed through the `m`-variable.
+                                    m.forEach(function (match, groupIndex) {
+                                        var badEmails = ["git@github.com", "badges@fossa.io", user+"@users.noreply.github.com"]
+                                        if(badEmails.indexOf(match) === -1) {
+                                            emails.push(match)
+                                        }
+                                    });
+                                }
+                                
+                                // https://stackoverflow.com/a/14438954
+                                function onlyUnique(value, index, self) { 
+                                    return self.indexOf(value) === index;
+                                }
+                                
+                                data.email = emails.filter( onlyUnique );
+                                pintaDatos(data)
+                            })
+                        }
+                    });
+                }
+            }
+            
+        })
+        
+        
+        function peticionAjax(url, cb) {
+        var xmlHttp = new XMLHttpRequest();
+
+        xmlHttp.onreadystatechange = function() {
+
+            if (xmlHttp.readyState === 4){
+                if(xmlHttp.status === 200) {
+                    cb(xmlHttp.responseText);
+                } else{
+                    console.error("ERROR! 404");
+                    console.info(JSON.parse(xmlHttp.responseText));
+                }
+            }
+        };
+        xmlHttp.open("GET", url, true);
+        xmlHttp.send();
+    }
+
+    function pintaDatos (data){
+        document.getElementById("resultados").innerHTML = `<img src="${data.avatar_url}">
+        <p>Name: <i>${data.name} (${data.login})</i></p>
+        <p>Email: <i>${data.email? Array.isArray(data.email) ? data.email.join(', ') : data.email : "Not found"}</i><p>
+        <p>Bio: <i>${data.bio}</i></p>
+        <p>Blog: <i>${data.blog}</i></p>
+        <p>Company: <i>${data.company}</i></p>
+        <p>Vanity Rank: ${data.followers} | ${data.following} - ${Math.random().toFixed(2)}</p>
+        <p>Impact Rank: ${data.public_repos} | ${data.public_gists} - ${Math.random().toFixed(2)}</p>
+        <p>Hireable: <i>${data.hireable}</i></p>
+        <p>Location: <i>${data.location}</i></p>
+        <hr>`;
+    }
+    })();
+    
+    </script>
+</body>
+</html>

@@ -19,6 +19,4 @@ Hagamos una aplicación web que nos pregunte por un usuario de github...
 - Devolveremos su información de perfil incluyendo el email.
 - Si el email no aparece, utilizaremos los eventos para mostrarlo.
 
-```javascript
-    // Tu solución
-```
+**[Tu solución](OTROS/social_github)**
