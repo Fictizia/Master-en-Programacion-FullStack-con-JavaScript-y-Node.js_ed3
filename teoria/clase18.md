@@ -147,6 +147,4 @@ fetch('https://davidwalsh.name/submit', {
 ![NYTimes.png](../OTROS/NYTimes/img/best_sellers2.png)
 
 
-```javascript
-    // Tu solución
-```
+**[Solución](../OTROS/NYTimes/NYTimes_best_sellers.html)**

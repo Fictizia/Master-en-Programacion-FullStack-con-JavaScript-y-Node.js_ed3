@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>NYTimes API</title>
+    <meta name="description" content="NYTimes API example">
+    <meta name="author" content="Ulises Gascón">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="http://bootswatch.com/paper/bootstrap.min.css">
+
+    <style type="text/css">
+        html {
+            position: relative;
+            min-height: 100%;
+        }
+
+        body {
+            /* Margin bottom by footer height */
+            margin-bottom: 60px;
+        }
+
+        .amazon {
+            width: 125px;
+        }
+
+        ul {
+            padding: 0px;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        #foto-portada {
+            margin-bottom: -15px;
+        }
+
+        #back-boton {
+            display: none;
+            margin-bottom: 20px;
+        }
+
+        #error-ajax {
+            display: none;
+        }
+
+        #cargando {
+            float: none;
+            margin: auto;
+        }
+
+        .caratula {
+            width: 230px;
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            /* Set the fixed height of the footer here */
+            height: 40px;
+            background-color: #F1F1F1;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+
+        <div class="alert alert-dismissible alert-danger" id="error-ajax">
+            <button type="button" class="close" data-dismiss="alert">x</button>
+            <strong>Oh Error!</strong> Error al cargar los datos del <a href="http://developer.nytimes.com/" target="_blank" class="alert-link">NYTimes API</a>
+        </div>
+
+        <div class="page-header">
+            <img id="foto-portada" src="img/ny_bestsellers.png">
+            <h3 id="titulo_lista"></h3>
+        </div>
+        <div id="cargando">
+            <img src="https://i.gifer.com/AGau.gif">
+        </div>
+
+        <div class="row" id="row-contenido">
+            <div id="back-boton">
+                <a href="javascript:returnIndex();" class="btn btn-danger">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Back to index
+                </a>
+            </div>
+            <div class="col-md-3" id="col1"></div>
+            <div class="col-md-3" id="col2"></div>
+            <div class="col-md-3" id="col3"></div>
+            <div class="col-md-3" id="col4"></div>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="text-muted">
+                <a href="http://developer.nytimes.com/" target="_blank"><img src="http://graphics8.nytimes.com/packages/images/developer/logos/poweredby_nytimes_200b.png"></a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script>
+        var apiKey = ""; // API KEY
+        var fecha = "2016-03-13";
+        var divID = "col4";
+
+        function pushToHTML(datos, tipo) {
+            var contenido;
+
+            // Calcular la columna
+            if (divID === "col4") {
+                divID = "col1";
+            } else if (divID === "col1") {
+                divID = "col2";
+            } else if (divID === "col2") {
+                divID = "col3";
+            } else if (divID === "col3") {
+                divID = "col4";
+            }
+
+            // Modificando el HTML
+            if (tipo === true) {
+                // Creando el nuevo panel
+                contenido = '<div class="panel panel-default"><div class="panel-body">';
+                contenido += '<p><strong> #' + datos.rank + ' ' + datos.title + '</strong><p>';
+
+                // Verificando la existencia del poster
+                if (datos.book_image) {
+                    contenido += '<img class="caratula" src="' + datos.book_image + '">';
+                }
+
+                contenido += '<p><i>Weeks on list: ' + datos.weeks_on_list + '</i></p>';
+                contenido += '<p>' + datos.description + '</p>';
+                contenido += '<a href="' + datos.amazon_product_url + '" target="_blank" class="btn btn-warning">Buy at Amazon <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span></a>';
+                contenido += '</div></div>';
+
+                // Actualizando el HTML
+                document.getElementById(divID).innerHTML += contenido;
+
+            } else {
+
+                // Creando el nuevo panel
+                contenido = '<div class="panel panel-default"><div class="panel-body" data-encoded="' + datos.list_name_encoded + '">';
+                contenido += '<h4>' + datos.display_name + '</h4><hr>';
+                contenido += '<ul><li>Oldest: ' + datos.oldest_published_date + '</li>';
+                contenido += '<li>Newest: ' + datos.newest_published_date + '</li>';
+                contenido += '<li>Updated: ' + capitalizeIt(datos.updated) + '</li></ul>';
+                contenido += '<a class="btn btn-default">Read More! <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>';
+                contenido += '</div></div>';
+
+                // Actualizando el HTML
+                document.getElementById(divID).innerHTML += contenido;
+
+            }
+        }
+
+        // Convierte WEEKLY en Weekly
+        function capitalizeIt(texto) {
+            return texto.charAt(0).toUpperCase() + texto.slice(1).toLowerCase();
+        }
+
+        // Resetea el HTML y lanza una petición AJAX
+        function returnIndex() {
+            document.getElementById("col1").innerHTML = "";
+            document.getElementById("col2").innerHTML = "";
+            document.getElementById("col3").innerHTML = "";
+            document.getElementById("col4").innerHTML = "";
+            peticionAjax("http://api.nytimes.com/svc/books/v3/lists/names.json?api-key=" + apiKey, false);
+        }
+
+        // Gestión de peticiones AJAX
+        function peticionAjax(url, tema) {
+            console.log("URL:", url)
+            var xmlHttp = new XMLHttpRequest();
+
+            xmlHttp.onreadystatechange = function() {
+                if (xmlHttp.readyState === 4) {
+                    if (xmlHttp.status >= 100 && xmlHttp.status <= 300) {
+
+                        document.getElementById("cargando").style.display = 'none';
+                        var datosCrudos = JSON.parse(xmlHttp.responseText);
+
+                        if (tema) {
+                            var datos = datosCrudos.results.books;
+
+                            if (datos) {
+                                if (datos.length !== null && datos.length !== 0) {
+                                    // Rstaurar el HTML
+                                    document.getElementById("col1").innerHTML = "";
+                                    document.getElementById("col2").innerHTML = "";
+                                    document.getElementById("col3").innerHTML = "";
+                                    document.getElementById("col4").innerHTML = "";
+
+                                    // Estilos
+                                    document.getElementById("back-boton").style.display = 'block';
+                                    document.getElementById("titulo_lista").innerHTML = datosCrudos.results.display_name;
+
+                                    // Actualizar HTML
+                                    for (var i = 0; i < datos.length; i++) {
+                                        pushToHTML(datos[i], true);
+                                    }
+
+                                    // Restaurando el contador
+                                    divID = "col4";
+                                }
+                            }
+
+                        } else {
+
+                            var datos = datosCrudos.results;
+
+                            // Estilos
+                            document.getElementById("titulo_lista").innerHTML = '';
+                            document.getElementById("back-boton").style.display = 'none';
+
+                            // Actualizar HTML
+                            for (var i = 0; i < datos.length; i++) {
+                                pushToHTML(datos[i]);
+                            }
+
+                            // Eventos
+                            document.getElementById("row-contenido").addEventListener('click', function(evento) {
+                                var elemento = evento.target || evento.srcElement;
+                                var lista = elemento.parentNode.getAttribute("data-encoded");
+                                peticionAjax("http://api.nytimes.com/svc/books/v3/lists/" + fecha + "/" + lista + ".json?api-key=" + apiKey, true);
+
+                            });
+
+                            // Restaurando el contador
+                            divID = "col4";
+                        }
+
+                    } else if (xmlHttp.status >= 400 && xmlHttp.status <= 600) {
+                        // Estilos
+                        document.getElementById("cargando").style.display = 'none';
+                        document.getElementById("error-ajax").style.display = 'block';
+                        document.getElementById("row-contenido").innerHTML = '<img src="http://www.404notfound.fr/assets/images/pages/img/androiddev101.jpg">';
+                        console.error("ERROR! 404", JSON.parse(xmlHttp.responseText));
+                    }
+                }
+            };
+            xmlHttp.open("GET", url, true);
+            xmlHttp.send();
+        }
+
+        // Arrancando
+        peticionAjax("http://api.nytimes.com/svc/books/v3/lists/names.json?api-key=" + apiKey, false);
+
+        // Evento
+        document.getElementById("back-boton").addEventListener('click', returnIndex);
+    </script>
+</body>
+</html>
