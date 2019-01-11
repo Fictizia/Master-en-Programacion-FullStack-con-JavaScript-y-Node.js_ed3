@@ -233,3 +233,16 @@
 - https://i.giphy.com/NsTceS2EH3Mli.gif
 - http://www.tiposdesoftware.com/images/historia-del-software-etapas.jpg
 - https://slideplayer.es/slide/9018329/27/images/7/L%C3%ADnea+del+tiempo+digital.jpg
+
+### clase33
+
+- https://cdn.mos.cms.futurecdn.net/277fa434118f748dc70c67558105d70d-650-80.jpg 
+- http://quatresoft.com/wp-content/uploads/2016/06/Geolocalizaci%C3%B3n.jpg 
+- http://www.excelguru.ca/blog/wp-content/uploads/2014/07/image_thumb.png 
+- https://carto.com/blog/img/posts/2016/2016-09-01-from-cartodb-to-carto/carto-logo.6e337a04.svg 
+- http://des.esri.es/images/ESRI-N.png 
+- https://openrouteservice.org/wp-content/uploads/2018/01/openstreetmap-2.png 
+- http://www.joseluisestevez.com/wp-content/uploads/2016/02/logo_ol3.png 
+- http://mourner.github.io/Leaflet/docs/images/logo.png 
+- http://www.thenetworking.com/wp-content/uploads/2017/10/google-maps-logo-openA.png 
+

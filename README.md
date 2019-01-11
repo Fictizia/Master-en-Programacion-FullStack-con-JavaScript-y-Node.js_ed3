@@ -70,7 +70,7 @@ Fecha | Teoría | Recursos | Contenido
 19/12/18 | [Clase 30](teoria/clase30.md) | [Clase 30](recursos/clase30.md) | Router Frontend + templates
 21/12/18 | [Clase 31](teoria/clase31.md) | [Clase 31](recursos/clase31.md) | Paradigmas: Programación orientada a Objetos
 09/01/18 | [Clase 32](teoria/clase32.md) | [Clase 32](recursos/clase32.md) | Patrones en JS I: Antipatrones
-
+11/01/18 | [Clase 33](teoria/clase33.md) | [Clase 33](recursos/clase33.md) | HTML5: Geo y mapas
 
 [Temario](https://coggle.it/diagram/W5ZfeGRd293lprIt/t/master-js-y-node-de-fictizia)
 =================
