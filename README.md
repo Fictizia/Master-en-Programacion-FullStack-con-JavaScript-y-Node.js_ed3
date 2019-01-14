@@ -71,6 +71,7 @@ Fecha | Teoría | Recursos | Contenido
 21/12/18 | [Clase 31](teoria/clase31.md) | [Clase 31](recursos/clase31.md) | Paradigmas: Programación orientada a Objetos
 09/01/18 | [Clase 32](teoria/clase32.md) | [Clase 32](recursos/clase32.md) | Patrones en JS I: Antipatrones
 11/01/18 | [Clase 33](teoria/clase33.md) | [Clase 33](recursos/clase33.md) | HTML5: Geo y mapas
+14/01/19 | [Clase 34](teoria/clase34.md) | [Clase 34](recursos/clase34.md) | Regex I: Teoría
 
 [Temario](https://coggle.it/diagram/W5ZfeGRd293lprIt/t/master-js-y-node-de-fictizia)
 =================

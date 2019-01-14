@@ -246,3 +246,8 @@
 - http://mourner.github.io/Leaflet/docs/images/logo.png 
 - http://www.thenetworking.com/wp-content/uploads/2017/10/google-maps-logo-openA.png 
 
+
+### clase34
+
+- http://imgs.xkcd.com/comics/regular_expressions.png "RegEx save the day" 
+- http://i.imgur.com/7rV4c56.jpg "email regex" 
