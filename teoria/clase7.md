@@ -358,17 +358,51 @@ Realiza los siguientes ejercicios usando en cada uno los tres tipos de bucles (D
 
 - Usando *for*
 ```javascript
-	// Tu solución
+	function contadorPares() {
+		
+		console.info("Empieza la cuenta!");
+
+		for (var i = 0; i <= 100; i += 2) {
+			console.log(i)
+		};
+
+		console.info("Terminó la cuenta mágica...");
+
+	}
 ```
 
 - Usando *while*
 ```javascript
-	// Tu solución
+	function contadorPares() {
+		
+		console.info("Empieza la cuenta!");
+		
+		var i = 0
+		while (i <= 100) {
+			console.log(i);
+			i += 2;
+		};
+
+		console.info("Terminó la cuenta mágica...");
+
+	}
 ```
 
 - Usando *Do...While*
 ```javascript
-	// Tu solución
+	function contadorPares() {
+		
+		console.info("Empieza la cuenta!");
+		
+		var i = 0
+		do {
+			console.log(i);
+			i += 2;
+		} while (i <= 100);
+
+		console.info("Terminó la cuenta mágica...");
+
+	}
 ```
 
 **5 -** Diseña un algoritmo que imprima los números impares entre un número dado por el usuario y los siguientes 50 números.
