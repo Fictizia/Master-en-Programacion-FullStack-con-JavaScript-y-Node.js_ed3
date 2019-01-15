@@ -567,7 +567,22 @@ Nota: Partiendo del ejemplo de [MDN](https://developer.mozilla.org/en-US/docs/We
 
 **6 -** ¿Cuantos milisengundos quedan para terminar el master? y... ¿en horas o días?
 ```javascript
-    // Tu solución
+	var fin = new Date(2019, 7, 1, 22, 0, 0);
+	console.log("Fecha de finalización: " + fin.toLocaleString());
+	var ahora = new Date();
+	console.log("Fecha actual: " + ahora.toLocaleString());
+	var diferencia = fin - ahora;
+	    
+	var segundos = Math.floor( diferencia / 1000);
+	var horas = Math.floor( diferencia / ( 60 * 60 * 1000 ) );
+	var minutos = Math.floor( diferencia / ( 60 * 1000 ) );
+	var dias = Math.floor( diferencia / ( 24 * 60 * 60 * 1000 ) );
+	
+	console.log("Quedan " + diferencia +"ms");
+	console.log("Quedan "+ segundos +" segundos.");
+	console.log("Quedan "+ minutos +" minutos.");
+	console.info("Quedan "+ horas +" horas.");
+	console.info("Quedan "+ dias +" días.");
 ```
 
 **7 -** ¿Que fecha será dentro de un año y 10 horas más?
