@@ -158,7 +158,7 @@ console.log(coincidencias2);  // ["Hola desde Fictizia! Que te cuentas?"]
 
 `?` Coincide con cero o un caracter.
 ```javascript
-//Encuentra A, Ahhh, An, Al, etc...
+//Encuentra A o Ah
 /Ah?/.test("Ahhhhhhhh!")
 ```
 
