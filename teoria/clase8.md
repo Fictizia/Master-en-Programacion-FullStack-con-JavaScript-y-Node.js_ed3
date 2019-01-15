@@ -539,7 +539,10 @@ Nota: Partiendo del ejemplo de [MDN](https://developer.mozilla.org/en-US/docs/We
 
 **4 -** ¿Que fecha será dentro de 30 días?
 ```javascript
-    // Tu solución
+	var ahora = new Date();
+	console.log("Hoy es " + ahora.toLocaleString());
+	ahora.setDate(ahora.getDate() + 30);
+	console.log("En 30 días será " + ahora.toLocaleString());
 ```
 
 **5 -** ¿Cuantas horas han pasado desde que emepezó este master? y... ¿en días?
