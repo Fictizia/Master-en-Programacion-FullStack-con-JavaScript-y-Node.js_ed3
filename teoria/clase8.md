@@ -401,8 +401,88 @@
 	- Después de validar, devolvemos la fecha en formato DD/MM/AAAA
 	- Convertimos el número del mes, en el nombre del mes real y devolvemos la fecha en el siguiente formato ( DD de MES de AAAA)
 
+- Solución 1:
 ```javascript
-    // Tu solución
+
+	// Opcion 1
+	function verificadorDeFechas (day, month, year) {
+		// Opcion 1
+		var fecha = new Date(year, month-1, day);
+
+		if (fecha.getFullYear() === year){
+			var opciones = { 
+			    weekday: 'long',
+			    year: 'numeric', 
+			    month: 'long', 
+			    day: 'numeric'
+			};
+			var fechaFormato = fecha.getDate() + "/" + (fecha.getMonth()+1) +"/"+ fecha.getFullYear(); 
+			
+			console.info("La fecha es correcta", fechaFormato);
+			console.info("La fecha en otro formato: ", fecha.toLocaleString("es-ES", opciones));
+ 
+		} else {
+			console.warn("Error! los datos no son correctos!");			
+		}
+	}
+```
+
+- Solución 2:
+```javascript
+
+	function verificadorDeFechas (day, month, year) {
+		var fechaDetalle,
+		fecha = day + "/" + month + "/" + year;
+
+		if(day <= 31 && day > 0 && month <=12 && month > 0 && year >= 0){
+			console.info("La fecha es correcta", fecha);
+
+			switch (month) {
+				case 1:
+					fechaDetalle = day + " de Enero de " + year;
+					break;
+				case 2:
+					fechaDetalle = day + " de Febrero de " + year;
+					break;
+				case 3:
+					fechaDetalle = day + " de Marzo de " + year;
+					break;
+				case 4:
+					fechaDetalle = day + " de Abril de " + year;
+					break;
+				case 5:
+					fechaDetalle = day + " de Mayo de " + year;
+					break;
+				case 6:
+					fechaDetalle = day + " de Junio de " + year;
+					break;
+				case 7:
+					fechaDetalle = day + " de Julio de " + year;
+					break;
+				case 8:
+					fechaDetalle = day + " de Agosto de " + year;
+					break;
+				case 9:
+					fechaDetalle = day + " de Septiembre de " + year;
+					break;
+				case 10:
+					fechaDetalle = day + " de Octubre de " + year;
+					break;
+				case 11:
+					fechaDetalle = day + " de Noviembre de " + year;
+					break;
+				case 12:
+					fechaDetalle = day + " de Diciembre de " + year;
+					break;
+			}
+
+			console.info("La fecha en otro formato: ", fechaDetalle);
+
+		} else {
+			console.warn("Error! los datos no son correctos!");
+		}
+
+	}
 ```
 
 ### `Nivel Avanzado` :diamonds: El truco de las fechas
