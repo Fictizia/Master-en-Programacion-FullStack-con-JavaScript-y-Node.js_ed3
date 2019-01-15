@@ -477,17 +477,83 @@ Realiza los siguientes ejercicios usando en cada uno los tres tipos de bucles (D
 **6 -** Diseña un algoritmo que imprima la suma de los 50 primeros numeros pares y el total de números impares partiendo de un número dado por el usuario
 - Usando *for*
 ```javascript
-	// Tu solución
+	function contadorEspecial(numero) {
+		
+		var totalImpares = 0;
+		var totalPares = 0;
+
+		console.info("Empieza la cuenta!");
+
+		for (var i = 1; i <= 50; i++) {
+			
+			if (numero % 2 !== 0){
+				totalImpares += numero;
+				numero++;
+			} else {
+				totalPares += numero;
+				numero++;
+			}
+			
+		};
+
+		console.info("Total de suma de pares ", totalPares);
+		console.info("Total de suma de impares ", totalImpares);
+		console.info("Terminó la cuenta mágica...");
+	}
 ```
 
 - Usando *while*
 ```javascript
-	// Tu solución
+	function contadorEspecial(numero) {
+
+		var totalImpares = 0;
+		var totalPares = 0;
+
+		console.info("Empieza la cuenta!");
+		
+		var i = 1
+		while (i <= 50) {
+			if (numero % 2 !== 0){
+				totalImpares += numero;
+				numero++;
+			} else {
+				totalPares += numero;
+				numero++;
+			}
+			i++;
+		};
+
+		console.info("Total de suma de pares ", totalPares);
+		console.info("Total de suma de impares ", totalImpares);
+		console.info("Terminó la cuenta mágica...");
+	}
 ```
 
 - Usando *Do...While*
 ```javascript
-	// Tu solución
+	function contadorEspecial(numero) {
+
+		var totalImpares = 0;
+		var totalPares = 0;
+
+		console.info("Empieza la cuenta!");
+		
+		var i = 1
+		do {
+			if (numero % 2 !== 0){
+				totalImpares += numero;
+				numero++;
+			} else {
+				totalPares += numero;
+				numero++;
+			}
+			i ++;
+		} while (i <= 50);
+
+		console.info("Total de suma de pares ", totalPares);
+		console.info("Total de suma de impares ", totalImpares);
+		console.info("Terminó la cuenta mágica...");
+	}
 ```
 
 **7 -** `Nivel Avanzado` :diamonds: Diseña un algoritmo introducido un numero y pasarlo a número romanos.
