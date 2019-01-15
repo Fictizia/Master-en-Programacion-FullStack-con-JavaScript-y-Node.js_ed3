@@ -547,7 +547,22 @@ Nota: Partiendo del ejemplo de [MDN](https://developer.mozilla.org/en-US/docs/We
 
 **5 -** ¿Cuantas horas han pasado desde que emepezó este master? y... ¿en días?
 ```javascript
-    // Tu solución
+	var inicio = new Date(2018, 10, 3, 19, 0, 0);
+	console.log("Fecha de inicio: " + inicio.toLocaleString());
+	var ahora = new Date();
+	console.log("Fecha actual: " + ahora.toLocaleString());
+	var diferencia = ahora - inicio;
+	    
+	var segundos = Math.floor( diferencia / 1000);
+	var horas = Math.floor( diferencia / ( 60 * 60 * 1000 ) );
+	var minutos = Math.floor( diferencia / ( 60 * 1000 ) );
+	var dias = Math.floor( diferencia / ( 24 * 60 * 60 * 1000 ) );
+	
+	console.log("Han pasado " + diferencia +"ms");
+	console.log("Han pasado "+ segundos +" segundos.");
+	console.log("Han pasado "+ minutos +" minutos.");
+	console.info("Han pasado "+ horas +" horas.");
+	console.info("Han pasado "+ dias +" días.");
 ```
 
 **6 -** ¿Cuantos milisengundos quedan para terminar el master? y... ¿en horas o días?
