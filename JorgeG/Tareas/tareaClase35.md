@@ -10,8 +10,8 @@
 Válidos: 12345678-A, 11223344A,
 No válidos: A11223344, 1234567K*
 
-([0-9]+)([A-Z]{1})
-([0-9]+)-([A-Z]{1})
+- ([0-9]+)([A-Z]{1})
+- ([0-9]+)-([A-Z]{1})
 
 
 **3 - Comprobar la seguridad de una contraseña
