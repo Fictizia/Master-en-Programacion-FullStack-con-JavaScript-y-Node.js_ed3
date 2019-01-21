@@ -251,3 +251,17 @@
 
 - http://imgs.xkcd.com/comics/regular_expressions.png "RegEx save the day" 
 - http://i.imgur.com/7rV4c56.jpg "email regex" 
+
+
+### clase35
+
+### clase36
+
+- https://assets.madebyshape.co.uk/uploads/imager/299deb39facbb0c50fa0371390d9cd0c/637/cc1363b2772c79ebc866edf877bcb3ca.jpg 
+- http://www.tutorialmonsters.com/wp-content/uploads/2013/05/graficas-1080x720.jpg 
+- http://www.jolicharts.com/wp-content/uploads/2013/08/D3JS.png 
+- https://cdn-images-1.medium.com/max/1920/1*O7ttrU2PqHXwPYni8RSA4w.png 
+- https://cdn-shop.adafruit.com/1200x900/673-00.jpg 
+- http://bookofsound.com/wp-content/uploads/2014/09/P5js-png.png 
+- https://cdn-images-1.medium.com/focal/1600/480/60/24/1*Cit3KMtbvkUK31oCXR0HXg.jpeg 
+

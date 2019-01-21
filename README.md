@@ -73,7 +73,7 @@ Fecha | Teoría | Recursos | Contenido
 11/01/18 | [Clase 33](teoria/clase33.md) | [Clase 33](recursos/clase33.md) | HTML5: Geo y mapas
 14/01/19 | [Clase 34](teoria/clase34.md) | [Clase 34](recursos/clase34.md) | Regex I: Teoría
 16/01/19 | [Clase 35](teoria/clase35.md) | Clase 35 | Regex II: Ejercicios
-
+21/01/19 | [Clase 36](teoria/clase36.md) | [Clase 36](recursos/clase36.md) | HTML5: Programación creativa con Canvas, Gráficos y 3D
 
 [Temario](https://coggle.it/diagram/W5ZfeGRd293lprIt/t/master-js-y-node-de-fictizia)
 =================
