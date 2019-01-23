@@ -265,3 +265,9 @@
 - http://bookofsound.com/wp-content/uploads/2014/09/P5js-png.png 
 - https://cdn-images-1.medium.com/focal/1600/480/60/24/1*Cit3KMtbvkUK31oCXR0HXg.jpeg 
 
+### clase37
+
+- https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F30423109%2F185617782430%2F1%2Foriginal.jpg?s=e00c5055af924b2c841715f435978f74 
+- https://aramgo.files.wordpress.com/2017/12/hl2-logo.jpg
+- https://image.slidesharecdn.com/whywebuilt35kbreactnativealternative2-180125022828/95/why-we-built-35kb-react-native-alternative-5-638.jpg?cb=1516847406
+- https://cdn-images-1.medium.com/max/2000/1*DCzEYU60hk2pO7WCJj3GoQ.jpeg
