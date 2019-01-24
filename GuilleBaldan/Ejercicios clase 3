@@ -1,0 +1,91 @@
+//E1 Imprimir por pantalla todos los números del 1 al 100;
+function count100firstNumbers(){ 
+for(i=0;i<100;i++){
+	console.log(i);
+	}
+}
+//E2 Imprimir por pantalla todos los números de 100 al 0
+function numberToZero(number){
+	for(i = number;i>0;number--){
+		console.log(number);
+	}
+}
+//E3 Imprimir por pantalla los pares del 0 al 100.
+function evenNumbers(number){
+	for(i =0;i<number;i++){
+		if (i%2 ===0){
+			console.log(i);
+		}
+	}
+}
+
+//E4 Moneda al aire
+function faceOrCross(){
+	var coin = Math.round(Math.random()*(1 -0) + 0);
+	if (coin === 0) {
+		console.log("salió cara");
+	} else {
+		console.log("salió cruz");
+	}
+
+}
+
+//E5 5 - Diseña un programa que simula cien tiradas de dos dados y contar las veces que entre los dos suman 10.
+function rollDice();
+var dice1 = Math.round(Math.random()*(6 - 1) + 1);
+var dice2 = Math.round(Math.random()*(6 - 1) + 1);
+return dice1,dice2
+
+
+function tenFromDice(dice1,dice2,number){
+	var count = 0;
+	for(i=0;i<number;i++){
+	if (dice1 + dice2 === 10){
+		count +=1;
+	}
+  }
+return count;
+}
+
+//6 - Diseña un programa para calcular el porcentaje de hombres y mujeres en nuestro curso.
+function calculepercentage(numberOfMen,numberOfWomen){
+	console.log("The percentage of men is: "+(numberOfMen/(numberOfMen+numberOfWomen)*100));
+	console.log("The percentage of women is: "+(numberOfWomen/(numberOfMen+numberOfWomen)*100));
+}
+
+//7 - Diseña un algoritmo que aplique al precio de un producto un descuento cuando se den las siguientes caracteristicas.
+/*
+Se aplica un 25% cuando:
+Estamos en los meses de invierno
+Y no es viernes o fin de semana.*/
+function discountcalculation(price,currentmonth,weekday){
+	if (((currentmonth === "December") || (currentmonth ==="January") || (currentmonth ==="February") || (currentmonth ==="March")) && ((weekday !== "Friday")&&(weekday !== "Sunday")&&(weekday !== "Saturday"))){
+		return price*0.75;
+	}
+}
+
+//8 Diseña un algoritmo para identificar a los clientes autorizados a entrar a nuestro sistema.
+/*
+Características:
+La palabra clave es "Fictizia mola mucho"
+Solo existen tres intentos
+Si se pasan los tres intentos. Se despliega un mensaje informativo.
+*/
+function login(){
+var count = 0;
+var keyWord;	
+	do{
+    keyWord = prompt("Enter the password");
+    count += 1;
+   	}while((count<==3) && (keyWord !=="Fictizia mola mucho"))
+    if (count > 3){
+    	return true;
+    }else {
+    	return false;
+    }
+}
+
+//E9  - Diseña un algoritmo introducido un numero y pasarlo a número romanos.
+//Esperamos que el número sea menor de 50
+
+
