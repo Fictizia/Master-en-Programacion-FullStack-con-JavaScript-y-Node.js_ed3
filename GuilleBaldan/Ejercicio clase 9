@@ -1,0 +1,13 @@
+var phrase = 'Esto es una frase de prueba';
+var symbol = 'e';
+var cursor = 0;
+var count = 0;
+do {
+  if (phrase[cursor] === symbol) {
+    count += 1;
+  }
+  cursor += 1;
+} while (cursor <= phrase.length);
+console.log(
+  'El número de veces que aparece el símbolo ' + symbol + ' es de ' + count
+);
