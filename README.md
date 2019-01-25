@@ -75,6 +75,7 @@ Fecha | Teoría | Recursos | Contenido
 16/01/19 | [Clase 35](teoria/clase35.md) | Clase 35 | Regex II: Ejercicios
 21/01/19 | [Clase 36](teoria/clase36.md) | [Clase 36](recursos/clase36.md) | HTML5: Programación creativa con Canvas, Gráficos y 3D
 23/01/19 | [Clase 37](teoria/clase37.md) | [Clase 37](recursos/clase37.md) | Paradigmas: Programación Funcional
+25/01/19 | [Clase 38](teoria/clase38.md) | [Clase 38](recursos/clase38.md) | HTML5: LocalStorage y contentEditor
 
 
 [Temario](https://coggle.it/diagram/W5ZfeGRd293lprIt/t/master-js-y-node-de-fictizia)

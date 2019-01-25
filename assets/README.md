@@ -271,3 +271,8 @@
 - https://aramgo.files.wordpress.com/2017/12/hl2-logo.jpg
 - https://image.slidesharecdn.com/whywebuilt35kbreactnativealternative2-180125022828/95/why-we-built-35kb-react-native-alternative-5-638.jpg?cb=1516847406
 - https://cdn-images-1.medium.com/max/2000/1*DCzEYU60hk2pO7WCJj3GoQ.jpeg
+
+
+### clase38
+
+- http://anexsoft.com/media/posts/140/image/48bd58422bcbcd32172e089839df478b.jpg
