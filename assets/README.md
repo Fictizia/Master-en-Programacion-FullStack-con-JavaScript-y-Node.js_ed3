@@ -314,3 +314,9 @@
 - http://growinguu.blogs.uua.org/files/2016/10/calming-manatee-meme.png 
 - https://media.giphy.com/media/KI9oNS4JBemyI/giphy.gif 
 
+
+### clase40
+
+- https://i.ytimg.com/vi/exBNB5njcNA/maxresdefault.jpg 
+- https://media0.giphy.com/media/l3uGKbsTIyhyM/giphy.gif 
+ 

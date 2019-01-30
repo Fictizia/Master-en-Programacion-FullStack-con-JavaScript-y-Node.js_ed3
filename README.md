@@ -77,6 +77,7 @@ Fecha | Teoría | Recursos | Contenido
 23/01/19 | [Clase 37](teoria/clase37.md) | [Clase 37](recursos/clase37.md) | Paradigmas: Programación Funcional
 25/01/19 | [Clase 38](teoria/clase38.md) | [Clase 38](recursos/clase38.md) | HTML5: LocalStorage y contentEditor
 28/01/19 | [Clase 39](teoria/clase39.md) | [Clase 39](recursos/clase39.md) | Patrones en JS II: Metaprogramación y Patrones
+30/01/19 | [Clase 40](teoria/clase40.md) | [Clase 40](recursos/clase40.md) | HTML5: Offline
 
 
 [Temario](https://coggle.it/diagram/W5ZfeGRd293lprIt/t/master-js-y-node-de-fictizia)
