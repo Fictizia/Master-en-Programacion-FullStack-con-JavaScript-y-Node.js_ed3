@@ -319,4 +319,12 @@
 
 - https://i.ytimg.com/vi/exBNB5njcNA/maxresdefault.jpg 
 - https://media0.giphy.com/media/l3uGKbsTIyhyM/giphy.gif 
- 
+
+
+### clase41
+
+- https://www.synbioz.com/blog/introduction_aux_web_workers
+- https://blog.teamtreehouse.com/wp-content/uploads/2013/01/workers-feature.png
+- https://i.giphy.com/L2UdIWuCRbUL6.gif
+- https://i.giphy.com/s80iJpkor4T8A.gif
+- https://az813057.vo.msecnd.net/testdrive/ieblog/2011/Jul/01_WebWorkersinIE10BackgroundJavaScriptMakesWebAppsFaster_2.png 
