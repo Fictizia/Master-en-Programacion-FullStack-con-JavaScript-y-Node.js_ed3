@@ -328,3 +328,17 @@
 - https://i.giphy.com/L2UdIWuCRbUL6.gif
 - https://i.giphy.com/s80iJpkor4T8A.gif
 - https://az813057.vo.msecnd.net/testdrive/ieblog/2011/Jul/01_WebWorkersinIE10BackgroundJavaScriptMakesWebAppsFaster_2.png 
+
+
+### clase42
+
+- https://developers.google.com/web/images/social-webfu-16x9.png 
+- https://user-images.githubusercontent.com/3104648/28351989-7f68389e-6c4b-11e7-9bf2-e9fcd4977e7a.png 
+- https://i2.wp.com/www.onmsft.com/wp-content/uploads/2018/02/Screen-Shot-2018-02-06-at-18.56.56.png?fit=1050%2C575&ssl=1 
+- https://www.risdall.com/wp-content/uploads/2017/10/AMP-project-logo2-1.png 
+- https://cdn-images-1.medium.com/max/1600/1*f__SEWRvsNwt4B-u8-85Bw.png 
+- https://cdn.auth0.com/blog/webassembly/webassembly-2.png 
+- https://cdn-images-1.medium.com/max/800/1*XdcikPGwbP_aqCsgyK3tMQ.png 
+- https://cdn-images-1.medium.com/max/1600/1*WAv5DQnoHKnZEEoy5jzFRg.jpeg 
+
+
