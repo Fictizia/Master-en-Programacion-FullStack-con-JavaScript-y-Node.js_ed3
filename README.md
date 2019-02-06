@@ -80,9 +80,7 @@ Fecha | Teoría | Recursos | Contenido
 30/01/19 | [Clase 40](teoria/clase40.md) | [Clase 40](recursos/clase40.md) | HTML5: Offline
 01/02/19 | [Clase 41](teoria/clase41.md) | [Clase 41](recursos/clase41.md) | HTML5: WebWorkers, Blob y FileSystem
 04/02/19 | [Clase 42](teoria/clase42.md) | [Clase 42](recursos/clase42.md) | HTML5: PWA
-
-
-
+06/02/19 | [Clase 43](teoria/clase43.md) | [Clase 43](recursos/clase43.md) | Firebase I: Intro + Realtime Database
 
 [Temario](https://coggle.it/diagram/W5ZfeGRd293lprIt/t/master-js-y-node-de-fictizia)
 =================
