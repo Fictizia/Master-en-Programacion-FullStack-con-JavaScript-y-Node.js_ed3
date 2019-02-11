@@ -349,3 +349,86 @@
 - http://cdn772.swedroid.se/wp-content/uploads/2016/05/google-firebase-logo-600x308.png 
 - https://cdn.scotch.io/1/Bg4r7dI1Q2W3bX9Sf4oD_unnamed.png 
 - https://cdn-images-1.medium.com/max/1200/1*qmvFg6ILS7Y8WsUxa2vLOw.gif 
+
+### clase44
+
+- https://firebase.google.com/docs/auth/images/auth-providers.png?hl=es-419 
+
+### clase45
+
+- https://cdn-images-1.medium.com/max/1600/1*w1IJOmdzBNji2uAyXX4XgQ.jpeg 
+- https://media.giphy.com/media/l3mZm7FJoEK3KIKru/giphy.gif 
+
+### clase46
+
+- https://cdn.shopify.com/s/files/1/0185/4636/products/TimCaballero-FINAL_2000x.jpg?v=1447711497 
+- https://kieranocallaghan.files.wordpress.com/2016/10/solid.jpg?w=490 
+- http://www.polarinertia.com/june09/images/roadshow/Roadshow-06.jpg 
+- https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/ModelViewControllerDiagram_es.svg/600px-ModelViewControllerDiagram_es.svg.png 
+- https://patterns.florian-rappl.de/pictures/mvc.png 
+- https://manojjaggavarapu.files.wordpress.com/2012/05/mvcmodel2.png 
+- http://jwma.sourceforge.net/old/images/jwma_mvc2.png 
+- https://patterns.florian-rappl.de/pictures/mvp.png 
+- https://manojjaggavarapu.files.wordpress.com/2012/05/mvp-passiveview.png 
+- https://manojjaggavarapu.files.wordpress.com/2012/05/mvp-supervisingcontroller.png 
+- https://manojjaggavarapu.files.wordpress.com/2012/05/presentationmodel.png 
+- https://patterns.florian-rappl.de/pictures/mvvm.png 
+- https://patterns.florian-rappl.de/pictures/mva.png 
+- https://patterns.florian-rappl.de/pictures/pca.png 
+- https://alexatnet.com/content/images/2017/04/diagram.png 
+
+### clase47
+
+- http://pdm.com.co/BlogPDM/wp-content/uploads/2015/11/algoritmo-amistad-900x900.jpg?x81790 
+- http://blog.benoitvallon.com/img/2016-01-11-data-structures-in-javascript/big-o-complexity.png 
+- https://wikimedia.org/api/rest_v1/media/math/render/svg/4df2167dc6e8059c370d39cfd197681b580c98a5 
+- https://static.vix.com/es/sites/default/files/styles/large/public/btg/curiosidades.batanga.com/files/Que-es-la-sucesion-de-Fibonacci-1.jpg?itok=1hCZvY7C 
+- https://wikimedia.org/api/rest_v1/media/math/render/svg/b446e59a2a98503051315bddf6938201ab6771ee 
+- https://wikimedia.org/api/rest_v1/media/math/render/svg/b446e59a2a98503051315bddf6938201ab6771ee 
+- https://media1.giphy.com/media/3o6Yg4GUVgIUg3bf7W/giphy.gif 
+- https://media0.giphy.com/media/3o8dFn5CXJlCV9ZEsg/giphy.gif 
+- https://media0.giphy.com/media/AXorq76Tg3Vte/giphy.gif 
+- https://quotefancy.com/media/wallpaper/1600x900/1751004-Linus-Torvalds-Quote-Bad-programmers-worry-about-the-code-Good.jpg 
+- https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Array1.svg/300px-Array1.svg.png 
+- https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Hash_table-es.svg/350px-Hash_table-es.svg.png 
+- https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Circularly-linked-list.svg/350px-Circularly-linked-list.svg.png 
+- https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Doubly-linked-list.svg/610px-Doubly-linked-list.svg.png 
+- https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Pila.svg/200px-Pila.svg.png 
+- https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Cola.svg/200px-Cola.svg.png 
+- https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Binary_tree.svg/192px-Binary_tree.svg.png 
+- https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Binary_search_tree.svg/280px-Binary_search_tree.svg.png 
+- https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Trie_example.svg/250px-Trie_example.svg.png 
+- https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/6n-graf.svg/200px-6n-graf.svg.png 
+- http://blog.benoitvallon.com/img/2016-01-11-data-structures-in-javascript/big-o.png 
+- https://js.tensorflow.org/images/TF_JS_lockup.png 
+- http://image.toutlecine.com/photos/a/s/t/asterix-et-obelix-contre-ii27-g.jpg 
+
+### clase48
+- http://devhumor.com/content/uploads/images/July2017/npm_package.png
+- https://snyk.io/wp-content/uploads/Malicious-code-found-in-npm-package-event-stream-downloaded-8-million-times-in-the-past-2.5-months-.jpg
+- https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/590px-Node.js_logo.svg.png 
+- https://servercheck.in/sites/servercheck.in/files/node-drupal-queue-comparison.jpg 
+- https://strongloop.com/wp-content/uploads/2015/06/iovsn.jpg.pagespeed.ce.SGbwroO3EK.jpg 
+- https://dka575ofm4ao0.cloudfront.net/pages-transactional_logos/retina/8389/vz1XuNqHTyfO4YsqI3f2 
+- https://nodejs.org/static/images/logos/nodejs.png 
+- https://raw.githubusercontent.com/nodejs/LTS/master/schedule.png 
+- https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAhTAAAAJGEzYjdjNTFlLTI1MjQtNGFjMS04YTZkLWM2ZmU0ODgzOTNjZA.png 
+- https://cdn-images-1.medium.com/max/800/1*4LsfQ0ZbZkapHDR8eTYp4g.png 
+- https://strongloop.com/wp-content/uploads/2014/01/threading_java.png 
+- https://strongloop.com/wp-content/uploads/2014/05/threading_node.png 
+
+### clase49
+
+- https://s3.amazonaws.com/codementor_content/nodejs_logo_green.jpg 
+- https://www.safaribooksonline.com/library/view/nodejs-the-right/9781941222355/images/eventloop.png 
+- https://pongandbeyond.files.wordpress.com/2011/04/img_2019.jpg 
+
+### clase50
+
+- https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/640px-Npm-logo.svg.png 
+- https://i.ytimg.com/vi/55WaAoZV_tQ/maxresdefault.jpg 
+- https://img.devrant.com/devrant/rant/r_760537_vKvzh.jpg 
+- https://yarnpkg.com/assets/og_image.png 
+- http://image.slidesharecdn.com/bower-phxjs-140515152011-phpapp02/95/bower-phoenix-javascript-meetup-1-638.jpg?cb=1400167728 
+- https://i.stack.imgur.com/zo1N0.png 
+- https://rules.ssw.com.au/PublishingImages/package3.jpg 
