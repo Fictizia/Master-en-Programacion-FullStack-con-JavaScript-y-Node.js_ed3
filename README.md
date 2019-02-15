@@ -83,6 +83,7 @@ Fecha | Teoría | Recursos | Contenido
 06/02/19 | [Clase 43](teoria/clase43.md) | [Clase 43](recursos/clase43.md) | Firebase I: Intro + Realtime Database
 11/02/19 | [Clase 44](teoria/clase44.md) | [Clase 44](recursos/clase44.md) | Firebase I: Autenticación y Hosting
 13/02/19 | [Clase 45](teoria/clase45.md) | [Clase 45](recursos/clase45.md) | Firebase I: Cloud Storage
+15/02/19 | [Clase 46](teoria/clase46.md) | [Clase 46](recursos/clase46.md) | Arquitectura en JS: Presentation Patters
 
 
 [Temario](https://coggle.it/diagram/W5ZfeGRd293lprIt/t/master-js-y-node-de-fictizia)
