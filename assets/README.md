@@ -403,3 +403,17 @@
 - http://blog.benoitvallon.com/img/2016-01-11-data-structures-in-javascript/big-o.png 
 - https://js.tensorflow.org/images/TF_JS_lockup.png 
 - http://image.toutlecine.com/photos/a/s/t/asterix-et-obelix-contre-ii27-g.jpg 
+
+### clase48
+- http://devhumor.com/content/uploads/images/July2017/npm_package.png
+- https://snyk.io/wp-content/uploads/Malicious-code-found-in-npm-package-event-stream-downloaded-8-million-times-in-the-past-2.5-months-.jpg
+- https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/590px-Node.js_logo.svg.png 
+- https://servercheck.in/sites/servercheck.in/files/node-drupal-queue-comparison.jpg 
+- https://strongloop.com/wp-content/uploads/2015/06/iovsn.jpg.pagespeed.ce.SGbwroO3EK.jpg 
+- https://dka575ofm4ao0.cloudfront.net/pages-transactional_logos/retina/8389/vz1XuNqHTyfO4YsqI3f2 
+- https://nodejs.org/static/images/logos/nodejs.png 
+- https://raw.githubusercontent.com/nodejs/LTS/master/schedule.png 
+- https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAhTAAAAJGEzYjdjNTFlLTI1MjQtNGFjMS04YTZkLWM2ZmU0ODgzOTNjZA.png 
+- https://cdn-images-1.medium.com/max/800/1*4LsfQ0ZbZkapHDR8eTYp4g.png 
+- https://strongloop.com/wp-content/uploads/2014/01/threading_java.png 
+- https://strongloop.com/wp-content/uploads/2014/05/threading_node.png 
