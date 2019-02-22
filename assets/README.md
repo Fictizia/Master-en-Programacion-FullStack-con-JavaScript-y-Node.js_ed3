@@ -417,3 +417,10 @@
 - https://cdn-images-1.medium.com/max/800/1*4LsfQ0ZbZkapHDR8eTYp4g.png 
 - https://strongloop.com/wp-content/uploads/2014/01/threading_java.png 
 - https://strongloop.com/wp-content/uploads/2014/05/threading_node.png 
+
+
+### clase49
+
+- https://s3.amazonaws.com/codementor_content/nodejs_logo_green.jpg 
+- https://www.safaribooksonline.com/library/view/nodejs-the-right/9781941222355/images/eventloop.png 
+- https://pongandbeyond.files.wordpress.com/2011/04/img_2019.jpg 
