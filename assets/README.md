@@ -424,3 +424,15 @@
 - https://s3.amazonaws.com/codementor_content/nodejs_logo_green.jpg 
 - https://www.safaribooksonline.com/library/view/nodejs-the-right/9781941222355/images/eventloop.png 
 - https://pongandbeyond.files.wordpress.com/2011/04/img_2019.jpg 
+
+
+### clase50
+
+- https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/640px-Npm-logo.svg.png 
+- https://i.ytimg.com/vi/55WaAoZV_tQ/maxresdefault.jpg 
+- https://img.devrant.com/devrant/rant/r_760537_vKvzh.jpg 
+- https://yarnpkg.com/assets/og_image.png 
+- http://image.slidesharecdn.com/bower-phxjs-140515152011-phpapp02/95/bower-phoenix-javascript-meetup-1-638.jpg?cb=1400167728 
+- https://i.stack.imgur.com/zo1N0.png 
+- https://rules.ssw.com.au/PublishingImages/package3.jpg 
+

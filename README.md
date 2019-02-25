@@ -87,6 +87,7 @@ Fecha | Teoría | Recursos | Contenido
 18/02/19 | [Clase 47](teoria/clase47.md) | [Clase 47](recursos/clase47.md) | Patrones de JS IV: Algoritmia y Estructuras de datos
 20/02/19 | [Clase 48](teoria/clase48.md) | [Clase 48](recursos/clase48.md) | Nodejs: Funcionamiento, ecosistema y ejemplos
 22/02/19 | [Clase 49](teoria/clase49.md) | [Clase 49](recursos/clase49.md) | Nodejs: Modularización y Librerías Core
+25/02/19 | [Clase 50](teoria/clase50.md) | [Clase 50](recursos/clase50.md) | NPM, NPX, YARN y Bower
 
 
 
