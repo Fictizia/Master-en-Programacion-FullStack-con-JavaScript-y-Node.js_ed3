@@ -436,3 +436,14 @@
 - https://i.stack.imgur.com/zo1N0.png 
 - https://rules.ssw.com.au/PublishingImages/package3.jpg 
 
+
+
+### clase51
+
+- https://henrixivo.files.wordpress.com/2016/01/grunt.png?w=634 
+- https://www.escael.com/wp-content/uploads/2015/06/gulpjs.jpg 
+- http://i2.wp.com/joellongie.com/wp-content/uploads/2015/02/web-gulp-anatomy.jpg 
+- https://fettblog.eu/wp-content/uploads/2015/folie4.jpg 
+- http://theodorelee.com/wp-content/uploads/2015/04/grunt-vs-gulp.jpg 
+- http://frontendlabs.io/wp-content/uploads/2014/08/grunt-file-manipulation.png 
+- http://frontendlabs.io/wp-content/uploads/2014/08/gulp-file-manipulation.png 
