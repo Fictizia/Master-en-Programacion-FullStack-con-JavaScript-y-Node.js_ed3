@@ -89,7 +89,7 @@ Fecha | Teoría | Recursos | Contenido
 22/02/19 | [Clase 49](teoria/clase49.md) | [Clase 49](recursos/clase49.md) | Nodejs: Modularización y Librerías Core
 25/02/19 | [Clase 50](teoria/clase50.md) | [Clase 50](recursos/clase50.md) | NPM, NPX, YARN y Bower
 27/02/19 | [Clase 51](teoria/clase51.md) | [Clase 51](recursos/clase51.md) | Grunt y Gulp
-
+01/03/19 | [Clase 52](teoria/clase52.md) | Clase 52 | Gulp: Ejercicios
 
 
 [Temario](https://coggle.it/diagram/W5ZfeGRd293lprIt/t/master-js-y-node-de-fictizia)
