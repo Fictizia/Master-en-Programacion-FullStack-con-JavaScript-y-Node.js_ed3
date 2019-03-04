@@ -1,0 +1,65 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 919.13 315.95">
+  <title>reactive-traits</title>
+  <g id="backlayer">
+    <g>
+      <line x1="1.13" y1="129.95" x2="286.13" y2="129.95" fill="none" stroke="#afb4c6" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="5"/>
+      <line x1="309.13" y1="129.95" x2="528.13" y2="129.95" fill="none" stroke="#afb4c6" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="5"/>
+      <line x1="535.13" y1="129.95" x2="752.13" y2="129.95" fill="none" stroke="#afb4c6" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="5"/>
+      <line x1="783.13" y1="129.95" x2="909.13" y2="129.95" fill="none" stroke="#afb4c6" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="5"/>
+    </g>
+    <g>
+      <line x1="1.13" y1="226.95" x2="286.13" y2="226.95" fill="none" stroke="#afb4c6" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="5"/>
+      <line x1="309.13" y1="226.95" x2="526.13" y2="226.95" fill="none" stroke="#afb4c6" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="5"/>
+      <line x1="535.13" y1="226.95" x2="752.13" y2="226.95" fill="none" stroke="#afb4c6" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="5"/>
+      <line x1="783.13" y1="226.95" x2="909.13" y2="226.95" fill="none" stroke="#afb4c6" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="5"/>
+    </g>
+    <g>
+      <text transform="translate(0.13 182.91)" font-size="18" fill="#445de9" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700" style="isolation: isolate">FORMAR</text>
+      <text transform="translate(0.13 272.91)" font-size="18" fill="#445de9" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700" style="isolation: isolate">MEDIO</text>
+      <text transform="translate(0.13 102.91)" font-size="18" fill="#445de9" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700" letter-spacing="-0.05em" style="isolation: isolate">VALOR</text>
+    </g>
+  </g>
+  <g id="arrows">
+    <path d="M407.2,89.4c-31.1,7.7-58.2,18.1-79.5,30.4-16.3,9.4-29.2,20-37.9,31.4M395.2,89.4c3.9,0,7.3.1,11.2.1-3.4,1.9-6.3,3.6-9.6,5.6M291.6,223.4c21.3,25.8,63.9,47.2,118.9,60.3M297.5,234c-2-3.5-3.6-6.5-5.3-10,3.3,2.1,6.1,3.8,9.5,5.7m364.7,53.7c53.5-13,95.2-33.8,116.6-58.8m-5.8,10.3c2-3.4,3.7-6.4,5.5-10-3.3,2.1-6.2,3.8-9.6,5.6m9-83.7c-13.8-15.7-35.7-29.8-63.6-41.2a353.91,353.91,0,0,0-50-16.1m12.3,0c-3.9,0-7.3,0-11.3.1,3.4,2,6.3,3.6,9.6,5.7M536.3,120.7v128m-3-116.4c1.1-3.8,2-7,3-10.8,1.1,3.8,2,7,3,10.8M414.8,187.7h246m-235.1,3c-3.6-1-6.6-1.9-10.2-3,3.6-1,6.6-1.9,10.2-3m224.9,6c3.6-1,6.6-1.9,10.2-3-3.6-1-6.6-1.9-10.2-3" transform="translate(-5.67 -8.75)" fill="none" stroke="#445de9" stroke-miterlimit="10" stroke-width="1.94"/>
+  </g>
+  <g id="traits">
+    <g>
+      <g>
+        <path d="M431.8,115.7a16,16,0,0,1-16-16v-35a16,16,0,0,1,16-16h212a16,16,0,0,1,16,16v35a16,16,0,0,1-16,16Z" transform="translate(-5.67 -8.75)" fill="#445de9" opacity="0.4" style="isolation: isolate"/>
+        <path d="M431.8,111.7a12,12,0,0,1-12-12v-35a12,12,0,0,1,12-12h212a12,12,0,0,1,12,12v35a12,12,0,0,1-12,12Z" transform="translate(-5.67 -8.75)" fill="#445de9" opacity="0.6" style="isolation: isolate"/>
+        <path d="M643.8,56.7h-212a8,8,0,0,0-8,8v35a8,8,0,0,0,8,8h212a8,8,0,0,0,8-8v-35A8,8,0,0,0,643.8,56.7Z" transform="translate(-5.67 -8.75)" fill="#445de9"/>
+        <text transform="translate(484.13 76.92)" font-size="18" fill="#fff" font-family="HelveticaNeue, Helvetica Neue" style="isolation: isolate">Responsivos</text>
+      </g>
+      <g>
+        <path d="M253.6,55.65a11.23,11.23,0,0,1-11.2-11.2V20a11.23,11.23,0,0,1,11.2-11.2H402A11.23,11.23,0,0,1,413.2,20v24.5A11.23,11.23,0,0,1,402,55.65Z" transform="translate(-5.67 -8.75)" fill="#445de9" opacity="0.4" style="isolation: isolate"/>
+        <path d="M253.6,52.85a8.42,8.42,0,0,1-8.4-8.4V20a8.42,8.42,0,0,1,8.4-8.4H402a8.42,8.42,0,0,1,8.4,8.4v24.5a8.42,8.42,0,0,1-8.4,8.4Z" transform="translate(-5.67 -8.75)" fill="#445de9" opacity="0.6" style="isolation: isolate"/>
+        <path d="M402,14.35H253.6A5.62,5.62,0,0,0,248,20v24.5a5.62,5.62,0,0,0,5.6,5.6H402a5.62,5.62,0,0,0,5.6-5.6V20A5.57,5.57,0,0,0,402,14.35Z" transform="translate(-5.67 -8.75)" fill="#445de9"/>
+        <text transform="translate(286.53 26.88)" font-size="12.6" fill="#fff" font-family="HelveticaNeue, Helvetica Neue" style="isolation: isolate">Mantenible</text>
+      </g>
+      <g>
+        <path d="M673.6,55.65a11.23,11.23,0,0,1-11.2-11.2V20a11.23,11.23,0,0,1,11.2-11.2H822A11.23,11.23,0,0,1,833.2,20v24.5A11.23,11.23,0,0,1,822,55.65Z" transform="translate(-5.67 -8.75)" fill="#445de9" opacity="0.4" style="isolation: isolate"/>
+        <path d="M673.6,52.85a8.42,8.42,0,0,1-8.4-8.4V20a8.42,8.42,0,0,1,8.4-8.4H822a8.42,8.42,0,0,1,8.4,8.4v24.5a8.42,8.42,0,0,1-8.4,8.4Z" transform="translate(-5.67 -8.75)" fill="#445de9" opacity="0.6" style="isolation: isolate"/>
+        <path d="M822,14.35H673.6A5.62,5.62,0,0,0,668,20v24.5a5.62,5.62,0,0,0,5.6,5.6H822a5.62,5.62,0,0,0,5.6-5.6V20A5.57,5.57,0,0,0,822,14.35Z" transform="translate(-5.67 -8.75)" fill="#445de9"/>
+        <text transform="translate(716.53 26.88)" font-size="12.6" fill="#fff" font-family="HelveticaNeue, Helvetica Neue" style="isolation: isolate">Extensible</text>
+      </g>
+      <g>
+        <path d="M696.8,219.7a16,16,0,0,1-16-16v-35a16,16,0,0,1,16-16h212a16,16,0,0,1,16,16v35a16,16,0,0,1-16,16Z" transform="translate(-5.67 -8.75)" fill="#445de9" opacity="0.4" style="isolation: isolate"/>
+        <path d="M696.8,215.7a12,12,0,0,1-12-12v-35a12,12,0,0,1,12-12h212a12,12,0,0,1,12,12v35a12,12,0,0,1-12,12Z" transform="translate(-5.67 -8.75)" fill="#445de9" opacity="0.6" style="isolation: isolate"/>
+        <path d="M908.8,160.7h-212a8,8,0,0,0-8,8v35a8,8,0,0,0,8,8h212a8,8,0,0,0,8-8v-35A8,8,0,0,0,908.8,160.7Z" transform="translate(-5.67 -8.75)" fill="#445de9"/>
+        <text transform="translate(761.13 183.18)" font-size="18" fill="#fff" font-family="HelveticaNeue-Medium, Helvetica Neue" style="isolation: isolate">Resilientes</text>
+      </g>
+      <g>
+        <path d="M431.8,324.7a16,16,0,0,1-16-16v-35a16,16,0,0,1,16-16h212a16,16,0,0,1,16,16v35a16,16,0,0,1-16,16Z" transform="translate(-5.67 -8.75)" fill="#445de9" opacity="0.4" style="isolation: isolate"/>
+        <path d="M431.8,320.7a12,12,0,0,1-12-12v-35a12,12,0,0,1,12-12h212a12,12,0,0,1,12,12v35a12,12,0,0,1-12,12Z" transform="translate(-5.67 -8.75)" fill="#445de9" opacity="0.6" style="isolation: isolate"/>
+        <path d="M643.8,265.7h-212a8,8,0,0,0-8,8v35a8,8,0,0,0,8,8h212a8,8,0,0,0,8-8v-35A8,8,0,0,0,643.8,265.7Z" transform="translate(-5.67 -8.75)" fill="#445de9"/>
+        <text transform="translate(435.24 287.92)" font-size="18" fill="#fff" font-family="HelveticaNeue-Medium, Helvetica Neue" style="isolation: isolate">Orientados a Mensajes</text>
+      </g>
+      <g>
+        <path d="M165.8,219.7a16,16,0,0,1-16-16v-35a16,16,0,0,1,16-16h212a16,16,0,0,1,16,16v35a16,16,0,0,1-16,16Z" transform="translate(-5.67 -8.75)" fill="#445de9" opacity="0.4" style="isolation: isolate"/>
+        <path d="M165.8,215.7a12,12,0,0,1-12-12v-35a12,12,0,0,1,12-12h212a12,12,0,0,1,12,12v35a12,12,0,0,1-12,12Z" transform="translate(-5.67 -8.75)" fill="#445de9" opacity="0.6" style="isolation: isolate"/>
+        <path d="M377.8,160.7h-212a8,8,0,0,0-8,8v35a8,8,0,0,0,8,8h212a8,8,0,0,0,8-8v-35A8,8,0,0,0,377.8,160.7Z" transform="translate(-5.67 -8.75)" fill="#445de9"/>
+        <text transform="translate(235.13 182.91)" font-size="18" fill="#fff" font-family="HelveticaNeue-Medium, Helvetica Neue" style="isolation: isolate">Elasticos</text>
+      </g>
+    </g>
+  </g>
+</svg>
