@@ -91,7 +91,7 @@ Fecha | Teoría | Recursos | Contenido
 27/02/19 | [Clase 51](teoria/clase51.md) | [Clase 51](recursos/clase51.md) | Grunt y Gulp
 01/03/19 | [Clase 52](teoria/clase52.md) | Clase 52 | Gulp: Ejercicios
 04/03/19 | [Clase 53](teoria/clase53.md) | [Clase 53](recursos/clase53.md) | Paradigmas: Programación Reactiva
-
+06/03/19 | [Clase 54](teoria/clase54.md) | [Clase 54](recursos/clase54.md) | NPM Scripts
 
 [Temario](https://coggle.it/diagram/W5ZfeGRd293lprIt/t/master-js-y-node-de-fictizia)
 =================

@@ -463,3 +463,8 @@
 - https://xzef6mkowaj2390y-zippykid.netdna-ssl.com/wp-content/uploads/2016/10/rxjs-explosion-1.jpg
 - https://www.bit.es/wp-content/uploads/2018/03/Programaci%C3%B3n-Reactiva_.png
 - https://media.makeameme.org/created/dont-forget-40402a.jpg
+
+
+### clase54
+
+- https://raw.githubusercontent.com/samueleaton/design/master/npm-scripts-black.png 
