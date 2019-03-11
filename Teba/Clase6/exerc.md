@@ -21,7 +21,7 @@ comparemos(2, 200);
 ```
 
 ```js
-// Switch
+// Operador ternario
 function comparemosOp (num1, num2) {
     var mensaje = "El número mayor es ";
     (num1 > num2) ? console.log(mensaje +num1) : (num1 < num2) ? console.log(mensaje +num2) : console.log("Parece que son iguales...")
@@ -31,6 +31,7 @@ comparemosOp(3, 5);
 ```
 
 ```js
+// Switch
 function comparandoSw (num1, num2){
     var mensaje = "El número mayor es ";
     switch (true)   
@@ -64,6 +65,49 @@ function comparemos (num1, num2, num3) {
 };
 comparemos(2, 200, 400);
 ```
+
+```js
+// Operador ternario
+function comparemosOp (num1, num2, num3) {
+     var mensaje = "El número mayor es ";
+    (num1 > num2 && num1 > num3) ? console.log(mensaje +num1)
+        : (num2 > num1 && num2 > num3) ? console.log(mensaje +num2)
+        : console.log(mensaje +num3)
+};
+comparemosOp(2, 200, 400);
+```
+
+```js
+// Switch
+function comparemosSw (um1, num2, num3) {
+    var mensaje = "El número mayor es ";
+    switch(true) {
+        case (num1 > num2 && num1 > num3):
+            console.log(mensaje +num1);
+            break;
+        case (num2 > num1 && num2 > num3):
+            console.log(mensaje +num2);
+            break;
+        default:
+            console.log(mensaje +num3);
+}
+};
+
+comparandoSw(100, 111, 2);
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
