@@ -90,12 +90,37 @@ function comparemosSw (um1, num2, num3) {
             break;
         default:
             console.log(mensaje +num3);
-}
+	}
 };
-
 comparandoSw(100, 111, 2);
 ```
 
+#### 3 - Diseña un script que siga el siguiente proceso:
+- Si el primero es negativo, debe sumar los otros dos
+- Sino multiplicará los tres numeros
+- Mostrar el resultado final incluyendo una referencia a la operación realizada.
+
+
+```js
+// If else...
+function multiplesCosas (num1, num2, num3) {
+		if (num1 < 0) {
+			console.log("Vamos a sumar los otros 2 = ", num2+num3);
+		} else {
+			console.log("Vamos a multiplicar los 3 = ", num1 * num2 * num3);
+		}
+	}
+multiplesCosas(2, 5, 8);
+```
+
+```js
+// Operador ternario
+function multiplesCosasOp (num1, num2, num3) {
+    (num1 < 0) ? console.log("Sumamos los 2 = ", num2+num3)
+        : console.log ("Multiplicamos los 3 = ", num1*num2*num3);
+};
+multiplesCosasOp(-9, 10, 4);
+```
 
 
 
