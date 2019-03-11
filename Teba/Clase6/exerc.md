@@ -29,3 +29,43 @@ function comparemosOp (num1, num2) {
 
 comparemosOp(3, 5);
 ```
+
+```js
+function comparandoSw (num1, num2){
+    var mensaje = "El número mayor es ";
+    switch (true)   
+    {
+        case (num1 > num2):
+            console.log(mensaje +num1)
+            break;
+        case (num1 < num2):
+            console.log(mensaje +num2)
+            break;
+        default:
+            console.log("Parece que son iguales...")
+    }
+};
+comparandoSw(3, 5);
+```
+
+
+#### 2 - Diseña un script que lea tres números distintos y nos diga cual de ellos es el mayor.
+
+```js
+// If...else
+function comparemos (num1, num2, num3) {
+    if (num1 > num2 && num1 > num3) {
+    console.log("Es mayor " +num1)
+} else if (num2 > num1 && num2 > num3) {
+		console.log("Es mayor " +num2)
+} else {
+    console.log("Pues parece que el mayor es " +num3)
+};
+};
+comparemos(2, 200, 400);
+```
+
+
+
+
+
