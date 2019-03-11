@@ -468,3 +468,12 @@
 ### clase54
 
 - https://raw.githubusercontent.com/samueleaton/design/master/npm-scripts-black.png 
+
+
+### clase55
+
+
+### clase56
+
+- https://smjtech.files.wordpress.com/2014/04/unix_desktop_1440x900_wallpaper-331531.png 
+- http://www.framepkg.com/uploads/4/9/7/8/49780617/5870686_orig.jpg 
