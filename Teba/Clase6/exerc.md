@@ -136,7 +136,19 @@ function multiplesCosasOp (num1, num2, num3) {
 multiplesCosasOp(-9, 10, 4);
 ```
 
+#### 4 - Nivel Medio :spades: Diseña un algoritmo que aplique al precio de un producto un descuento cuando se den las siguientes caracteristicas.
+Se aplica un 25% cuando:
+- Estamos en los meses de invierno
+- Y no es viernes o fin de semana.
 
+```js
+// If...else
+var invierno = {"Noviembre","Diciembre","Enero","Febrero"};
+var semana = {"Lunes","Martes","Miercoles","Jueves"};
+var precio = 100;
+var descuento = (precio*25)/100;
+
+```
 
 
 
