@@ -122,6 +122,19 @@ function multiplesCosasOp (num1, num2, num3) {
 multiplesCosasOp(-9, 10, 4);
 ```
 
+```js
+// Switch
+function multiplesCosasOp (num1, num2, num3) {
+    switch(true){
+        case (num1 < 0):
+            console.log("Sumamos los 2 ", num2+num3);
+            break;
+        default:
+            console.log("Multiplicamos los 3 ", num1*num2*num3)
+    }
+}
+multiplesCosasOp(-9, 10, 4);
+```
 
 
 
