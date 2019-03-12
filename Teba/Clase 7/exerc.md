@@ -27,3 +27,28 @@ function identificaCliente () {
 
 identificaCliente();
 ```
+
+```js
+// Usando while y break
+function identificaCliente() {
+	var claveCorrecta = "Fictizia mola mucho";
+	var intentos = 3;
+	var control = 0;
+	while (control <= intentos) {
+		var claveIntento = prompt("Introduce tu clave");
+		if (claveIntento === claveCorrecta) {
+			alert("Cliente identificado!");
+			break;
+		} else {
+			console.warn("Clave fallida, inténtalo de nuevo");
+			control++;
+			if (control >= intentos) {
+				console.warn("Te quedaste sin intentos");
+				break;
+			}
+		}
+	};
+}
+
+identificaCliente();
+```
