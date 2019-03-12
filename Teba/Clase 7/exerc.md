@@ -164,6 +164,35 @@ printNumbers();
 
 ```
 
+#### 4 - Diseña un algoritmo que imprima los numeros pares entre 0 y 100.
+
+```js
+// Usando for...
+function printNumbers() {
+	for (var i = 0; i <= 100; i++) {
+		if (i % 2 === 0) {
+			console.log("Este es el número " + i);
+		}
+	};
+}
+printNumbers();
+
+```
+
+```js
+// Usando while
+
+function printNumbers (){
+	var control = 0; 
+
+	while (control <= 100) {
+	console.log("Este es el número " +control);
+	control++;
+	};
+}
+
+printNumbers();
+```
 
 
 
