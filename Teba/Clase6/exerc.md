@@ -144,19 +144,22 @@ Se aplica un 25% cuando:
 ```js
 // If...else
 
-function rebajamosPrecio(mes, dia, precio) {
-	var invierno = ["Noviembre", "Diciembre", "Enero", "Febrero"];
-	var semana = ["Lunes", "Martes", "Miercoles", "Jueves"];
+function rebajasInvierno(mes, dia, precio) {
 	var descuento = (precio * 25) / 100;
 	var precioDescuento = precio - descuento;
 
-	if (invierno && semana) {
-		console.log("Genial!! Aprovecha tu descuento :-)", precioDescuento);
+	if (mes === "Diciembre" || mes === "Enero" || mes === "Febrero") {
+		if (dia === "Lunes" || dia === "Martes" || dia === "Miércoles" || dia === "Jueves") {
+			console.log("Genial!! Tienes descuentazo! Precio final: ", precioDescuento);
+		} else {
+			console.log("Tienes que venir entre semana para el descuento! Precio final:", precio);
+		};
 	} else {
-		console.log("Recuerda venir en invierno y entre semana para disfrutar de un descuento!", precio);
-	}
+		console.log("Para disfrutar del descuento, vente en Invierno y entre semana a visitarnos! Precio final:", precio);
+	};
 }
-rebajamosPrecio("Enero", "Lunes", 50);
+
+rebajasInvierno("Marzo", "Lunes", 70);
 
 ```
 
@@ -164,19 +167,38 @@ rebajamosPrecio("Enero", "Lunes", 50);
 ```js
 // Op. ternario
 
-function rebajamosPrecio(mes, dia, precio) {
-	var invierno = ["Noviembre", "Diciembre", "Enero", "Febrero"];
-	var semana = ["Lunes", "Martes", "Miercoles", "Jueves"];
+function rebajasInvierno(mes, dia, precio) {
 	var descuento = (precio * 25) / 100;
 	var precioDescuento = precio - descuento;
 
-	(invierno && semana) ? console.log("Genial!! Aprovecha tu descuento :-)", precioDescuento): console.log("Recuerda venir en invierno y entre semana para disfrutar de un descuento!", precio);
+	(mes === "Diciembre" || mes === "Enero" || mes === "Febrero") && (dia === "Lunes" || dia === "Martes" || dia === "Miércoles" || dia === "Jueves") ? console.log("Genial!! Tienes descuentazo! Precio final: ", precioDescuento): console.log("Para disfrutar del descuento, vente en Invierno y entre semana a visitarnos! Precio final:", precio)
+}
 
-};
+rebajasInvierno("Marzo", "Lunes", 70);
+rebajasInvierno("Diciembre", "Lunes", 70);
 
-rebajamosPrecio("Enero", "Lunes", 50);
 ```
 
+```js
+// Switch
+
+function rebajasInvierno(mes, dia, precio) {
+	var descuento = (precio * 25) / 100;
+	var precioDescuento = precio - descuento;
+
+	switch (true) {
+		case ((mes === "Diciembre" || mes === "Enero" || mes === "Febrero") && (dia === "Lunes" || dia === "Martes" || dia === "Miércoles" || dia === "Jueves")):
+			console.log("Genial!! Tienes descuentazo! Precio final: ", precioDescuento);
+			break;
+		case (mes != "Diciembre" || mes != "Enero" || mes != "Febrero"):
+			console.log("Para disfrutar del descuento, vente en Invierno y entre semana a visitarnos! Precio final:", precio);
+			break;
+	}
+};
+
+rebajasInvierno("Marzo", "Lunes", 70)
+
+```
 
 
 
