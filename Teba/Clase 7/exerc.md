@@ -209,6 +209,84 @@ printEven();
 
 ```
 
+#### 5 - Diseña un algoritmo que imprima los números impares entre un número dado por el usuario y los siguientes 50 números
+
+```js
+// Usando for
+function printOdd (n) {
+	var numDesde = n;
+	var maximo = n+50;
+	for (var i = n; i <= maximo; i++){
+		if (i %2 != 0){
+			console.log(i);
+		};
+	};
+}
+
+printOdd(150);
+```
+
+```js
+// Usando while...
+
+function printOdd (n) {
+	var numDesde = n;
+	var maximo = n+50;
+	var i = n; 
+	
+	while (i <= maximo){
+		if (i %2 != 0){
+			console.log(i);
+		}; i++;
+	};		
+}
+printOdd(150);
+```
+
+
+```js
+// Usando Do...while
+
+function printOdd(n) {
+	var numDesde = n;
+	var maximo = n + 50;
+	var i = n;
+
+
+	do {
+		if (i % 2 != 0) {
+			console.log(i);
+		};
+		i++;
+	} while (i <= maximo);
+}
+
+printOdd(150);
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
