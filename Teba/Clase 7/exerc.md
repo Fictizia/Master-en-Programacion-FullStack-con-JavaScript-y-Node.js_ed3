@@ -264,7 +264,27 @@ function printOdd(n) {
 printOdd(150);
 ```
 
+#### 6 - Diseña un algoritmo que imprima, partiendo de un número dado por el usuario:
+- La suma de los 50 primeros numeros pares 
+- El total de números impares
 
+```js
+function sumEven (n) {
+	var even = 0;
+	var odd = 0;
+
+	for (var i = n; odd <= 50; i++) {
+		if (i %2 === 0) {
+			even += i;
+		} else {
+			odd++;
+		};
+	};
+	console.log("Esta es la suma de los pares ", +even+ " y el total de los impares ", +odd);
+}
+
+sumEven(10);
+```
 
 
 
