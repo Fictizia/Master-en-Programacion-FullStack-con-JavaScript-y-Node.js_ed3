@@ -121,10 +121,48 @@ function printNumbers() {
 printNumbers();
 ```
 
+#### 3 - Diseña un algoritmo que imprima los numeros del 100 al 0.
 
+```js
+// Usando for...
 
+function printNumbers (){
+	for (var i = 100; i > 0; i--) {
+	console.log("Este es el número " +i);
+	};
+}
+printNumbers();
 
+```
 
+```js
+// Usando while
+
+function printNumbers (){
+	var i = 100;
+	while (i > 0) {
+	console.log("Este es el número " +i);
+	 i--;
+	};
+}
+printNumbers();
+
+```
+
+```js
+// Usando Do..while
+
+function printNumbers (){
+	var i = 100;
+	do {
+		console.log("Este es el número " +i);
+ 		i--;
+	} while (i > 0);
+}
+
+printNumbers();
+
+```
 
 
 
