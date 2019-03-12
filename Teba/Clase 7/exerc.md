@@ -79,5 +79,17 @@ function identificaCliente() {
 identificaCliente();
 ```
 
+#### 2 - Diseña un algoritmo que imprima los numeros del 1 al 100.
+
+```js
+// Usando for
+function printNumbers (){
+	for (var i = 0; i <= 100; i++) {
+	console.log("Este es el número " +i);
+	};
+}
+```
+
+
 
 
