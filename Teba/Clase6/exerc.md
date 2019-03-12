@@ -200,9 +200,50 @@ rebajasInvierno("Marzo", "Lunes", 70)
 
 ```
 
+#### 5 - Diseña un algoritmo que al introducir un numero nos diga si es positivo o negativo.
+```js
+// If...else
+function descubreNegativo(num) {
+	if (num < 0) {
+		console.info("Parece que " + num + " es negativo!")
+	} else {
+		console.info("Este número es positivo!")
+	};
+}
 
+descubreNegativo(-9);
 
+```
 
+```js
+// Op. Ternario
+
+function descubreNegativo(num) {
+
+	(num < 0) ? console.info("Parece que " + num + " es negativo!"): console.info("Este número es positivo!");
+}
+
+descubreNegativo(-9);
+
+```
+
+```js
+// Switch
+
+function descubreNegativo(num) {
+
+	switch (true) {
+		case (num < 0):
+			console.info("Parece que " + num + " es negativo!");
+			break;
+		default:
+			console.info("Este número es positivo!");
+	};
+}
+
+descubreNegativo(-9);
+
+```
 
 
 
