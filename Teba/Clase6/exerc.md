@@ -144,10 +144,10 @@ Se aplica un 25% cuando:
 ```js
 // If...else
 
-function rebajamosPrecio (mes, dia, precio) {
-	var invierno = ["Noviembre","Diciembre","Enero","Febrero"];
-	var semana = ["Lunes","Martes","Miercoles","Jueves"];
-	var descuento = (precio*25)/100;
+function rebajamosPrecio(mes, dia, precio) {
+	var invierno = ["Noviembre", "Diciembre", "Enero", "Febrero"];
+	var semana = ["Lunes", "Martes", "Miercoles", "Jueves"];
+	var descuento = (precio * 25) / 100;
 	var precioDescuento = precio - descuento;
 
 	if (invierno && semana) {
@@ -161,8 +161,21 @@ rebajamosPrecio("Enero", "Lunes", 50);
 ```
 
 
+```js
+// Op. ternario
 
+function rebajamosPrecio(mes, dia, precio) {
+	var invierno = ["Noviembre", "Diciembre", "Enero", "Febrero"];
+	var semana = ["Lunes", "Martes", "Miercoles", "Jueves"];
+	var descuento = (precio * 25) / 100;
+	var precioDescuento = precio - descuento;
 
+	(invierno && semana) ? console.log("Genial!! Aprovecha tu descuento :-)", precioDescuento): console.log("Recuerda venir en invierno y entre semana para disfrutar de un descuento!", precio);
+
+};
+
+rebajamosPrecio("Enero", "Lunes", 50);
+```
 
 
 
