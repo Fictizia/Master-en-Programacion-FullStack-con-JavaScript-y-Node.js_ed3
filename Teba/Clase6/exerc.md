@@ -143,10 +143,20 @@ Se aplica un 25% cuando:
 
 ```js
 // If...else
-var invierno = {"Noviembre","Diciembre","Enero","Febrero"};
-var semana = {"Lunes","Martes","Miercoles","Jueves"};
-var precio = 100;
-var descuento = (precio*25)/100;
+
+function rebajamosPrecio (mes, dia, precio) {
+	var invierno = ["Noviembre","Diciembre","Enero","Febrero"];
+	var semana = ["Lunes","Martes","Miercoles","Jueves"];
+	var descuento = (precio*25)/100;
+	var precioDescuento = precio - descuento;
+
+	if (invierno && semana) {
+		console.log("Genial!! Aprovecha tu descuento :-)", precioDescuento);
+	} else {
+		console.log("Recuerda venir en invierno y entre semana para disfrutar de un descuento!", precio);
+	}
+}
+rebajamosPrecio("Enero", "Lunes", 50);
 
 ```
 
