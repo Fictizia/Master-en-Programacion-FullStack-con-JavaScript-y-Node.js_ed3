@@ -88,7 +88,47 @@ function printNumbers (){
 	console.log("Este es el número " +i);
 	};
 }
+
+printNumbers();
 ```
+
+```js
+// Usando while
+
+function printNumbers (){
+	var control = 0; 
+
+	while (control <= 100) {
+	console.log("Este es el número " +control);
+	control++;
+	};
+}
+
+printNumbers();
+```
+
+```js
+// Usando Do...while
+function printNumbers() {
+	var control = 0;
+
+	do {
+		console.log("Este es el número " + control);
+		control++;
+	} while (control <= 100);
+}
+
+printNumbers();
+```
+
+
+
+
+
+
+
+
+
 
 
 
