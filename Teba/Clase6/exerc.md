@@ -277,6 +277,19 @@ descubreParidad(5);
 ```js
 // Switch
 
+function descubreParidad(num) {
+
+	switch (true) {
+		case (num % 2 === 0):
+			console.info("Has descubierto un número par!");
+			break;
+		default:
+			console.info(num + " es un número impar!");
+	};
+}
+
+descubreParidad(5);
+
 ```
 
 
