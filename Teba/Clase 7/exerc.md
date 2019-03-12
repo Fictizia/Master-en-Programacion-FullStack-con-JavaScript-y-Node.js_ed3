@@ -52,3 +52,32 @@ function identificaCliente() {
 
 identificaCliente();
 ```
+
+```js
+// Usando Do...while
+
+function identificaCliente() {
+	var claveCorrecta = "Fictizia mola mucho";
+	var intentos = 3;
+	var i = 0;
+
+	do {
+		var claveIntento = prompt("Introduce tu clave");
+		if (claveIntento === claveCorrecta) {
+			alert("Cliente identificado!");
+			break;
+		} else {
+			console.warn("Clave fallida, inténtalo de nuevo");
+		}
+		i++;
+	} while (i < 3);
+
+	if (i >= intentos) {
+		console.warn("Te quedaste sin intentos");
+	}
+}
+identificaCliente();
+```
+
+
+
