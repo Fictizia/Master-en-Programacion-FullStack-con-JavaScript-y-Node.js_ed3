@@ -182,16 +182,31 @@ printNumbers();
 ```js
 // Usando while
 
-function printNumbers (){
-	var control = 0; 
-
-	while (control <= 100) {
-	console.log("Este es el número " +control);
-	control++;
+function printEven (){
+	var i = 0;
+	while (i <= 100) {
+		console.log(i);
+		i += 2;
 	};
 }
 
-printNumbers();
+printEven();
+```
+
+```js
+// Usando Do...while
+
+function printEven (){
+	var i = 0;
+	do {
+		if (i %2 === 0) {
+			console.log(i);
+		}
+		i++;	
+	} while (i <= 100);
+}
+printEven();
+
 ```
 
 
