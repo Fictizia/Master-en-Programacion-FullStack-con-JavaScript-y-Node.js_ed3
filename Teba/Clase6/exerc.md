@@ -245,6 +245,58 @@ descubreNegativo(-9);
 
 ```
 
+#### 6 - Diseña un algoritmo que al introducir un número nos diga si es par o impar.
+
+```js
+// If...else
+
+function descubreParidad(num) {
+
+	if (num % 2 === 0) {
+		console.info("Has descubierto un número par!")
+	} else {
+		console.info(num + " es un número impar!")
+	};
+}
+
+descubreParidad(5);
+
+```
+
+```js
+// Op. ternario
+function descubreParidad(num) {
+
+	(num % 2 === 0) ? console.info("Has descubierto un número par!"): console.info(num + " es un número impar!");
+
+}
+
+descubreParidad(5);
+```
+
+```js
+// Switch
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
