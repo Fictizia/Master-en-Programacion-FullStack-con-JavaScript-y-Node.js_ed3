@@ -477,3 +477,17 @@
 
 - https://smjtech.files.wordpress.com/2014/04/unix_desktop_1440x900_wallpaper-331531.png 
 - http://www.framepkg.com/uploads/4/9/7/8/49780617/5870686_orig.jpg 
+
+
+### clase57
+
+- https://static1.squarespace.com/static/5141f98de4b01238136e109c/t/55d52a2de4b0b8db6036504f/1440033326505/webpack-install?format=2500w 
+- http://1.bp.blogspot.com/-RWKQH6r6AQ8/Uutpgj0letI/AAAAAAAAAnk/Rd7hmZ-0-Rg/s1600/fig01.png 
+- https://media.makeameme.org/created/thats-my-secret-5a6n54.jpg 
+- https://www.ignasibosch.com/assets/talks/watertight_compartments/images/design_patterns_to_the_rescue.jpg 
+- https://darkxahtep.github.io/JsModules.Presentation/images/CommonJS.png 
+- https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Asynchronous_Module_Definition_overview_vector_es.svg/1200px-Asynchronous_Module_Definition_overview_vector_es.svg.png 
+- https://www.thebardcompany.com/wp-content/uploads/2014/11/Aesops-Fables-Sticks.jpg 
+- https://rules.ssw.com.au/PublishingImages/package3.jpg 
+- https://raw.githubusercontent.com/browserify/browserify/HEAD/assets/logo.png 
+- https://camo.githubusercontent.com/7740e572c3b2aa23aec12513635e13c1ec2851d6/687474703a2f2f7777772e64796e616d696370726f64756374732e6e6c2f77702d636f6e74656e742f75706c6f6164732f323031362f30392f726571756972655f6c6f676f5f6269672e6a7067 
