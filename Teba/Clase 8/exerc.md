@@ -18,16 +18,20 @@
  
  ```js
 function throwDices(n) {
-	var dado1, dado2;
+
 	var counter = 0;
-	dado1 = Math.round((Math.random()*5) +1);
-	dado2 = Math.round((Math.random()*5) +1);
+	for (var i=0; i<100; i++){
+
+	var dado1 = Math.round((Math.random()*6) +1);
+	var dado2 = Math.round((Math.random()*6) +1);
 	var sumaDados = dado1 + dado2;
 
 	if (sumaDados === 10) {
 		counter++;
-	}
+		}
+	};
+	console.log("Tiraditas tiraditas...¿cuántas veces han sumado 10? ", +counter);
 }
-throwDices(100);
+throwDices();
 ```
 
