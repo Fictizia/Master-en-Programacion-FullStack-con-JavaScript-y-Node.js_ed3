@@ -20,7 +20,7 @@
 function throwDices(n) {
 
 	var counter = 0;
-	for (var i=0; i<100; i++){
+	for (var i=0; i<=100; i++){
 
 	var dado1 = Math.round((Math.random()*6) +1);
 	var dado2 = Math.round((Math.random()*6) +1);
