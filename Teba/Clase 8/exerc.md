@@ -35,3 +35,13 @@ function throwDices(n) {
 throwDices();
 ```
 
+#### 4 - ¿Que fecha será dentro de 30 días?
+
+```js
+var theBigDay = new Date(2019, 2, 14);
+theBigDay.toLocaleString();
+
+var theBigDay = new Date(2019, 2, 14);
+theBigDay.setDate(theBigDay.getDate() + 30);  
+theBigDay.toLocaleString();
+```
