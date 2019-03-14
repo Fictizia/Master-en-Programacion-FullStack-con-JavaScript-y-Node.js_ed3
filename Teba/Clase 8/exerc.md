@@ -44,4 +44,6 @@ theBigDay.toLocaleString();
 var theBigDay = new Date(2019, 2, 14);
 theBigDay.setDate(theBigDay.getDate() + 30);  
 theBigDay.toLocaleString();
+
+// "13/4/2019 0:00:00"
 ```
