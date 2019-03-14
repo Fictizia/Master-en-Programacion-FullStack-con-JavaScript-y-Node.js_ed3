@@ -17,6 +17,17 @@
  #### 2 - Diseña un algoritmo que simula cien tiradas de dos dados y contar las veces que entre los dos suman 10.
  
  ```js
+function throwDices(n) {
+	var dado1, dado2;
+	var counter = 0;
+	dado1 = Math.round((Math.random()*5) +1);
+	dado2 = Math.round((Math.random()*5) +1);
+	var sumaDados = dado1 + dado2;
 
+	if (sumaDados === 10) {
+		counter++;
+	}
+}
+throwDices(100);
 ```
 
