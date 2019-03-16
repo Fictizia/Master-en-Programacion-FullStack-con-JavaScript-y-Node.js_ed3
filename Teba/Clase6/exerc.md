@@ -28,6 +28,18 @@ function comparemosOp (num1, num2) {
 }
 
 comparemosOp(3, 5);
+
+//Refactor DRY
+
+function comparemosOp (num1, num2) {
+    var mensaje = "El número mayor es ";
+    var igualdad = "Parece que son iguales..."
+
+    console.log((num1 > num2) ? (mensaje +num1) : (num1 < num2) ? (mensaje +num2) : igualdad)
+}
+
+comparemosOp(3, 5);
+
 ```
 
 ```js
