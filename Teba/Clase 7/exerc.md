@@ -177,6 +177,14 @@ function printNumbers() {
 }
 printNumbers();
 
+// Version hacker
+function printNumbers() {
+	for (var i = 0; i <= 100; i+=2) {
+		console.log("Este es el número " + i);
+	};
+}
+printNumbers();
+
 ```
 
 ```js
