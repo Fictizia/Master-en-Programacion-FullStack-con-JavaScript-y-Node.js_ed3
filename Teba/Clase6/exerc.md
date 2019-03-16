@@ -173,6 +173,49 @@ function rebajasInvierno(mes, dia, precio) {
 
 rebajasInvierno("Marzo", "Lunes", 70);
 
+
+// REFACTOR (Mejorar uso de la memoria)
+function rebajasInvierno(mes, dia, precio) {
+
+	if (mes === "Diciembre" || mes === "Enero" || mes === "Febrero") {
+		if (dia === "Lunes" || dia === "Martes" || dia === "Miércoles" || dia === "Jueves") {
+			var descuento = (precio * 25) / 100;
+			var precioDescuento = precio - descuento;
+			console.log("Genial!! Tienes descuentazo! Precio final: ", precioDescuento);
+		} else {
+			console.log("Tienes que venir entre semana para el descuento! Precio final:", precio);
+		};
+	} else {
+		console.log("Para disfrutar del descuento, vente en Invierno y entre semana a visitarnos! Precio final:", precio);
+	};
+}
+
+rebajasInvierno("Marzo", "Lunes", 70);
+
+
+// REFACTOR UPGRADE (Mejorar el enfoque con ES6)
+function rebajasInvierno(mes, dia, precio) {
+	const mesesValidos = ["Diciembre", "Enero", "Febrero"];
+	const diasNoValidos = ["Viernes", "Sábado", "Domingo"];
+
+	if(!mesesValidos.includes(mes)) {
+		console.log(`Para disfrutar del descuento, vente en Invierno y entre semana a visitarnos! Precio final: ${precio}`);
+		return;
+	}
+
+	if(diasNoValidos.includes(dia)) {
+		console.log(`Tienes que venir entre semana para el descuento! Precio final: ${precio}`);
+		return;
+	}
+
+	const descuento = (precio * 25) / 100;
+	const precioDescuento = precio - descuento;
+	console.log(`Genial!! Tienes descuentazo! Precio final: ${precioDescuento}`);	
+}
+
+rebajasInvierno("Marzo", "Lunes", 70);
+
+
 ```
 
 
