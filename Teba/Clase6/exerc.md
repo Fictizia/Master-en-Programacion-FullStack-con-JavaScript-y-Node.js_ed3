@@ -296,7 +296,8 @@ descubreNegativo(-9);
 
 function descubreNegativo(num) {
 
-	(num < 0) ? console.info("Parece que " + num + " es negativo!"): console.info("Este número es positivo!");
+	console.info((num < 0) ? "Es negativo!" : "Es positivo!");
+
 }
 
 descubreNegativo(-9);
