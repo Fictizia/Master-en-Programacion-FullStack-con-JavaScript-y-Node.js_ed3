@@ -28,6 +28,18 @@ function comparemosOp (num1, num2) {
 }
 
 comparemosOp(3, 5);
+
+//Refactor DRY
+
+function comparemosOp (num1, num2) {
+    var mensaje = "El número mayor es ";
+    var igualdad = "Parece que son iguales..."
+
+    console.log((num1 > num2) ? (mensaje +num1) : (num1 < num2) ? (mensaje +num2) : igualdad)
+}
+
+comparemosOp(3, 5);
+
 ```
 
 ```js
@@ -161,6 +173,49 @@ function rebajasInvierno(mes, dia, precio) {
 
 rebajasInvierno("Marzo", "Lunes", 70);
 
+
+// REFACTOR (Mejorar uso de la memoria)
+function rebajasInvierno(mes, dia, precio) {
+
+	if (mes === "Diciembre" || mes === "Enero" || mes === "Febrero") {
+		if (dia === "Lunes" || dia === "Martes" || dia === "Miércoles" || dia === "Jueves") {
+			var descuento = (precio * 25) / 100;
+			var precioDescuento = precio - descuento;
+			console.log("Genial!! Tienes descuentazo! Precio final: ", precioDescuento);
+		} else {
+			console.log("Tienes que venir entre semana para el descuento! Precio final:", precio);
+		};
+	} else {
+		console.log("Para disfrutar del descuento, vente en Invierno y entre semana a visitarnos! Precio final:", precio);
+	};
+}
+
+rebajasInvierno("Marzo", "Lunes", 70);
+
+
+// REFACTOR UPGRADE (Mejorar el enfoque con ES6)
+function rebajasInvierno(mes, dia, precio) {
+	const mesesValidos = ["Diciembre", "Enero", "Febrero"];
+	const diasNoValidos = ["Viernes", "Sábado", "Domingo"];
+
+	if(!mesesValidos.includes(mes)) {
+		console.log(`Para disfrutar del descuento, vente en Invierno y entre semana a visitarnos! Precio final: ${precio}`);
+		return;
+	}
+
+	if(diasNoValidos.includes(dia)) {
+		console.log(`Tienes que venir entre semana para el descuento! Precio final: ${precio}`);
+		return;
+	}
+
+	const descuento = (precio * 25) / 100;
+	const precioDescuento = precio - descuento;
+	console.log(`Genial!! Tienes descuentazo! Precio final: ${precioDescuento}`);	
+}
+
+rebajasInvierno("Marzo", "Lunes", 70);
+
+
 ```
 
 
@@ -198,6 +253,27 @@ function rebajasInvierno(mes, dia, precio) {
 
 rebajasInvierno("Marzo", "Lunes", 70)
 
+
+// REFACTOR UPGRADE (Mejorar el enfoque con ES6) + Returns
+function rebajasInvierno(mes, dia, precio) {
+	const mesesValidos = ["Diciembre", "Enero", "Febrero"];
+	const diasNoValidos = ["Viernes", "Sábado", "Domingo"];
+
+	if(!mesesValidos.includes(mes)) {
+		return `Para disfrutar del descuento, vente en Invierno y entre semana a visitarnos! Precio final: ${precio}`;
+	}
+
+	if(diasNoValidos.includes(dia)) {
+		return`Tienes que venir entre semana para el descuento! Precio final: ${precio}`;
+	}
+
+	const descuento = (precio * 25) / 100;
+	const precioDescuento = precio - descuento;
+	return `Genial!! Tienes descuentazo! Precio final: ${precioDescuento}`;	
+}
+
+console.log(rebajasInvierno("Marzo", "Lunes", 70));
+
 ```
 
 #### 5 - Diseña un algoritmo que al introducir un numero nos diga si es positivo o negativo.
@@ -220,7 +296,8 @@ descubreNegativo(-9);
 
 function descubreNegativo(num) {
 
-	(num < 0) ? console.info("Parece que " + num + " es negativo!"): console.info("Este número es positivo!");
+	console.info((num < 0) ? "Es negativo!" : "Es positivo!");
+
 }
 
 descubreNegativo(-9);

@@ -38,4 +38,16 @@ function calcPorcentual (x, y){
 
 calcPorcentual(2, 8);
 
+// Refactor
+
+function calcPorcentual (totalMujeres, totalHombres){
+    var totalClase = x + y;
+
+    console.log("El porcentaje de mujeres en clase es:" , ((totalMujeres*100)/totalClase));
+    console.log("El porcentaje de hombres en clase es:" , ((totalHombres*100)/totalClase));
+}
+
+calcPorcentual(2, 8);
+
+
 ```
