@@ -491,3 +491,8 @@
 - https://rules.ssw.com.au/PublishingImages/package3.jpg 
 - https://raw.githubusercontent.com/browserify/browserify/HEAD/assets/logo.png 
 - https://camo.githubusercontent.com/7740e572c3b2aa23aec12513635e13c1ec2851d6/687474703a2f2f7777772e64796e616d696370726f64756374732e6e6c2f77702d636f6e74656e742f75706c6f6164732f323031362f30392f726571756972655f6c6f676f5f6269672e6a7067 
+
+
+### clase58
+
+- https://raw.githubusercontent.com/yeoman/media/master/optimized/yeoman-masthead.png 
