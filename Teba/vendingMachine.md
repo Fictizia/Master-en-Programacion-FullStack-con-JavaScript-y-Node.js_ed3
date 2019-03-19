@@ -9,42 +9,24 @@
 ```js
 // Paso 1: crear los primeros objetos básicos
  
- var maquinaExpendedora = {
-   admin: { contraseña: 'fictiziamola' },
-   producto:[
-     {
-     nombre: "Patatas fritas ahumadas",
-     código: "C01",
-     stock: 10,
-     disponibilidad: true,
-     precio: 3
-     },{
-     nombre: "Risketos",
-     código: "C02",
-     stock: 10,
-     disponibilidad: true,
-     precio: 2
-     },{
-     nombre: "Batido avena fresa",
-     código: "C03",
-     stock: 10,
-     disponibilidad: true,
-     precio: 4
-     },{
-     nombre: "Sandwich vegetal",
-     código: "C04",
-     stock: 10,
-     disponibilidad: true,
-     precio: 6
-     },{
-     nombre: "Sandwich atún",
-     código: "C05",
-     stock: 10,
-     disponibilidad: true,
-     precio: 6
-     }
-   ],
-   clientes: [
+ var maquinaExpendedora = {};
+ 
+ var productos = [];
+ 
+ var clientes = [];
+``` 
+ 
+Paso 2 - Creamos los primeros perfiles en el Array de clientes:
+
+Propiedades:
+- Nombre
+- Usuario
+- Contraseña
+- Tipo usuario
+- Presupuesto
+
+``` 
+var clientes = [
      {
      nombre: "Teba Gómez"
      usuario: "Tgomez"
@@ -82,13 +64,44 @@
        saldoActual: N
        }]
      }
-   ],
-  };
-```
+   ];
+ 
+var productos = [
+     {
+     nombre: "Patatas fritas ahumadas",
+     código: "C01",
+     stock: 10,
+     disponibilidad: true,
+     precio: 3
+     },{
+     nombre: "Risketos",
+     código: "C02",
+     stock: 10,
+     disponibilidad: true,
+     precio: 2
+     },{
+     nombre: "Batido avena fresa",
+     código: "C03",
+     stock: 10,
+     disponibilidad: true,
+     precio: 4
+     },{
+     nombre: "Sandwich vegetal",
+     código: "C04",
+     stock: 10,
+     disponibilidad: true,
+     precio: 6
+     },{
+     nombre: "Sandwich atún",
+     código: "C05",
+     stock: 10,
+     disponibilidad: true,
+     precio: 6
+     }
+   ];
+```̣
 
-```js
-
-// Paso 2: hacer los procesos
+### 2 hacer los procesos
 
 /* 1. Procesos máquina gestión producto: [
   1.1. "consumir producto",
