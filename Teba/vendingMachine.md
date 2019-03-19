@@ -246,7 +246,7 @@ maquinaExpendedora.gestionClientes.consultaSaldo("Tgomez", "9876") // []
     
 ```
 
-Paso 4 - Creamos varios métodos para gestionar a los productos y sus necesidades
+#### Paso 4 - Creamos varios métodos para gestionar a los productos y sus necesidades
 - Creamos 5 productos que estarán disponibles a la venta
 - Métodos:
     - Consumir un producto (cliente)
@@ -264,6 +264,195 @@ Paso 4 - Creamos varios métodos para gestionar a los productos y sus necesidade
     - Protegeremos las funciones de agregar y eliminar productos con la contraseña ficticiaMola
 
 ```js
+var maquinaExpendedora = {
+admin: {
+    secreto: "ficticiaMola"
+},
+herramientas: {
+    esCliente: function (usuario) {
+    var existe = false;
+    for (var i in clientes) {
+        if (clientes[i].usuario === usuario) {
+        existe = true;
+        break;
+        }
+    }
+    return "El usuario introducido existe? ", existe;
+    },
+    esProducto: function (producto) {
+        var existePrdto = false;
+        for (var i in productos) {
+            if (productos[i].nombre === producto {
+            existePrdto = true;
+            break;
+            }
+        }
+        return "No hay disponibilidad de ", producto;
+    }
+},
+gestionProductos: {
+    agregarProducto: function (clave, producto){
+        if (clave === maquinaExpendedora.admin.secreto) {
+            console.log("Admin logeado!");
+            if (maquinaExpendedora.herramientas.esProducto = false){
+               console.log("Producto no existente. Introduce todos los datos"); {
+                   if (productos.nombre && productos.codigo && productos.stock && productos.disponibilidad
+                    && productos.stock = true) {
+                    productos.push(producto);
+                    console.log("Producto creado correctamente!")
+                    return true;
+                    } else {
+                        prompt("Introduce todos los datos!");
+                        return false;
+                    };
+               } else {
+                prompt("Producto existente");
+                return false;
+                };
+            } else {
+                prompt("Contraseña incorrecta. Prueba de nuevo!");
+            };
+        }
+    },
+    eliminarProducto: function (){
+
+    },
+    actualizarStock: function (producto){
+        if (productos.stock === 0) {
+            productos.disponibilidad = false;
+            break;
+        }
+    }
+},
+gestionClientes: {
+    agregarCliente: function (clave, cliente) {
+    if (clave === maquinaExpendedora.admin.secreto) {
+        console.log("Admin logeado!");
+        if (maquinaExpendedora.herramientas.esCliente = false) {
+        console.log("Usuario no existente. Introduce todos los datos"); {
+            if (cliente.nombre && .cliente && obj.cliente &&
+            cliente.tipo && cliente.presu = true) {
+            clientes.push(cliente);
+            console.log("Cliente creado correctamente!")
+            return true;
+            } else {
+            prompt("Introduce todos los datos!");
+            return false;
+            };
+        } else {
+            prompt("Usuario existente");
+            return false;
+        };
+
+        } else {
+        prompt("Contraseña incorrecta. Prueba de nuevo!");
+            }
+        }
+    },
+
+    eliminarCliente: function (clave, cliente) {
+    if (clave === maquinaExpendedora.admin.secreto) {
+        console.log("Admin logeado!");
+        if (maquinaExpendedora.herramientas.esCliente = true) {
+        for (var i in clientes) {
+            if (clientes[i].usuario === usuario) {
+            clientes.splice(i, 1);
+            break;
+            }
+        }
+        console.info("Usuario eliminado con éxito");
+        } else {
+        console.warn("El usuario no existe!");
+        }
+    } else {
+        prompt("Contraseña incorrecta. Prueba de nuevo!");
+    }
+    },
+
+    consultaSaldo: function (usuario, contraseña) {
+    var saldo = clientes.presupuesto;
+    var claveUs = prompt("Pon tu clave de usuario");
+    var contraseñaOk = prompt("Pon tu contraseña");
+    if (claveUs === clientes.usuario && contraseñaOk === clientes.contraseña) {
+        console.log(Cliente logueado);
+        if (saldo <= 0) {
+        console.log("Tu saldo es negativo. Recarga para consumir!");
+        } else {
+        console.log("Tu saldo es ", saldo);
+        };
+    } else {
+        console.log("Usuario o contraseña incorrecta. Prueba de nuevo");
+    }
+    },
+
+    consultaGastos: function (usuario, contraseña) {
+    var gastoAcumulado = false;
+    var claveUs = prompt("Pon tu clave de usuario");
+    var contraseñaOk = prompt("Pon tu contraseña");
+    for (var i = 0; i < clientes.length; i++) {
+        if (cliente[i].usuario === claveUs && cliente[i].contraseña === contraseñaOk) {
+        gastoAcumulado = clientes[i].gasto;
+        break;
+        }
+    }
+    return gastoAcumulado;
+    },
+
+    consumirProducto: function (usuario, contraseña, producto){
+        var producto = productos.nombre;
+        var claveUs = prompt("Pon tu clave de usuario");
+        var contraseñaOk = prompt("Pon tu contraseña");
+        for (var i = 0; i < clientes.length; i++) {
+            if (cliente[i].usuario === claveUs && cliente[i].contraseña === contraseñaOk) {
+                console.log("Contraseña correcta");
+                var consumo = prompt("Qué producto quieres?");
+                if (consumo === productos.codigo && productos.disponibilidad = true){
+                    producto.stock--;
+                    clientes.presupuesto -= productos.precio; 
+                    break;    
+                } 
+            } else {
+                console.warn("Contraseña incorrecta. Prueba de nuevo!")
+            }
+        }
+        return producto;
+    }
+}
+
+
+var productos = [
+    {
+    nombre: "Patatas fritas ahumadas",
+    código: "C01",
+    stock: 10,
+    disponibilidad: true,
+    precio: 3
+    },{
+    nombre: "Risketos",
+    código: "C02",
+    stock: 10,
+    disponibilidad: true,
+    precio: 2
+    },{
+    nombre: "Batido avena fresa",
+    código: "C03",
+    stock: 10,
+    disponibilidad: true,
+    precio: 4
+    },{
+    nombre: "Sandwich vegetal",
+    código: "C04",
+    stock: 10,
+    disponibilidad: true,
+    precio: 6
+    },{
+    nombre: "Sandwich atún",
+    código: "C05",
+    stock: 10,
+    disponibilidad: true,
+    precio: 6
+    }
+    ];    
 ```
 
 ```js
