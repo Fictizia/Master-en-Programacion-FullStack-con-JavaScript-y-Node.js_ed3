@@ -5,10 +5,13 @@
 4) Cómo comprobaría que eso funciona (test)
 5) Programar 👩‍💻👩‍💻
 
-### 1) Comentarios, estructura
+### Paso 1 - Creamos los primeros objetos básicos:
+- Maquina Expendedora (Objeto)
+- Productos (Array)
+- Clientes (Array)
+
 ```js
-// Paso 1: crear los primeros objetos básicos
- 
+
  var maquinaExpendedora = {};
  
  var productos = [];
@@ -16,8 +19,7 @@
  var clientes = [];
 ``` 
  
-Paso 2 - Creamos los primeros perfiles en el Array de clientes:
-
+### Paso 2 - Creamos los primeros perfiles en el Array de clientes:
 Propiedades:
 - Nombre
 - Usuario
