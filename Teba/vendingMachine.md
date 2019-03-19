@@ -101,33 +101,47 @@ var productos = [
      precio: 6
      }
    ];
-```̣
+```
 
-### 2 hacer los procesos
+### Hacer los procesos
 
-/* 1. Procesos máquina gestión producto: [
+1. Procesos máquina gestión producto:
   1.1. "consumir producto",
   1.2. "eliminar producto máquina",
-  1.3. "disponibilidad stock producto - informe"]
-*/
+  1.3. "disponibilidad stock producto - informe"
 
-/* 2. Procesos máquina gestión clientes: [
+2. Procesos máquina gestión clientes:
   2.1. "consultar saldo",
   2.2. "consultar gastos - informe",
-  2.3 "consumir producto"]
-*/
+  2.3 "consumir producto"
 
-/* 3. Procesos admin: [
+3. Procesos admin:
   3.1. "agregar cliente",
   3.2. "eliminar cliente",
   3.3. "agregar producto máquina",
   3.4. "eliminar producto máquina",
   3.5. "agregar/retirar/resetear saldo usuarios",
-  3.6. "disponibilidad stock producto - informe"]
-*/
-```
+  3.6. "disponibilidad stock producto - informe"
 
-```js 
+
+#### Paso 3 - Creamos varios métodos para gestionar a los clientes y sus necesidades
+
+Metodos:
+- Consultar saldo de un cliente
+    - Devolverá el saldo existente o -1 en caso de error
+    - Comprobaremos la contraseña y el usuario
+- Consultar gastos de un cliente
+    - Devolverá un array o false en caso de error
+    - Comprobaremos la contraseña y el usuario
+- Agregar un cliente
+- Eliminar un cliente
+
+Caracteristicas:
+- Evitaremos que se registren usuarios que ya existan
+- Evitaremos eliminar usuarios que no existan
+- Evitaremos dar de alta usuarios que no esten debidamente cumplimentados
+- Protegeremos las funciones de gestión de usuarios con la contraseña ficticiaMola
+
 
 // Paso 3: escribir sin código los procesos
 
