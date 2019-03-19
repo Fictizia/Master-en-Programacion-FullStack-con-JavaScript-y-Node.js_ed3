@@ -200,6 +200,50 @@ var maquinaExpendedora = {
         return gastoAcumulado;
       }
     }
+    
+var clientes = [
+    {
+    nombre: "Teba Gómez"
+    usuario: "Tgomez"
+    contraseña: "9876"
+    tipo: "empleado"
+    presupuesto: "20"
+    gasto: []
+    },{
+    nombre: "Peter Ostrogonov"
+    usuario: "Postrog"
+    contraseña: "1234"
+    tipo: "empleado"
+    presupuesto: "20"
+    gasto: []
+    }
+];
+
+// Testing esCliente
+maquinaExpendedora.herramientas.esCliente("Tgomez"); // True
+maquinaExpendedora.herramientas.esCliente("alguien guapi"); // False
+
+// Testing agregar
+maquinaExpendedora.gestionClientes.agregarCliente("Vaya tela", "Peter"); // Contraseña incorrecta. Prueba de nuevo!
+maquinaExpendedora.gestionClientes.agregarCliente(); // Contraseña incorrecta. Prueba de nuevo!
+maquinaExpendedora.gestionClientes.agregarCliente("ficticiaMola", "Tgomez"); // El usuario ya existe
+maquinaExpendedora.gestionClientes.agregarCliente("ficticiaMola", {
+    usuario: "ulises2",
+    presupuesto: 1000,
+    tipo: "admin",
+    pass: "pass2",
+    nombre: "Ulises2"
+}); // Cliente creado correctamente!
+
+
+// Testing saldo
+maquinaExpendedora.gestionClientes.consultaSaldo() // -1
+maquinaExpendedora.gestionClientes.consultaSaldo("Tgomez", "9876") // 20
+
+// Testing gasto
+maquinaExpendedora.gestionClientes.consultaGasto() // -1
+maquinaExpendedora.gestionClientes.consultaSaldo("Tgomez", "9876") // []
+    
 ```
 
 ```js
