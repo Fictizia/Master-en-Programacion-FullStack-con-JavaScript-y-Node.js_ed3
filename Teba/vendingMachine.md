@@ -202,6 +202,7 @@ var maquinaExpendedora = {
     }
 ```
 
+```js
 /*
 2.1. "consultar saldo":
     - Devolverá el saldo existente o -1 en caso de error
@@ -365,7 +366,7 @@ Si contraseña admin es correcta ("fictiziamola"),
 Else imprimo warning "Contraseña incorrecta"
 
 */
-
+```
 
 
 ```js
