@@ -96,6 +96,7 @@ Fecha | Teoría | Recursos | Contenido
 11/03/19 | [Clase 56](teoria/clase56.md) | [Clase 56](recursos/clase56.md) | Shell Scripting
 13/03/19 | [Clase 57](teoria/clase57.md) | [Clase 57](recursos/clase57.md) | JavaScript Modular: AMD, Requirejs y Browserify
 18/03/19 | [Clase 58](teoria/clase58.md) | [Clase 58](recursos/clase58.md) | Yeoman I
+20/03/19 | [Clase 59](teoria/clase59.md) | [Clase 59](recursos/clase59.md) | Yeoman II
 
 
 

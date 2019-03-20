@@ -496,3 +496,8 @@
 ### clase58
 
 - https://raw.githubusercontent.com/yeoman/media/master/optimized/yeoman-masthead.png 
+
+
+### clase59
+
+- https://learnmate.com.au/wp-content/uploads/2017/03/6a00d8341c5dea53ef0163035a4bd0970d-pi.jpg 
