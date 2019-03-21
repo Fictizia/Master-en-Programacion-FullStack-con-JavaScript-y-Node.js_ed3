@@ -28,6 +28,23 @@
 - [Curso de Vue.JS + Vuex (36 HORAS)](https://fictizia.com/formacion/curso-vue-js)
 ```
 
+```js
+var articleList = document.querySelectorAll(".plan");
+var onlyMain = document.querySelector(".onlyMainTitle").innerText;
+var mensaje = "";
+
+console.log("# Cursos de Fictizia en el " +onlyMain);
+for (var i = 1; i < articleList.length; ++i){
+    var mainTitles = articleList[i].querySelector("h1 > a");
+    var courseHours = articleList[i].querySelector(".mainTag").innerText;
+    var anchorText = mainTitles.innerText;
+    var coursesLinks = mainTitles.getAttribute("href");
+    mensaje += "- [" +anchorText+ " (" +courseHours+ ")](" +coursesLinks+")\n";
+}
+console.log(mensaje);
+```
+
+
 
 **2 -** Hagamos la [web del Metro](https://www.metromadrid.es/es/index.html) más divertida.
 - Saca el estado actual de todas las líneas del metro de Madrid por consola.
