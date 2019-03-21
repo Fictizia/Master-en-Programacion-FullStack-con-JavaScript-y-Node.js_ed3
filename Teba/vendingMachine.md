@@ -474,6 +474,41 @@ var maquinaExpendedora = {
 
 ```
 
+#### Paso 5 - (Nivel Medio) Ahora podemos agregar los métodos para agregar, retirar y resetear saldo de los usuarios.
+Importante: los saldos jamas pueden ser negativos.
+
+
+
+
+
+
+
+
+
+----
+Ejemplo de Informe
+----
+************************
+Fecha:
+En total tenemos: 6 productos
+----------------------------
+Nombre: Risketos
+Código: C1
+Stock: 100
+Disponibilidad: true
+----------------------------
+
+@contraseña admin, parámetro usuario.clientes
+@output saldoActual/presupuesto
+Si contraseña admin es correcta ("fictiziamola"),
+ -> Acción imprimir informe
+  .....???
+  .....???
+  .....???
+Else imprimo warning "Contraseña incorrecta"
+
+
+
 ```js
 /*
 2.1. "consultar saldo":
@@ -615,50 +650,6 @@ Else imprimo warning "Contraseña incorrecta"
     - Debemos saber qué productos están disponibles y cuales no.
     - Debemos incluir el código y el nombre
     - Cuando se imprima el informe, es necesario incluir la fecha.
-----
-Ejemplo de Informe
-----
-************************
-Fecha:
-En total tenemos: 6 productos
-----------------------------
-Nombre: Risketos
-Código: C1
-Stock: 100
-Disponibilidad: true
-----------------------------
 
-@contraseña admin, parámetro usuario.clientes
-@output saldoActual/presupuesto
-Si contraseña admin es correcta ("fictiziamola"),
- -> Acción imprimir informe
-  .....???
-  .....???
-  .....???
-Else imprimo warning "Contraseña incorrecta"
-
-*/
 ```
 
-
-```js
-### Hacer los procesos
-
-1. Procesos máquina gestión producto:
-  1.1. "consumir producto",
-  1.2. "eliminar producto máquina",
-  1.3. "disponibilidad stock producto - informe"
-
-2. Procesos máquina gestión clientes:
-  2.1. "consultar saldo",
-  2.2. "consultar gastos - informe",
-  2.3 "consumir producto"
-
-3. Procesos admin:
-  3.1. "agregar cliente",
-  3.2. "eliminar cliente",
-  3.3. "agregar producto máquina",
-  3.4. "eliminar producto máquina",
-  3.5. "agregar/retirar/resetear saldo usuarios",
-  3.6. "disponibilidad stock producto - informe"
-```
