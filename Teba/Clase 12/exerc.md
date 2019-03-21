@@ -71,6 +71,15 @@ Circulación normal en ML1
 
 **3 -**  Diseña un script que sustituya todas las imágenes de las entradas de [Tecnología del Mundo Today](http://www.elmundotoday.com/noticias/tecnologia/) por [imágenes dummy de gatitos](https://placekitten.com/).
 
+```js
+var picBlocks = Array.prototype.slice.call(document.querySelectorAll(".entry-thumb"));
+
+picBlocks.forEach(pic => {
+    if (pic.hasAttribute("src")){
+        pic.setAttribute("src", "https://placekitten.com/200/300");
+    }
+  });
+```
 
 
 **4 -** Nos creamos un array de objetos con la informacion, links y fotografias de l@s [profes de Fictizia](https://www.fictizia.com/profesorado)
