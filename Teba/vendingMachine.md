@@ -776,6 +776,13 @@ var clientes = [{
 
 ```
 
+#### Paso 6 - (Nivel Avanzado diamonds) Ahora podemos agregar el método para saber la disponibilidad de stock
+Importante:
+	- Es necesaria clave (adminsitrador)
+	- Debemos saber las existencias
+	- Debemos saber que productos estan disponibles y cuales no.
+	- Debemos incluir el código y el nombre
+	- Cuando se imprima el informe es necesario incluir la fecha.
 
 
 
