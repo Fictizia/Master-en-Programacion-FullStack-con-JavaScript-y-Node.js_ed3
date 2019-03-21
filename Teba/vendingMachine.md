@@ -265,7 +265,6 @@ maquinaExpendedora.gestionClientes.consultaSaldo("Tgomez", "9876") // []
 
 ```js
 
-
 var maquinaExpendedora = {
 		admin: {
 			secreto: "ficticiaMola"
@@ -479,9 +478,7 @@ Importante: los saldos jamas pueden ser negativos.
 
 ```js
 
-
 // Paso 5 - agregar, retirar y resetear el saldo de los usuarios
-
 
 var maquinaExpendedora = {
 	admin: {
