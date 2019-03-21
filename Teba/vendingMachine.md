@@ -782,7 +782,7 @@ var clientes = [{
 
 
 
-
+```js
 ----
 Ejemplo de Informe
 ----
@@ -805,6 +805,7 @@ Si contraseña admin es correcta ("fictiziamola"),
   .....???
 Else imprimo warning "Contraseña incorrecta"
 
+```
 
 
 ```js
