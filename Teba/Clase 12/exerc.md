@@ -114,5 +114,26 @@ for (var i = 0; i < teachers.length; ++i) {
 
 ```
 
+```js
+// Me, trying
+
+var articleList = document.querySelectorAll(".microCard");
+var infoArray = [];
+
+for (var i = 0; i < articleList.length; ++i) {
+	 var mainImgs = articleList[i].querySelector("img");
+	 var pictures = mainImgs.getAttribute("src");
+	 var mainTitles = articleList[i].querySelector("h3").innerText;
+	 var mainInfo = articleList[i].querySelector("p").innerText;
+
+	console.log("Pic: ", pictures);
+	console.log("Name: ", mainTitles);
+	console.log("Info: ", mainInfo);
+}
+
+// const peopleArray = Object.keys(peopleObj).map(i => peopleObj[i])
+
+```
+
 
 
