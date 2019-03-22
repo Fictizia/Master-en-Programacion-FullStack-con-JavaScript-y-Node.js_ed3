@@ -97,7 +97,7 @@ Fecha | Teoría | Recursos | Contenido
 13/03/19 | [Clase 57](teoria/clase57.md) | [Clase 57](recursos/clase57.md) | JavaScript Modular: AMD, Requirejs y Browserify
 18/03/19 | [Clase 58](teoria/clase58.md) | [Clase 58](recursos/clase58.md) | Yeoman I
 20/03/19 | [Clase 59](teoria/clase59.md) | [Clase 59](recursos/clase59.md) | Yeoman II
-
+22/03/19 | [Clase 60](teoria/clase60.md) | [Clase 60](recursos/clase60.md) | Frameworks I: Anatomía y funcionalidades
 
 
 [Temario](https://coggle.it/diagram/W5ZfeGRd293lprIt/t/master-js-y-node-de-fictizia)

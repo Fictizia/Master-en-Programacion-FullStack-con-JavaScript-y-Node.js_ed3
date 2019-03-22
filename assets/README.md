@@ -501,3 +501,24 @@
 ### clase59
 
 - https://learnmate.com.au/wp-content/uploads/2017/03/6a00d8341c5dea53ef0163035a4bd0970d-pi.jpg 
+
+
+
+### clase60
+
+- https://cdn-images-1.medium.com/max/1600/1*ugdnjLdZfpMUbBZYzXalXA.png
+- https://upload.wikimedia.org/wikipedia/commons/c/c2/EWM_shop_2007.jpg
+- https://www.carlrippon.com/wp-content/uploads/2018/07/web-components.png
+- https://i.ytimg.com/vi/8bcfgXePHnk/maxresdefault.jpg
+- https://i1.wp.com/programmingwithmosh.com/wp-content/uploads/2018/11/lnrn_0201.png?ssl=1
+- http://s.quickmeme.com/img/f9/f999bacbbe76bd6836107cdfbd1cde5b374add2bfdc10b10c45e1238236b48eb.jpg
+- https://pbs.twimg.com/media/Dp3DssrWwAASWRK.jpg
+- https://www.fullstack.pe/img/blog/one-way.png
+- https://www.fullstack.pe/img/blog/two-way.png
+- http://www.globalnerdy.com/wordpress/wp-content/uploads/2012/01/wat-explained.jpg
+- https://uvesiete.com/wp-content/uploads/2018/02/robots-1.jpg
+- https://i.imgur.com/SSWYiez.png
+- http://guernseydonkey.com/wp-content/uploads/2011/05/how_google_works.jpg
+- https://d2v4zi8pl64nxt.cloudfront.net/optimizing-angularjs-single-page-applications-googlebot-crawlers/592e57b84c1b10.48248066.png
+- https://image.slidesharecdn.com/angularjslightningtalk-seo-friendlyangularjsofficial-141220180206-conversion-gate01/95/seofriendly-single-page-applications-angularjs-prerenderio-by-battlefy-jaime-bueza-6-638.jpg?cb=1419098564
+
