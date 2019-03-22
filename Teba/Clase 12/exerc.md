@@ -85,7 +85,34 @@ picBlocks.forEach(pic => {
 **4 -** Nos creamos un array de objetos con la informacion, links y fotografias de l@s [profes de Fictizia](https://www.fictizia.com/profesorado)
 
 
+```js
+var teachersList = [];
+var teachers = document.querySelectorAll(".microCard");
 
+for (var i = 0; i < teachers.length; ++i) {
+
+	var teacher = teachers[i];
+
+	teacherDetails = {
+		name: teacher.querySelector("h3").innerText,
+		bio: teacher.querySelector("p").innerText,
+		avatar: teacher.querySelector("img").src
+	};
+
+	var links = teacher.querySelectorAll(".microBtns > li");
+
+	for (var x = 0; x < links.length; ++x) {
+		var link = links[x];
+		var linkNombre = link.innerText.toLowerCase().trim();
+		var linkUrl = link.querySelector("a").href;
+		teacherDetails[linkNombre] = linkUrl
+	}
+	
+	teachersList.push(teacherDetails)
+}
+	console.log(teachersList);
+
+```
 
 
 
