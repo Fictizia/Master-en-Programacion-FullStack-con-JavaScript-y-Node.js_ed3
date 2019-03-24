@@ -133,6 +133,29 @@ for (var i = 0; i < articleList.length; ++i) {
 
 // const peopleArray = Object.keys(peopleObj).map(i => peopleObj[i])
 
+
+var articleList = document.querySelectorAll(".microCard");
+var infoArray = [];
+
+for (var i = 0; i < articleList.length; ++i) {
+	 var mainImgs = articleList[i].querySelector("img");
+	 var pic = mainImgs.getAttribute("src");
+	 var name = articleList[i].querySelector("h3").innerText;
+	 var info = articleList[i].querySelector("p").innerText;
+
+    var data = {
+        "pic": pic,
+        "name": name,
+        "info": info
+    }
+
+    infoArray.push(data)
+}
+
+console.log(infoArray)
+// @TODO: faltan links
+
+
 ```
 
 
