@@ -87,9 +87,6 @@ picBlocks.forEach(pic => {
 ```js
 // Me, trying
 
-
-
-
 var articleList = document.querySelectorAll(".microCard");
 var infoArray = [];
 
