@@ -9,7 +9,7 @@ function ajaxHandler(url, cb) {
       if (request.status === 200) {
         const data = JSON.parse(request.responseText);
 
-        data.forEach(function (station, i, data) {
+        data.forEach(function (station) {
           let titleContent = document.createElement('h2');
           titleContent.innerText = `${station.name}`;
           let unorderedList = document.createElement('ul');
