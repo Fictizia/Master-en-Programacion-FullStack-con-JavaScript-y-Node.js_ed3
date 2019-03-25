@@ -522,3 +522,18 @@
 - https://d2v4zi8pl64nxt.cloudfront.net/optimizing-angularjs-single-page-applications-googlebot-crawlers/592e57b84c1b10.48248066.png
 - https://image.slidesharecdn.com/angularjslightningtalk-seo-friendlyangularjsofficial-141220180206-conversion-gate01/95/seofriendly-single-page-applications-angularjs-prerenderio-by-battlefy-jaime-bueza-6-638.jpg?cb=1419098564
 
+
+### clase61
+
+- https://raw.githubusercontent.com/mraible/history-of-web-frameworks-timeline/master/history-of-web-frameworks-timeline.png
+- https://i.giphy.com/VHW0X0GEQQjiU.gif
+- https://cdn-images-1.medium.com/max/2000/1*D8Wwwce8wS3auLAiM3BQKA.jpeg
+- http://flow.org/static/ogp-1200x630-1.png
+- https://i1.wp.com/wptavern.com/wp-content/uploads/2016/10/graphql.png?ssl=1
+- https://cdn-images-1.medium.com/max/2000/1*f_XvFD7FvliMM74WHJ0vRQ.png
+- https://malcoded.com/v1/api/asset/rest-vs-graphql-graphql-network.jpg
+- https://upload.wikimedia.org/wikipedia/commons/3/30/Redux_Logo.png
+- https://www.nan-labs.com/wp-content/uploads/2018/03/redux-async-custom-infography.jpg
+- https://cdn-images-1.medium.com/max/1600/0*cntBtPADjE2ykLSP.png
+- https://cdn-images-1.medium.com/max/1200/1*EdiFUfbTNmk_IxFDNqokqg.png
+
