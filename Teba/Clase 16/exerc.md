@@ -1,18 +1,14 @@
 #### 1 - Sacar en el html los [datos de polen](http://airemad.com/api/v1/pollen)
 
 ```js
+// Me, trying
 
+function renderStationParams(stations) {
+	for(var station in stations){
+		console.log(station.parametros);
+	};
+}
 
-
-
-
-
-
- /**
- * @callback requestCallback
- * @param {boolean} err - has an error true/false
- * @param {object|boolean} data - The information/response from the server
- */
 function ajaxHandler(url, cb) {
     const request = new XMLHttpRequest();
     request.onreadystatechange = () => {
@@ -30,7 +26,7 @@ function ajaxHandler(url, cb) {
 }
 
 ajaxHandler("http://airemad.com/api/v1/pollen", (err, data) => {
-        err ? console.log("ERROR! Algo falla...") : console.log(data);
+        err ? console.log("ERROR! Algo falla...") : renderStationParams(data);
     });
     
 ```
