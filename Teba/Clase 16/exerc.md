@@ -36,3 +36,11 @@ ajaxHandler("http://airemad.com/api/v1/pollen", (err, data) => {
   err ? console.log("ERROR! Algo falla...") : console.log(data);
 });
 ```
+
+#### 2. - Sacar en el html el tiempo meteorológico de Madrid, Barcelona y Valencia. Nota: http://openweathermap.org te será de gran ayuda, busca la solución al error 401
+
+
+
+
+
+
