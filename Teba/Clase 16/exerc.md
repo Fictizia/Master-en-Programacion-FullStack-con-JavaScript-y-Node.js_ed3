@@ -82,6 +82,64 @@ for (const key in citiesApis){
 
 ```
 
+#### 3 - Jugando con datos abiertos, saquemos los detalles de todos los cuadros eléctricos de Gijón por consola.
+
+```js
+
+function ajaxHandler(url, cb) {
+    const request = new XMLHttpRequest();
+    request.onreadystatechange = () => {
+      if (request.readyState === 4) {
+        if (request.status === 200) {
+          const data = JSON.parse(request.responseText);
+
+          let mandosList = data.cuadromandos.cuadromando;
+            mandosList.forEach(mando => {
+                console.log(`Calle: ${mando.calle}\n Nº: ${mando.numero}\n Potencia watios: ${mando.potencia_w_}`);
+            });
+
+          cb(false, data);
+        } else {
+          cb(true, request.status);
+        }
+      }
+    };
+    request.open("GET", url, true);
+    request.send();
+  }
+  
+  ajaxHandler("http://opendata.gijon.es/descargar.php?id=163&tipo=JSON", (err, data) => {
+    err ? console.log("ERROR! Algo falla...") : data;
+  });
+  
+// Falta solventar los errores de tipografia no UTF-8 y cambiar los números = "null" por otra descripción como "desconocido"  
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
