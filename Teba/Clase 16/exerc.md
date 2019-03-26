@@ -56,13 +56,14 @@ for (const key in citiesApis){
             if (request.status === 200) {
               const data = JSON.parse(request.responseText);
               let titleContent = document.createElement('h2');
-                titleContent.innerText = `The weather in ${data.name} city`;
-                console.log(titleContent);
+                titleContent.innerText = `The weather in ${data.name} city 🌞`;
     
                 let celsius = (data.main["temp"] - 273.15).toFixed();
                 let weatherInfo = document.createElement('h3');
                 weatherInfo.innerText = `Weather description: ${data.weather[0]["description"]} and a temperature of ${celsius}C`;
-                console.log(weatherInfo)
+                
+                document.body.appendChild(titleContent);
+                titleContent.appendChild(weatherInfo);
     
               cb(false, data);
             } else {
