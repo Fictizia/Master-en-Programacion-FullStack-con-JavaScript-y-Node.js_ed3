@@ -42,9 +42,9 @@ ajaxHandler("http://airemad.com/api/v1/pollen", (err, data) => {
 ```js
 
 const citiesApis = {
-    Madrid: "https://api.openweathermap.org/data/2.5/weather?id=3117735&appid=7b78845a0df1e4953e14ca11e13c073d",
-    Barcelona: "https://api.openweathermap.org/data/2.5/weather?id=6356055&appid=7b78845a0df1e4953e14ca11e13c073d",
-    Valencia: "https://api.openweathermap.org/data/2.5/weather?id=6362115&appid=7b78845a0df1e4953e14ca11e13c073d"
+    Madrid: "https://api.openweathermap.org/data/2.5/weather?id=3117735&appid=${TOKEN}",
+    Barcelona: "https://api.openweathermap.org/data/2.5/weather?id=6356055&appid=${TOKEN}",
+    Valencia: "https://api.openweathermap.org/data/2.5/weather?id=6362115&appid=${TOKEN}"
 };
 
 for (const key in citiesApis){
