@@ -86,6 +86,12 @@ for (const key in citiesApis){
 
 ```js
 
+function decodeHtml (str) {
+    return str.replace(/&#(\d+);/g, function(match, dec) {
+        return String.fromCharCode(dec);
+    });
+}
+
 function ajaxHandler(url, cb) {
     const request = new XMLHttpRequest();
     request.onreadystatechange = () => {
@@ -95,7 +101,12 @@ function ajaxHandler(url, cb) {
 
           let mandosList = data.cuadromandos.cuadromando;
             mandosList.forEach(mando => {
-                console.log(`Calle: ${mando.calle}\n Nº: ${mando.numero}\n Potencia watios: ${mando.potencia_w_}`);
+                const calle = decodeHtml(mando.calle);
+                if (mando.numero !== null){
+                    console.log(`Calle: ${calle}\n Nº: ${mando.numero}\n Potencia watios: ${mando.potencia_w_}`);  
+                } else { 
+                    console.log(`Calle: ${calle}\n Nº: desconocido\n Potencia watios: ${mando.potencia_w_}`);
+                };
             });
 
           cb(false, data);
@@ -111,8 +122,7 @@ function ajaxHandler(url, cb) {
   ajaxHandler("http://opendata.gijon.es/descargar.php?id=163&tipo=JSON", (err, data) => {
     err ? console.log("ERROR! Algo falla...") : data;
   });
-  
-// Falta solventar los errores de tipografia no UTF-8 y cambiar los números = "null" por otra descripción como "desconocido"  
+
 
 ```
 
