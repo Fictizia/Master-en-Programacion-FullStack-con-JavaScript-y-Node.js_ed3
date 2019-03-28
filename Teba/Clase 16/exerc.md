@@ -86,6 +86,8 @@ for (const key in citiesApis){
 
 ```js
 
+// @see: https://ourcodeworld.com/articles/read/188/encode-and-decode-html-entities-using-pure-javascript
+
 function decodeHtml (str) {
     return str.replace(/&#(\d+);/g, function(match, dec) {
         return String.fromCharCode(dec);
