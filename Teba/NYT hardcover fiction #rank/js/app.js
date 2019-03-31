@@ -6,6 +6,8 @@ const token = '--tuToken';
 // Selectores
 const listSlctr = document.querySelector("#booksList");
 
+// Functions
+
 function htmlRender(data){
   const booksList = data.results.books;
     booksList.forEach(book => {
@@ -30,9 +32,6 @@ function htmlRender(data){
       console.log(listSlctr);
     });
 }
-
-
-// Functions
 
 function errorHandler (err) {
   console.log("ERROR! Algo falla...");
