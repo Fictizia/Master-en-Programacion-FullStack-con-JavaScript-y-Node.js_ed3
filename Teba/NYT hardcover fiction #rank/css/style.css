@@ -1,0 +1,45 @@
+body {
+  margin-top: 105px;
+}
+
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6;
+  opacity: 0.9;
+  background: #fff; }
+  .navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 1.4rem;
+  }
+
+#showcase {
+  position: relative;
+  background: rgba(50, 146, 166, 0.8);
+}
+
+.img-fluid img{
+  margin-top: -50px;
+  width: 1rem;
+  height: 1.5rem;
+}
+
+#booksList .card {
+  background: #3292a6;
+  color: #fff; }
+#booksList {
+  color: #fff; }
+
+#booksList h5 {
+  min-height: 48px;
+}
+
+#booksList h3 {
+  min-height: 68px;
+}
+
+#booksList p {
+  min-height: 120px;
+}
+
+#booksList div {
+  margin-bottom: 15px;
+}
