@@ -1,0 +1,29 @@
+
+.navbar {
+    box-shadow: 2px 2px 5px #3292a6;
+    opacity: 0.9;
+    background: #fff; 
+}
+  
+.mainForm {
+    margin-top: 20px;
+}
+
+.mainInfo {
+    margin-bottom: 100px;
+}
+
+.mainTitle {
+    margin-top: 150px;
+    font-size: 2.5rem;
+    font-family: monospace sans-serif;
+}
+
+.userInfo {
+    margin-top: 50px;
+    width: 24rem;
+}
+
+.userName {
+    font-weight: bold;
+}
