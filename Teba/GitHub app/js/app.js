@@ -8,7 +8,6 @@ const userInfo = document.querySelector(".mainInfo");
 // Functions
 
 function userInfoRender(data){
-    console.log(data);
     let userCard = `<div class="card userInfo">
     <img class="card-img-top userAvatar" src="${data.avatar_url}" alt="user Avatar">
     <div class="card-body">
