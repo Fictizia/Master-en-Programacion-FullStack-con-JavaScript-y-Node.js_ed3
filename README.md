@@ -103,6 +103,7 @@ Fecha | Teoría | Recursos | Contenido
 29/03/19 | [Clase 63](teoria/clase63.md) | [Clase 63](recursos/clase63.md) | Intro al backend + def. PFM
 01/04/19 | [Clase 64](teoria/clase64.md) | [Clase 64](recursos/clase64.md) | Frameworks III: Angular con [Jon Rojí](https://twitter.com/jnroji)
 03/04/19 | [Clase 65](teoria/clase65.md) | [Clase 65](recursos/clase65.md) | Frameworks IV: React con [Javier Vidal](https://twitter.com/JaVidalPe)
+05/04/19 | [Clase 66](teoria/clase66.md) | [Clase 66](recursos/clase66.md) | Frameworks V: Vue con [Rubén Valseca](https://twitter.com/rubnvp)
 
 
 [Temario](https://coggle.it/diagram/W5ZfeGRd293lprIt/t/master-js-y-node-de-fictizia)

@@ -563,3 +563,7 @@
 - https://cdn-images-1.medium.com/max/2000/1*HSisLuifMO6KbLfPOKtLow.jpeg
 
 
+### clase66
+
+- https://www.fictizia.com/app/images/ruben-valseca.jpeg
+- https://cdn-images-1.medium.com/max/1440/1*PkFvOQVwXsa-Rsd004WyDQ.png 
