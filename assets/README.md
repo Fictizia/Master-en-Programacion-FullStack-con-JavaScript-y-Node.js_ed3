@@ -550,3 +550,8 @@
 ### clase63
 
 - https://media.giphy.com/media/13gL20Ex9ns3du/giphy.gif 
+
+
+### clase64
+
+- https://s3-us-west-2.amazonaws.com/angular-templates/imgs/angularmeta.png 
