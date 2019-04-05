@@ -555,3 +555,11 @@
 ### clase64
 
 - https://s3-us-west-2.amazonaws.com/angular-templates/imgs/angularmeta.png 
+
+
+### clase65
+
+- https://www.fictizia.com/app/images/javier-vidal.jpeg
+- https://cdn-images-1.medium.com/max/2000/1*HSisLuifMO6KbLfPOKtLow.jpeg
+
+
