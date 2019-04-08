@@ -567,3 +567,11 @@
 
 - https://www.fictizia.com/app/images/ruben-valseca.jpeg
 - https://cdn-images-1.medium.com/max/1440/1*PkFvOQVwXsa-Rsd004WyDQ.png 
+ 
+
+### clase67
+
+- https://i.cloudup.com/zfY6lL7eFa-3000x3000.png 
+- https://i2.wp.com/www.felight.com/wp-content/uploads/2014/05/HTTP_RequestResponseMessages.png?ssl=1 
+- http://image.slidesharecdn.com/introtonode-140914093424-phpapp01/95/intro-to-nodejs-14-638.jpg?cb=1410687757 
+
