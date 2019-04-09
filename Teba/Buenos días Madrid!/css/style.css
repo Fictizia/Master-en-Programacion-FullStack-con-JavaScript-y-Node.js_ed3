@@ -1,0 +1,92 @@
+body {
+    color: black; 
+}
+
+.navbar {
+    background-color: lightcoral;
+}
+
+h1 {
+    color: grey;
+}
+
+
+.weather-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.owf {
+    margin-right: 10px;
+    color: rgb(49, 61, 226);
+}
+
+.weather-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.weather-info p {
+    margin-bottom: 1px;
+}
+
+.traffic-pic {
+    width: 20rem;
+    height: 20rem;
+    display: block;
+    margin-top: 2rem;
+}
+
+.block-one {
+    display: flex;
+    flex-direction: column;
+}
+
+.block-two {
+    display: flex;
+    flex-direction: row;
+}
+
+.pollution-section {
+    margin-left: 5rem;
+}
+
+.pollution-section > h5 {
+    margin-bottom: 2rem;
+}
+
+.pollution-section > p {
+    font-size: 0.9rem;
+}
+
+@media (max-width: 992px) { 
+    .block-two {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pollution-section {
+        margin-top: 5rem;
+    }
+}
+
+.forecast-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+}
+
+.forecast-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-right: 1rem;
+}
+
+.forecast-item p {
+    margin-bottom: 1px;
+}
