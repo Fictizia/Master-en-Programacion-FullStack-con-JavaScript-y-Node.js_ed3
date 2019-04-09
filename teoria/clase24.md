@@ -808,7 +808,7 @@ var objeto_de_cambio = {
 };
 
 var resultado = objeto.sumatorio(2,2);
-console.log(resultado); // 20
+console.log(resultado); // 8
 
 
 /* -- Tres formas de lograr lo mismo -- */
