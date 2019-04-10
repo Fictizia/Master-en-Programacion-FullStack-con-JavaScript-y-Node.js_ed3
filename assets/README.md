@@ -575,3 +575,13 @@
 - https://i2.wp.com/www.felight.com/wp-content/uploads/2014/05/HTTP_RequestResponseMessages.png?ssl=1 
 - http://image.slidesharecdn.com/introtonode-140914093424-phpapp01/95/intro-to-nodejs-14-638.jpg?cb=1410687757 
 
+### clase68
+
+- https://css-tricks.com/wp-content/uploads/2016/01/jade-logo-1.png 
+- https://camo.githubusercontent.com/be9ed9b1e0a28a074109fc994da6d00c1d8cd6e6/68747470733a2f2f63646e2e7261776769742e636f6d2f7075676a732f7075672d6c6f676f2f336561326433613836633632323730323064643562323037343361356161343538383038636134652f5356472f5f5f7075672d6c6f676f2d636f6c6f75722d776964652e737667 
+- https://content-static.upwork.com/blog/uploads/sites/3/2015/05/27170038/Software-stack-reworked.png
+- https://curl.haxx.se/logo/curl-logo.svg
+- https://dynomapper.com/images/how_to_wireframe_2.jpg
+- https://cdn-images-1.medium.com/max/2000/1*pofor4p-ig072eaChITOYQ.jpeg
+- https://i.giphy.com/Ob7p7lDT99cd2.gif
+- https://media.giphy.com/media/oDLDbBgf0dkis/giphy.gif
