@@ -585,3 +585,9 @@
 - https://cdn-images-1.medium.com/max/2000/1*pofor4p-ig072eaChITOYQ.jpeg
 - https://i.giphy.com/Ob7p7lDT99cd2.gif
 - https://media.giphy.com/media/oDLDbBgf0dkis/giphy.gif
+
+
+### clase69
+- https://thearchitectureofarchitectures.files.wordpress.com/2009/12/anthonylau.jpg
+- https://camo.githubusercontent.com/af25dcefb2d951a9925adfc0c2c11f9684e19c1e/687474703a2f2f61647269616e6d656a69612e636f6d2f696d616765732f657870726573732d6d6964646c6577617265732e706e67
+- https://ouranos.com.ng/wp-content/uploads/2017/12/spaghetti-code.png

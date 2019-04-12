@@ -106,7 +106,7 @@ Fecha | Teoría | Recursos | Contenido
 05/04/19 | [Clase 66](teoria/clase66.md) | [Clase 66](recursos/clase66.md) | Frameworks V: Vue con [Rubén Valseca](https://twitter.com/rubnvp)
 08/04/19 | [Clase 67](teoria/clase67.md) | [Clase 67](recursos/clase67.md) | Express I: Básicos y enrutamiento
 10/04/19 | [Clase 68](teoria/clase68.md) | [Clase 68](recursos/clase68.md) | Express II: Server Render y plantillas
-
+12/04/19 | [Clase 69](teoria/clase69.md) | [Clase 69](recursos/clase69.md) | Express III: Middleware y Patrones
 
 
 [Temario](https://coggle.it/diagram/W5ZfeGRd293lprIt/t/master-js-y-node-de-fictizia)
