@@ -107,6 +107,7 @@ Fecha | Teoría | Recursos | Contenido
 08/04/19 | [Clase 67](teoria/clase67.md) | [Clase 67](recursos/clase67.md) | Express I: Básicos y enrutamiento
 10/04/19 | [Clase 68](teoria/clase68.md) | [Clase 68](recursos/clase68.md) | Express II: Server Render y plantillas
 12/04/19 | [Clase 69](teoria/clase69.md) | [Clase 69](recursos/clase69.md) | Express III: Middleware y Patrones
+22/04/19 | [Clase 70](teoria/clase70.md) | Clase 70 | Resolviendo Ejercicios y repasando
 
 
 [Temario](https://coggle.it/diagram/W5ZfeGRd293lprIt/t/master-js-y-node-de-fictizia)
