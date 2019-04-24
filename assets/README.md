@@ -591,3 +591,19 @@
 - https://thearchitectureofarchitectures.files.wordpress.com/2009/12/anthonylau.jpg
 - https://camo.githubusercontent.com/af25dcefb2d951a9925adfc0c2c11f9684e19c1e/687474703a2f2f61647269616e6d656a69612e636f6d2f696d616765732f657870726573732d6d6964646c6577617265732e706e67
 - https://ouranos.com.ng/wp-content/uploads/2017/12/spaghetti-code.png
+
+
+### clase70
+
+
+### clase71
+
+- https://image.slidesharecdn.com/presentacion-pillarsjs-150617060707-lva1-app6891/95/pillarsjs-framework-de-desarrollo-web-para-nodejs-2-638.jpg?cb=1434521845 
+- https://felixsanz.com/images/articles/la-gran-contribucion-de-paypal-a-nodejs-la-suite-kraken/01.png
+- https://erudika.com/assets/img/loopback.png
+- https://loopback.io/images/overview/loopback-flow.png
+- https://embedwistia-a.akamaihd.net/deliveries/728d3835b669f2678071c721d035d270.jpg?image_crop_resized=1280x720
+- https://camo.githubusercontent.com/6c76c5e3904170744bad0031ac667f8bc252147f/687474703a2f2f692e696d6775722e636f6d2f52497675392e706e67
+- https://cdn-images-1.medium.com/max/2000/1*KV5Uyy1RYBh4TKvivBUAgQ.jpeg
+- https://19yw4b240vb03ws8qm25h366-wpengine.netdna-ssl.com/wp-content/uploads/restify-node.js-framework.png
+- https://strongloop.com/blog-assets/2014/04/StrongLoop-API-Explorer.png
