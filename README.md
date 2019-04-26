@@ -109,8 +109,7 @@ Fecha | Teoría | Recursos | Contenido
 12/04/19 | [Clase 69](teoria/clase69.md) | [Clase 69](recursos/clase69.md) | Express III: Middleware y Patrones
 22/04/19 | [Clase 70](teoria/clase70.md) | Clase 70 | Resolviendo Ejercicios y repasando
 24/04/19 | [Clase 71](teoria/clase71.md) | [Clase 71](recursos/clase71.md) | Express IV: Mas allá de Express
-
-
+26/04/19 | [Clase 72](teoria/clase72.md) | Clase 72 | Resolviendo Ejercicios y repasando
 
 [Temario](https://coggle.it/diagram/W5ZfeGRd293lprIt/t/master-js-y-node-de-fictizia)
 =================
