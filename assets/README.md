@@ -607,3 +607,17 @@
 - https://cdn-images-1.medium.com/max/2000/1*KV5Uyy1RYBh4TKvivBUAgQ.jpeg
 - https://19yw4b240vb03ws8qm25h366-wpengine.netdna-ssl.com/wp-content/uploads/restify-node.js-framework.png
 - https://strongloop.com/blog-assets/2014/04/StrongLoop-API-Explorer.png
+
+
+### clase72
+
+
+### clase73
+
+- https://cdn-images-1.medium.com/max/2000/1*o-smd5CKaJPIqtyyZOx5Rg.png
+- https://cdn.dribbble.com/users/314409/screenshots/2031990/mosca_logo.png
+- https://cdn-images-1.medium.com/max/2000/1*5tvJMOaR3SmalD3FkLDsFg.png
+- https://s3.amazonaws.com/www.appcelerator.com.images/MQTT_1.png
+- https://cdn.domoticaencasa.es/wp-content/uploads/2018/04/MQTT-logo-1620x600.png
+- http://elb105.com/wp-content/uploads/2018/08/node-red-800x424.png
+- http://developer.opto22.com/images/node-red-pac/node-red-pac-hardware.jpg
