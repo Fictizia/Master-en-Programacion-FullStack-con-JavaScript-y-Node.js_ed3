@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>MovieFire</title>
+      <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+      <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+      <link rel="stylesheet" href="css/style.css">
+   </head>
+   <body>
+      <div class="container">
+      <main class="main-content">
+         <div class="title-section">
+            <h1 class="main-title">MovieFire</h1>
+            <div>
+               <i class="nes-octocat animate"></i>
+               <a href="https://github.com/estreamercoders/Homenaje-a-movieFire">Repo</a>
+            </div>
+         </div>
+         <section class="nes-container with-title">
+            <label class="title" for="title">Pelicula</label>
+            <input
+               id="title"
+               type="text"
+               class="nes-input is-success"
+               placeholder="Pon un título y presiona enter"
+               />
+            <div class="lists">
+               <ul id="peliculas" class="nes-list is-circle"></ul>
+            </div>
+         </section>
+         <div class="nes-container is-dark with-title">
+            <p class="title">Detalles</p>
+            <div id="details">
+            </div>
+         </div>
+      </main>
+      <script src="https://www.gstatic.com/firebasejs/5.11.0/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/5.11.0/firebase-database.js"></script>
+      <script>
+         var firebaseConfig = {
+             apiKey: "Tu Apikey",
+             authDomain: "moviefire-3bf94.firebaseapp.com",
+             databaseURL: "https://moviefire-3bf94.firebaseio.com",
+             projectId: "moviefire-3bf94",
+             storageBucket: "moviefire-3bf94.appspot.com",
+             messagingSenderId: "243777350623",
+             appId: "1:243777350623:web:8e0f7589641cfa1b"
+         };
+         firebase.initializeApp(firebaseConfig);
+      </script>
+      <script src="js/app.js"></script>
+   </body>
+</html>
