@@ -621,3 +621,14 @@
 - https://cdn.domoticaencasa.es/wp-content/uploads/2018/04/MQTT-logo-1620x600.png
 - http://elb105.com/wp-content/uploads/2018/08/node-red-800x424.png
 - http://developer.opto22.com/images/node-red-pac/node-red-pac-hardware.jpg
+
+
+### clase74
+- https://raw.githubusercontent.com/i0natan/nodebestpractices/master/assets/images/banner-2.jpg
+- https://cdn-images-1.medium.com/max/1600/1*fSoNpkRzs8DR3JgWfopp2A.png
+- https://cdn-images-1.medium.com/max/1600/1*daHJAGXSr_qmAAptOJMfMw.png
+- https://cdn-images-1.medium.com/max/1600/1*kPek5-1mNCLi91X0BAA8VQ.png
+- https://raw.githubusercontent.com/Fictizia/Curso-in-company-INECO_ed2/master/assets/clase6/fcf19ea6-015a-43db-9a52-e5c33cd596d2.png
+- https://raw.githubusercontent.com/Fictizia/Curso-in-company-INECO_ed2/master/assets/clase6/4823f576-8957-4772-999e-542f18400b1a.png
+- https://cdn-images-1.medium.com/max/1200/0*DLjTUbiHLIUv47ha.jpg
+- https://cdn-images-1.medium.com/max/1200/1*QcuzVJjkaKboOd37THB6zg.jpeg

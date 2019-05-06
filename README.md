@@ -99,7 +99,7 @@ Fecha | Teoría | Recursos | Contenido
 20/03/19 | [Clase 59](teoria/clase59.md) | [Clase 59](recursos/clase59.md) | Yeoman II
 22/03/19 | [Clase 60](teoria/clase60.md) | [Clase 60](recursos/clase60.md) | Frameworks I: Anatomía y funcionalidades
 25/03/19 | [Clase 61](teoria/clase61.md) | [Clase 61](recursos/clase61.md) | Frameworks II: Ecosistema, soluciones y contextualización
-27/03/19 | [Clase 62](teoria/clase62.md) | [Clase 62](recursos/clase62.md) | WebSockets: Fundamentos
+27/03/19 | [Clase 62](teoria/clase62.md) | [Clase 62](recursos/clase62.md) | WebSockets: Fundamentos`
 29/03/19 | [Clase 63](teoria/clase63.md) | [Clase 63](recursos/clase63.md) | Intro al backend + def. PFM
 01/04/19 | [Clase 64](teoria/clase64.md) | [Clase 64](recursos/clase64.md) | Frameworks III: Angular con [Jon Rojí](https://twitter.com/jnroji)
 03/04/19 | [Clase 65](teoria/clase65.md) | [Clase 65](recursos/clase65.md) | Frameworks IV: React con [Javier Vidal](https://twitter.com/JaVidalPe)
@@ -111,6 +111,9 @@ Fecha | Teoría | Recursos | Contenido
 24/04/19 | [Clase 71](teoria/clase71.md) | [Clase 71](recursos/clase71.md) | Express IV: Mas allá de Express
 26/04/19 | [Clase 72](teoria/clase72.md) | Clase 72 | Resolviendo Ejercicios y repasando
 29/04/19 | [Clase 73](teoria/clase73.md) | [Clase 73](recursos/clase73.md) | WebSockets Backend y MQTT
+06/05/19 | [Clase 74](teoria/clase74.md) | [Clase 74](recursos/clase74.md) | Nodejs: Conceptos Avanzados de Core (Child Process, C/C++ Addons, Cluster...)
+
+
 
 
 [Temario](https://coggle.it/diagram/W5ZfeGRd293lprIt/t/master-js-y-node-de-fictizia)
