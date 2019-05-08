@@ -112,7 +112,7 @@ Fecha | Teoría | Recursos | Contenido
 26/04/19 | [Clase 72](teoria/clase72.md) | Clase 72 | Resolviendo Ejercicios y repasando
 29/04/19 | [Clase 73](teoria/clase73.md) | [Clase 73](recursos/clase73.md) | WebSockets Backend y MQTT
 06/05/19 | [Clase 74](teoria/clase74.md) | [Clase 74](recursos/clase74.md) | Nodejs: Conceptos Avanzados de Core (Child Process, C/C++ Addons, Cluster...)
-
+08/05/19 | [Clase 75](teoria/clase75.md) | [Clase 75](recursos/clase75.md) | Hablemos de Seguridad Web
 
 
 

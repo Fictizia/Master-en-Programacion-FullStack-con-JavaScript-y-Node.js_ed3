@@ -632,3 +632,24 @@
 - https://raw.githubusercontent.com/Fictizia/Curso-in-company-INECO_ed2/master/assets/clase6/4823f576-8957-4772-999e-542f18400b1a.png
 - https://cdn-images-1.medium.com/max/1200/0*DLjTUbiHLIUv47ha.jpg
 - https://cdn-images-1.medium.com/max/1200/1*QcuzVJjkaKboOd37THB6zg.jpeg
+
+
+### clase75
+
+- https://static1.squarespace.com/static/51b64d8ae4b0c042edeecd7e/t/59b740018dd041b2054b7abb/1505181713047/Robert-Mueller-Cyber-Security-Quote.jpg?format=750w
+- https://cdn-images-1.medium.com/max/2000/1*J1DCNQGwBsRPRS5t0bhoig.jpeg
+- https://wwwassets.rand.org/content/rand/blog/2018/03/getting-ready-to-fight-the-next-cyber-war/jcr:content/par/blogpost.aspectcrop.868x455.ct.jpg/1520040503441.jpg
+- https://www.hackmageddon.com/2018/12/28/november-2018-cyber-attacks-statistics/
+- https://pbs.twimg.com/media/DKZdq45XcAAJQ6b.jpg
+- https://www.wisefamousquotes.com/images/john-mcafee-quotes-1631238.jpg
+- https://phulc.files.wordpress.com/2017/07/cyber-kill-chain.png
+- https://i.pinimg.com/originals/f4/db/6c/f4db6cb13efffd984182ba17a834af54.png
+- https://techviral.net/wp-content/uploads/2017/08/Hackers.jpg
+- https://www.techbarrista.com/wp-content/uploads/2019/01/Bug-Bounty-750x445.jpg
+- https://www.owasp.org/images/d/d8/Architektur_JuiceShop.png
+- https://www.owasp.org/index.php/File:JuiceShop_Logo.png
+- http://www.twistlock.com/wp-content/uploads/2018/01/owasp.jpeg
+- https://i.ytimg.com/vi/nOClTa0Q8uI/maxresdefault.jpg
+- https://bitninja.io/storage/app/uploads/public/5b7/560/398/5b7560398352a330671970.png
+- https://atenea.ccn-cert.cni.es/static/59b514174bffe4ae/5acc78841a190899a3e5745cb702cff0.png
+- https://cso.computerworld.es/archivos/201601/incibe.jpg
