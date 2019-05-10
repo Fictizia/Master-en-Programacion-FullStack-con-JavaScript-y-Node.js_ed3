@@ -653,3 +653,16 @@
 - https://bitninja.io/storage/app/uploads/public/5b7/560/398/5b7560398352a330671970.png
 - https://atenea.ccn-cert.cni.es/static/59b514174bffe4ae/5acc78841a190899a3e5745cb702cff0.png
 - https://cso.computerworld.es/archivos/201601/incibe.jpg
+
+
+### clase76
+
+- https://cdn-images-1.medium.com/max/1600/1*u1aPLXlL56IW14CHWkKsGQ.jpeg
+- https://dotfiles.tnetconsulting.net/blog/2015/0228/there-is-no-cloud/thereisnocloud-v2.png
+- https://cdn-images-1.medium.com/max/1600/0*jIpMoYfpftPWmx-x.
+- https://pics.astrologymemes.com/the-evolution-0f-software-architecture-l990s-spaghetti-oriented-architecture-aka-copy-paste-35431178.png
+- https://res.infoq.com/presentations/12-Principles-Deploy-Apps/en/slides/1.jpg
+- https://i.imgflip.com/21wro2.jpg
+- http://techcommunity.softwareag.com/documents/207589/10104696/monolith-retirement.png/cc33f407-2e16-4dc2-b384-153bcf203f7d?t=1542631831060
+- https://media.makeameme.org/created/we-used-to-xttrvw.jpg
+- https://i.pinimg.com/originals/bf/19/60/bf1960e4f6526ec8d1f364168e70249b.jpg
