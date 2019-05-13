@@ -666,3 +666,13 @@
 - http://techcommunity.softwareag.com/documents/207589/10104696/monolith-retirement.png/cc33f407-2e16-4dc2-b384-153bcf203f7d?t=1542631831060
 - https://media.makeameme.org/created/we-used-to-xttrvw.jpg
 - https://i.pinimg.com/originals/bf/19/60/bf1960e4f6526ec8d1f364168e70249b.jpg
+
+
+### clase77
+
+- https://firebase.google.com/docs/auth/images/auth-providers.png?hl=es-419 
+- https://cdn-images-1.medium.com/max/1600/1*P96fpzo_Tr0PgJwZjEjHxw.png 
+- https://firebase.google.com/docs/functions/images/notify.png?hl=es-419 
+- https://firebase.google.com/docs/functions/images/sanitization.png?hl=es-419 
+- https://firebase.google.com/docs/functions/images/intensive.png?hl=es-419 
+- https://firebase.google.com/docs/functions/images/commit.png?hl=es-419 
