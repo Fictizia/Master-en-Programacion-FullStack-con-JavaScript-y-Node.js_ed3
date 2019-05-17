@@ -676,3 +676,8 @@
 - https://firebase.google.com/docs/functions/images/sanitization.png?hl=es-419 
 - https://firebase.google.com/docs/functions/images/intensive.png?hl=es-419 
 - https://firebase.google.com/docs/functions/images/commit.png?hl=es-419 
+
+
+### clase78
+
+- https://media.giphy.com/media/l3mZm7FJoEK3KIKru/giphy.gif 
