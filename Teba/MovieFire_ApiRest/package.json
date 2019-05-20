@@ -4,9 +4,20 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "lint": "standard",
+    "lint:fix": "standard --fix",
+    "serve:dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.0",
+    "standard": "^12.0.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.0"
+  }
 }
