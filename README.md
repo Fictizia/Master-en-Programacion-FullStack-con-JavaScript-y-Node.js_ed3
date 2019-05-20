@@ -116,6 +116,7 @@ Fecha | Teoría | Recursos | Contenido
 10/05/19 | [Clase 76](teoria/clase76.md) | [Clase 76](recursos/clase76.md) | Arquitectura (Monolito, Microservicios, serverless...)
 13/05/19 | [Clase 77](teoria/clase77.md) | [Clase 77](recursos/clase77.md) | Firebase II: Google Cloud Functions
 17/05/19 | [Clase 78](teoria/clase78.md) | Clase 78 | Firebase II: Ejercicios de Cloud Functions
+20/05/19 | [Clase 79](teoria/clase79.md) | [Clase 79](recursos/clase79.md) | Firebase II:  Cloud Messaging
 
 
 [Temario](https://coggle.it/diagram/W5ZfeGRd293lprIt/t/master-js-y-node-de-fictizia)

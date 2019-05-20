@@ -681,3 +681,13 @@
 ### clase78
 
 - https://media.giphy.com/media/l3mZm7FJoEK3KIKru/giphy.gif 
+
+### clase79
+- https://i.stack.imgur.com/8Szac.png 
+- https://developers.google.com/web/fundamentals/push-notifications/images/svgs/browser-to-server.svg 
+- https://developers.google.com/web/fundamentals/push-notifications/images/svgs/server-to-push-service.svg 
+- https://developers.google.com/web/fundamentals/push-notifications/images/svgs/push-service-to-sw-event.svg 
+- https://i.ytimg.com/vi/sioEY4tWmLI/maxresdefault.jpg 
+- https://techstricks.com/wp-content/uploads/2017/03/fcm.png 
+- https://docs.microsoft.com/es-es/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging-images/03-downstream.png 
+
