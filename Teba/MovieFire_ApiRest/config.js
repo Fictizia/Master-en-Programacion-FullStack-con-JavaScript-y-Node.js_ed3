@@ -1,8 +1,9 @@
 module.exports = {
   port: process.env.PORT || 3000,
+  apiKeyOmdb: process.env.OMBD_API || "---",
   firebasePath: "moviefire-apirest",
   firebaseConfig: {
-    apiKey: "AIzaSyAp5SKIZPqD267iqov7LHmcrE11ccnmb20",
+    apiKey: "-----",
     authDomain: "moviefire-3bf94.firebaseapp.com",
     databaseURL: "https://moviefire-3bf94.firebaseio.com",
     projectId: "moviefire-3bf94",
