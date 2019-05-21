@@ -1,18 +1,17 @@
 
 const firebase = require('firebase')
 const { firebaseConfig, firebasePath } = require('../config')
-firebase.initializeApp(firebaseConfig);
+firebase.initializeApp(firebaseConfig)
 const db = firebase.database().ref(firebasePath)
-
 
 function getAllFilmsDB () {
   return new Promise((resolve, reject) => {
     db.once('value', (snapshot) => {
       const originalData = snapshot.val()
-      const data = [];
+      const data = []
       // @TODO: resolver
-      /* 
-      
+      /*
+
       {
         "-LfOniihOKPbedDrHCNu": {
           title: "Minions"
@@ -26,7 +25,7 @@ function getAllFilmsDB () {
       */
       resolve(originalData)
     }, reject)
-  })     
+  })
 }
 
 function filmDetailsDB (id) {
@@ -35,7 +34,7 @@ function filmDetailsDB (id) {
       const data = snapshot.val()
       resolve(data)
     }, reject)
-  })     
+  })
 }
 
 function createFilmDB (data) {
@@ -57,7 +56,7 @@ function deleteFilmDB (id) {
 // createFilmDB({ title: 'The Matrix'});
 // editFilmDetailsDB("-LfOmgHi75rrWg-2YT3u", "Banana!");
 // deleteFilmDB("-LfOmgHi75rrWg-2YT3u").then(console.log).catch(console.log)
-//filmDetailsDB('-LfOniihOKPbedDrHCNu').then(console.log).catch(console.log);
+// filmDetailsDB('-LfOniihOKPbedDrHCNu').then(console.log).catch(console.log);
 // getAllFilmsDB().then(console.log).catch(console.log);
 
 // Export for api.js
