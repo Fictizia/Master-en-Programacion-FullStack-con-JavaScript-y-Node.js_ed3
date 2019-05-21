@@ -10,7 +10,7 @@ function getAllFilmsDB () {
     db.once('value', (snapshot) => {
       const originalData = snapshot.val()
       const data = [];
-      
+      // @TODO: resolver
       /* 
       
       {
