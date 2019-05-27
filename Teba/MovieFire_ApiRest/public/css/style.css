@@ -1,0 +1,89 @@
+html,
+body,
+pre,
+code,
+kbd,
+samp {
+	font-family: "Press Start 2P";
+}
+
+body {
+	color: black;
+	margin: 10px;
+}
+
+.nes-container {
+	margin: 40px auto;
+}
+
+.app-title {
+	font-size: 24px;
+}
+
+.movie {
+	display: flex;
+	flex: 1;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 8px;
+	position: relative;
+}
+
+.movie::before {
+	top: 16px;
+}
+
+.movie p {
+	margin: 14px;
+}
+
+.movie .btns_container {
+	margin-right: auto;
+}
+
+.nes-btn {
+	margin-bottom: 10px;
+}
+
+li .detail::before {
+	position: absolute;
+	top: 2px;
+	left: -12px;
+	content: "";
+	width: 2px;
+	height: 2px;
+	color: #fff;
+	box-shadow: 2px 2px, 4px 2px, 2px 4px, 4px 4px, 6px 4px, 8px 4px, 2px 6px, 4px 6px, 6px 6px, 8px 6px, 10px 6px, 2px 8px, 4px 8px, 6px 8px, 8px 8px, 10px 8px, 12px 8px, 2px 10px, 4px 10px, 6px 10px, 8px 10px, 10px 10px, 2px 12px, 4px 12px, 6px 12px, 8px 12px, 2px 14px, 4px 14px;
+}
+
+li .detail-close-btn {
+	position: absolute;
+	right: 16px;
+	top: 16px;
+	z-index: 10;
+}
+
+#peliculas {
+	margin: 36px 0;
+}
+
+.movielist-item {
+	margin-bottom: 10px;
+}
+
+hr {
+	border: 2px solid black;
+}
+
+.dialog-menu {
+	text-align: right;
+}
+
+#dialog-input {
+	display: none;
+}
+
+footer {
+	margin-top: 30px;
+}
+
