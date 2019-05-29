@@ -118,6 +118,8 @@ Fecha | Teoría | Recursos | Contenido
 17/05/19 | [Clase 78](teoria/clase78.md) | Clase 78 | Firebase II: Ejercicios de Cloud Functions
 20/05/19 | [Clase 79](teoria/clase79.md) | [Clase 79](recursos/clase79.md) | Firebase II:  Cloud Messaging
 27/05/19 | [Clase 80](teoria/clase80.md) | [Clase 80](recursos/clase80.md) | Bases de datos: Fundamentos y GoblinDB
+29/05/19 | [Clase 81](teoria/clase81.md) | [Clase 81](recursos/clase81.md) | Bases de datos: Relacionales I
+
 
 
 

@@ -701,3 +701,12 @@
 - https://upload.wikimedia.org/wikipedia/commons/e/ed/Diagrama_Empleado.jpeg
 - https://content-static.upwork.com/blog/uploads/sites/3/2015/06/02170023/relational-vs-nonrelational-databases.png
 - https://www.netsolutions.com/insights/wp-content/uploads/2014/07/5_things_you_must_consider_before_nosql1.jpg
+
+
+### clase81
+
+- https://d186loudes4jlv.cloudfront.net/sql_first_edition/images/introduction/sql-is-everywhere.jpg 
+- http://i.imgur.com/hhRDO4d.png 
+- https://www.hostname.cl/uploads/2015/01/MySQL.png 
+- https://cdn-images-1.medium.com/max/1600/1*Z393kUKv-1sQPw2fa_yzNw.png 
+- https://ubunlog.com/wp-content/uploads/2018/07/postgresql.jpeg 
