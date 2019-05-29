@@ -43,7 +43,7 @@ function createFilmDB (data) {
 
 function editFilmDetailsDB (id, newTitle) {
   return db.child(id).update({
-    title: newTitle
+    Title: newTitle
   })
 }
 
