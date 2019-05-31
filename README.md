@@ -119,7 +119,7 @@ Fecha | Teoría | Recursos | Contenido
 20/05/19 | [Clase 79](teoria/clase79.md) | [Clase 79](recursos/clase79.md) | Firebase II:  Cloud Messaging
 27/05/19 | [Clase 80](teoria/clase80.md) | [Clase 80](recursos/clase80.md) | Bases de datos: Fundamentos y GoblinDB
 29/05/19 | [Clase 81](teoria/clase81.md) | [Clase 81](recursos/clase81.md) | Bases de datos: Relacionales I
-
+31/05/19 | [Clase 82](teoria/clase82.md) | Clase 82 | Bases de datos: Relacionales II
 
 
 
