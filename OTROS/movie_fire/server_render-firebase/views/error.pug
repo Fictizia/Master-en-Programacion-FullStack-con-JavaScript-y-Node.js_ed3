@@ -1,0 +1,16 @@
+extends layout.pug
+
+block header
+  include includes/header.pug
+
+block content
+
+  a.btn.btn-primary.mt-4.mb-4(href='/', role='button')
+    i.fas.fa-backward
+    |  Back to home
+  
+  h3 You broke the system!!
+  
+  img(src="/img/error.png")
+  if err
+      p.text-muted #{err}

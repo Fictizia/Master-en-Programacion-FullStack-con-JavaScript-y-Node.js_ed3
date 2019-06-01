@@ -765,6 +765,4 @@ Objetivos:
 - Usa Bootstrap e [includes](https://pugjs.org/language/includes.html) de Pug
 - Manten una buena estructura separando rutas y modelos, puedes usar `async/await` para simplificar el trabajo
 
-```js
-// Tu solución
-```
+**[Solución](../OTROS/movie_fire/server_render-firebase)**

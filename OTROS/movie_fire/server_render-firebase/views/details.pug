@@ -1,0 +1,23 @@
+extends layout.pug
+block content
+  a.btn.btn-primary.mt-4.mb-4(href='/', role='button')
+    i.fas.fa-backward
+    |  Back to home
+
+  if data
+    .card.film-card
+      if data.poster && data.poster  !== "N/A"
+        img.card-img-top(src=data.poster, alt='Film Poster')
+      .card-body
+        h5.card-title #{data.title}
+        p.card-text
+          | #{data.plot}
+      ul.list-group.list-group-flush
+        li.list-group-item Director: #{data.director}
+        li.list-group-item Year: #{data.year}
+        li.list-group-item Actors: #{data.actors}
+        li.list-group-item Genre: #{data.genre}
+        li.list-group-item Country: #{data.country}
+  else
+    h1 #{data.name}
+    h3 No more information available!

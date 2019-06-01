@@ -1,0 +1,30 @@
+extends layout.pug
+
+block header
+  include includes/header.pug
+
+block content
+  .input-group.mb-3
+    input#movieName.form-control(type='text', placeholder="Film's name", aria-label="Film's name", aria-describedby='button-addon')
+    .input-group-append
+      button#button-addon.btn.btn-outline-primary(type='button') Add Film
+  if data
+    ul.list-group#favMovies
+      each val, index in data
+        li.list-group-item.d-flex.justify-content-between.align-items-center
+          | #{data[index].name} 
+          .btn-toolbar(role='toolbar')
+            .btn-group.mr-2(role='group', data-key=index)
+              button.btn.btn-primary(type='button', data-action="details")
+                i.fas.fa-eye
+              button.btn.btn-warning(type='button', data-action="edit")
+                i.fas.fa-edit
+              button.btn.btn-danger(type='button', data-action="delete")
+                i.fas.fa-trash
+  else
+    ul.list-group#favMovies
+      li.list-group-item.d-flex.justify-content-between.align-items-center
+        | No films has been added yet :(
+
+block scripts
+  include includes/scripts.pug
