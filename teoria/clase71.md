@@ -565,6 +565,4 @@ Rutas:
 - `[DELETE] /api/movies` Borra una película y retorna un status `200`. Payload `{id: ""}`
 
 
-```js
-// Tu solución
-```
+**[Solución](../OTROS/movie_fire/apirest-firebase)**
