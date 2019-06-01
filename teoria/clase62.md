@@ -162,6 +162,4 @@ socket.close(); // Si quieres reabrir. -> socket.connect();
 
 ![](../assets/clase62/749c3b17-c393-4608-9cba-d1eaef3a4620.gif)
 
-```javascript
-    //Tu solución
-```
+**[Solución en Codepen](https://codepen.io/ulisesgascon/pen/JWRMbG)**
