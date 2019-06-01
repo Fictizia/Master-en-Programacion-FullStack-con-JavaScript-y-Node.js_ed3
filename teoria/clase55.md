@@ -57,7 +57,8 @@ up 5 weeks, 3 days, 9 hours, 14 minutes
 
 **4 -** Saca una lista de todas las variables de entorno y guardala en un fichero llamado `env_data.log`
 ```bash
-# Tu solución
+#!/bin/bash
+printenv | more > env_data.log
 ```
 
 ```
