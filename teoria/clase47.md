@@ -1869,8 +1869,6 @@ Objetivos
 - No te olvides de añadirlo todo al `readme.md`
 - Utiliza Github Pages para hostear tu solución
 
-```javascript
-// Tu solución
-```
+[Solución](..OTROS/caesar-cypher)
 
 ![IMG](../assets/clase47/7ef28445-2230-463f-a1c7-9459e0477d4e.png)
