@@ -29,13 +29,13 @@ function addNewMovie (req, res, next) {
 }
 
 function editMovieDetails (req, res, next) {
-  let { title, id } = req.body
-  const isValidTitle = title && validator.isLength(title.trim(), { min: 1 })
+  let { Title, id } = req.body
+  const isValidTitle = Title && validator.isLength(Title.trim(), { min: 1 })
   const isValidId = id && validator.isLength(id.trim(), { min: 1 })
   if (!isValidTitle && !isValidId) {
     return res.status(400).send({ err: 'Missing info!' })
   }
-  editFilmDetailsDB(id, title)
+  editFilmDetailsDB(id, Title)
     .then(() => res.status(200).send({ message: 'Film updated' }))
     .catch(err => res.status(500).send({ err }))
 }

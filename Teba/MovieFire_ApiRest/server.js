@@ -13,11 +13,16 @@ const bodyParser = require('body-parser')
 - [x] './controllers/api' deberia conectarse con './models/db'
 - [x] Desarrollar el gestor de OMBD para sacar más info de las películas desde el title
       en ./lib/ombd.js, puedes usar got (Npm), request (Npm) o request-promise (Npm)
+- [x] Limpiar/borrar/adaptar el front de /public o dejar vacío sin más que un HTML que explique la API
+    - [x] Crear una copia de /public; 
+    - [x] Mapear las funcionalidades de app.js
+    - [x] Migrar las func. de app.js al nuevo app.js siguiendo el esquema de funciones y haciendo las llamadas a AJAX
 - [ ] Mejorar la gestión de errores con un middelware propio (Hablar con @Ulises)
 - [ ] Añadir CORS a las rutas de la /api/ directamente o con el middelware cors (Npm)
-- [ ] Limpiar/borrar/adaptar el front de /public o dejar vacío sin más que un HTML que explique la API
 - [ ] Refactorizar todo y darle un último repasito
 - [ ] Mejorar el Readme
+- [ ] Normalizacion: OMBD data -> Title a title y cambio de comportamiento en el front
+- [ ] Normalizacion: Devolver un array de peliculas y no un objeto con peliculas. 
 */
 
 app.use(express.static('public'))

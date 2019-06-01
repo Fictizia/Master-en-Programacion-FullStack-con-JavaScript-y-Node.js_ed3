@@ -1,90 +1,124 @@
-(() => {
-  // Selectors
-  const moviesRef = firebase.database().ref('/peliculas')
-  const apiKey = 'Tu token'
-  const inputSlctr = document.getElementById('title')
-  const filmItemSlctr = document.getElementById('peliculas')
-  const detailsSlctr = document.getElementById('details')
-  const deletePopup = document.getElementById('dialog-delete')
 
-  // CRUD - create, read, update, delete
+// Selectors
+const inputSlctr = document.getElementById('title');
+const filmItemSlctr = document.getElementById('peliculas');
+const detailsSlctr = document.getElementById('details');
 
-  function getMoviesData (title) {
-    const url = `http://www.omdbapi.com/?t=${title}&apikey=${apiKey}`
-    return fetch(url)
-      .then(res => res.json())
-  }
-
-  function addMovie (data) {
-    return moviesRef.push(data)
-  }
-
-  function getMovieDetails (id) {
-    return moviesRef.child(id).once('value', (snapshot) => {
-      const data = snapshot.val()
-      detailsSlctr.innerHTML = `<ul>
-            <li>Actors: ${data.Actors}</li>
-            <li>Director: ${data.Director}</li>
-            <li>Genre: ${data.Genre}</li>
-            <li>${data.Plot}</li>
-        </ul>`
-    })
-  }
-
-  function editMovieDetails (id, newTitle) {
-    return moviesRef.child(id).update({
-      Title: newTitle
-    })
-  }
-
-  function deleteMovie (id) {
-    return moviesRef.child(id).remove()
-  }
-
-  function filmList (data = []) {
-    let htmlContent = ''
-    for (const key in data) {
-      htmlContent += `<li data-id="${key}" >${data[key].Title}
-            <button type="button" data-action="details" class="nes-btn is-success">Details</button>
-            <button type="button" data-action="edit" class="nes-btn is-warning">Edit</button>
-            <button type="button" data-action="delete" class="nes-btn is-error">Delete</button>
-            </li>`
-    }
-    filmItemSlctr.innerHTML = htmlContent
-  }
-
-  // Eventos
-
-  moviesRef.on('value', (snapshot) => {
-    filmList(snapshot.val())
-    detailsSlctr.innerText = ''
+// CRUD functions - create, read, update, delete
+function addMovie(title) {
+  const url = '/api/movies';
+  const data = {title: title}
+  return fetch(url, {
+    method: 'POST',
+    body: JSON.stringify(data),
+    headers: new Headers({
+      'Content-Type': 'application/json'
+    }),
   })
+  .then(res => res.json())
+  .catch(error => console.error('Error:', error))
+}
 
-  inputSlctr.addEventListener('keypress', (evt) => {
-    if (evt.keyCode === 13) {
-      let movieTitle = inputSlctr.value
-      getMoviesData(movieTitle)
-        .then(addMovie)
-      inputSlctr.value = ''
-    }
+function filmList (){
+  const url = '/api/movies';
+  fetch(url)
+  .then(r => r.json())
+  .then(data => renderfilmList(data))
+  .catch(error => console.error('Error:', error))
+}
+
+function getMovieDetails(id){
+  const url = `/api/movies/${id}`;
+  fetch(url)
+  .then(r => r.json())
+  .then(data => renderFilmInfo(data))
+  .catch(error => console.error('Error:', error))
+}
+
+function editMovieDetails(id, newTitle){
+  const url = '/api/movies';
+  const data = {
+    Title: newTitle,
+    id: id
+  }
+  return fetch(url, {
+    method: 'PUT',
+    body: JSON.stringify(data),
+    headers: new Headers({
+      'Content-Type': 'application/json'
+    }),
   })
+  .then(res => res.json())
+  .catch(error => console.error('Error:', error))
+}
 
-  filmItemSlctr.addEventListener('click', (evt) => {
-    let action = event.target.dataset.action
-    if (evt.target.nodeName === 'BUTTON' && action) {
-      let filmId = event.target.parentNode.dataset.id
-      if (action === 'details') {
-        getMovieDetails(filmId)
-      } else if (action === 'edit') {
-        let newTitle = prompt('Escribe el nuevo título de la peli')
-        if (newTitle) {
-          editMovieDetails(filmId, newTitle)
-        }
-      } else if (action === 'delete') {
-        if (confirm('Deseas borrar esta peli?')) {
-          deleteMovie(filmId)
-        }
+function deleteMovie (id){
+  const url = '/api/movies';
+  const data = { id: id };
+  return fetch(url, {
+    method: 'DELETE',
+    body: JSON.stringify(data),
+    headers: new Headers({
+      'Content-Type': 'application/json'
+    }),
+  })
+  .then(res => res.json())
+  .catch(error => console.error('Error:', error))
+}
+
+
+// Rendering functions
+function renderfilmList (data = []) {
+  let htmlContent = ''
+  for (const key in data) {
+    htmlContent += `<li data-id="${key}" >${data[key].Title}
+          <button type="button" data-action="details" class="nes-btn is-success">Details</button>
+          <button type="button" data-action="edit" class="nes-btn is-warning">Edit</button>
+          <button type="button" data-action="delete" class="nes-btn is-error">Delete</button>
+          </li>`
+  }
+  filmItemSlctr.innerHTML = htmlContent;
+}
+
+function renderFilmInfo(data){
+    detailsSlctr.innerHTML = `<ul>
+          <li>Actors: ${data.Actors}</li>
+          <li>Director: ${data.Director}</li>
+          <li>Genre: ${data.Genre}</li>
+          <li>Plot: ${data.Plot}</li>
+      </ul>`
+  }
+
+filmList();
+
+// Eventos
+
+inputSlctr.addEventListener('keypress', (evt) => {
+  if (evt.keyCode === 13) {
+    let movieTitle = inputSlctr.value
+    addMovie(movieTitle)
+      .then(filmList)
+    inputSlctr.value = ''
+  }
+})
+
+filmItemSlctr.addEventListener('click', (evt) => {
+  let action = event.target.dataset.action
+  if (evt.target.nodeName === 'BUTTON' && action) {
+    let filmId = event.target.parentNode.dataset.id
+    if (action === 'details') {
+      getMovieDetails(filmId)
+    } else if (action === 'edit') {
+      let newTitle = prompt('Escribe el nuevo título de la peli')
+      if (newTitle) {
+        editMovieDetails(filmId, newTitle)
+        .then(filmList)
+      }
+    } else if (action === 'delete') {
+      if (confirm('Deseas borrar esta peli?')) {
+        deleteMovie(filmId)
+        .then(filmList)
       }
     }
-  })
-})()
+  }
+})
