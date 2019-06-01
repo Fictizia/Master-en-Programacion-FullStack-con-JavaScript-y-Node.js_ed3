@@ -1,0 +1,26 @@
+doctype html
+html
+  head
+    title Movie Fire
+    link(rel="stylesheet" type="text/css" href="/firemovie.css")
+  body
+    h1 Movie Fire
+    h3 Save all your Favorite Movies here
+    hr
+    input#movieName(type="text" placeholder="Enter your Favorite Movie Name")
+    h4 My Favorite Movies
+    ol#favMovies
+      if data
+        each val, index in data
+          li(data-key=index)
+            | #{data[index].name} [
+            span.action(data-action="details") Details
+            |  | 
+            span.action(data-action="edit") Edit
+            |  | 
+            span.action(data-action="delete") Delete
+            |  ]
+      else 
+        | No films has been added yet :(
+    #movieDetails
+    script(type="text/javascript" src="/firemovie.js")

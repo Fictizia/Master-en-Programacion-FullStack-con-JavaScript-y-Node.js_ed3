@@ -1,0 +1,25 @@
+doctype html
+html
+  head
+    title Movie Fire
+    link(rel="stylesheet" type="text/css" href="/firemovie.css")
+  body
+    h1 Movie Fire
+    h3 Save all your Favorite Movies here
+    hr
+    h3
+        a(href="/") < back!
+    if data && data.details && data.details.Title
+        h1 #{data.details.Title}
+        if data.details.Poster && data.details.Poster  !== "N/A"
+            img(src=data.details.Poster)
+        p Title: #{data.details.Title}
+        p Director: #{data.details.Director}
+        p Year: #{data.details.Year}
+        p Actors: #{data.details.Actors}
+        p Genre: #{data.details.Genre}
+        p Country: #{data.details.Country}
+        p Plot: #{data.details.Plot}       
+    else
+      h1 #{data.name}
+      h3 No more information available!

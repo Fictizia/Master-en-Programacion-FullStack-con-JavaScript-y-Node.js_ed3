@@ -695,13 +695,7 @@ form(method='post', action='/')
 
 ### Ejercicios
 
-**1 -** Genera un proyecto de Express con pug usando bootstrap y diviendo [el template de Producto](https://getbootstrap.com/docs/4.0/examples/product/) en varios `includes` para renderizar varias vistas `/quienes-somos`, `que-hacemos`, etc...
-
-```js
-// Tu solución
-```
-
-**2 -** Migra la aplicación de MovieFire para hacer server render con Nodejs y Pug
+**1 -** Migra la aplicación de MovieFire para hacer server render con Nodejs y Pug
 
 Claves:
 - Puedes usar librerías como `request`, `pug`, `morgan`, `helmet`, `firebase`...
@@ -762,11 +756,7 @@ Estructura de datos por película:
 }
 ```
 
-
-
-```js
-// Tu solución
-```
+**[Solución](../OTROS/movie_fire/server_render-firebase_legacy)**
 
 
 **2 -** Mejora MovieFire
