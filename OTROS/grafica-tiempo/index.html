@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+   <head>
+      <title>Meteo chartist</title>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chartist/0.11.0/chartist.min.css" type="text/css" />
+      <style>
+         .graficas{
+         width:90%;
+         height:300px;
+         }
+      </style>
+   </head>
+   <body>
+      <h1>Previsión en Madrid</h1>
+      <h3>Temperatura</h3>
+      <div class="graficas ct-chart ct-golden-section" id="temperatura"></div>
+      <h3>Humedad</h3>
+      <div class="graficas ct-chart ct-golden-section" id="humedad"></div>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/chartist/0.11.0/chartist.min.js"></script>
+      <script>
+         const xmlHttp = new XMLHttpRequest();
+         xmlHttp.onreadystatechange = () => {
+            if(xmlHttp.readyState === 4 ) {
+               if (xmlHttp.status === 200) {
+                  pintarGraficas(JSON.parse(xmlHttp.responseText));
+               } else if (xmlHttp.status === 404) {
+                  console.warn("ERROR! 404", xmlHttp.responseText);
+               }  
+            }
+         };
+         xmlHttp.open("GET", 'http://airemad.com/api/v1/weather/S002', true);
+         xmlHttp.send();
+             
+         
+         function pintarGraficas (data) {
+           // Datos
+           let valoresEjeX = [];
+           let valoresHumedad = [];
+           let valoresTemperatura = [];
+           let valoresTemperaturaMinima = [];
+           let valoresTemperaturaMaxima = [];
+         
+         
+             for (let i = 0; i < data.list.length; i+=8 ) {
+                 const element = data.list[i];
+                 valoresEjeX.push(element.dt_txt);
+                 valoresHumedad.push(element.main.humidity);
+                 valoresTemperatura.push(element.main.temp);
+                 valoresTemperaturaMinima.push(element.main.temp_max);
+                 valoresTemperaturaMaxima.push(element.main.temp_min);
+             }
+             
+           // Temperatura
+           new Chartist.Line('#temperatura', {
+             labels: valoresEjeX,
+             series: [valoresTemperaturaMinima, valoresTemperatura, valoresTemperaturaMaxima]
+           }, {
+             axisY: {
+                 labelInterpolationFnc: value => `${value}ºC`
+             }
+           });
+         
+           // Humedad
+           new Chartist.Line('#humedad', {
+             labels: valoresEjeX,
+             series: [valoresHumedad]
+           }, {
+             axisY: {
+                 labelInterpolationFnc: value => `${value}%`
+             }
+           });
+         }
+      </script>
+   </body>
+</html>

@@ -231,6 +231,4 @@
 
 **1 -** Sacar una grafica de evolucion de temperatura y humedad basado en la prevision del tiempo usando la API de Open Weather Map
 
-```javascript
-    // Tu solución
-```
+[Solución](../OTROS/grafica-tiempo)
