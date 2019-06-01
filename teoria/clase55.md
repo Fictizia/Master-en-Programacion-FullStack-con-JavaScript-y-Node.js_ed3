@@ -27,7 +27,8 @@ fi
 
 **2 -** Sacar la lista de procesos funcionando en la maquina
 ```bash
-# Tu solución
+#!/bin/bash
+ps aux --width 30 --sort -rss --no-headers | head  | awk ' {print $11}'
 ```
 
 ```
