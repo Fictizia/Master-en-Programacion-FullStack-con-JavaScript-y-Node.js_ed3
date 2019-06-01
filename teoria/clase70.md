@@ -74,10 +74,7 @@ Estructura de datos por película:
 ```
 
 
-
-```js
-// Tu solución
-```
+**[Solución](../OTROS/movie_fire/server_render-firebase_legacy)**
 
 
 **2 -** Mejora MovieFire
