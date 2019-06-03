@@ -69,14 +69,13 @@ function deleteMovie (id){
 
 // Rendering functions
 function renderfilmList (data = []) {
-  let htmlContent = ''
-  for (const key in data) {
-    htmlContent += `<li data-id="${key}" >${data[key].Title}
-          <button type="button" data-action="details" class="nes-btn is-success">Details</button>
-          <button type="button" data-action="edit" class="nes-btn is-warning">Edit</button>
-          <button type="button" data-action="delete" class="nes-btn is-error">Delete</button>
-          </li>`
-  }
+  let htmlContent = data.map(film => {
+    return `<li data-id="${film.id}" >${film.Title}
+    <button type="button" data-action="details" class="nes-btn is-success">Details</button>
+    <button type="button" data-action="edit" class="nes-btn is-warning">Edit</button>
+    <button type="button" data-action="delete" class="nes-btn is-error">Delete</button>
+    </li>`
+  }).join("")
   filmItemSlctr.innerHTML = htmlContent;
 }
 
