@@ -710,3 +710,22 @@
 - https://www.hostname.cl/uploads/2015/01/MySQL.png 
 - https://cdn-images-1.medium.com/max/1600/1*Z393kUKv-1sQPw2fa_yzNw.png 
 - https://ubunlog.com/wp-content/uploads/2018/07/postgresql.jpeg 
+
+
+### clase82
+
+
+### clase83
+
+- https://cdn-images-1.medium.com/fit/t/1600/480/1*iDvsmUwzZQxJSKdL0xzwIA.png
+- https://webassets.mongodb.com/_com_assets/cms/MongoDB-Logo-5c3a7405a85675366beb3a5ec4c032348c390b3f142f5e6dddf1d78e2df5cb5c.png
+- https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/MLab_company_logo.svg/1200px-MLab_company_logo.svg.png
+- https://docs.mongodb.com/compass/master/_images/osx-install-dialog.png
+- https://cdn-images-1.medium.com/max/1600/0*b5piDNW1dqlkJWKe.
+- https://jorgeramon.me/wp-content/uploads/2014/11/server-endpoint-blocks-1.png
+- http://4.bp.blogspot.com/-edz2_QrFvCE/UnzBhKZE3FI/AAAAAAAAAEs/bTEsqnZFTXw/s1600/SQL-MongoDB+Correspondence.PNG
+- https://guiadev.com/imagenes//2018/10/mongoDB_vs_mysql.jpg
+- https://i.stack.imgur.com/uxpTi.jpg
+- https://scotch-res.cloudinary.com/image/upload/dpr_1,w_850,q_auto:good,f_auto/media/54040/Rsw3mrItT2inTaGEqVTQ_image03-e90f8e8989.png.jpg
+- http://2.bp.blogspot.com/-jepU8tKljYg/Vb7xGeVNinI/AAAAAAAAA_o/YkV9V-UkgLA/s1600/middleware.jpg
+- https://i.giphy.com/vd6jhmiMLvGN2.gif
