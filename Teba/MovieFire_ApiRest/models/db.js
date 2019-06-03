@@ -8,10 +8,10 @@ function getAllFilmsDB () {
   return new Promise((resolve, reject) => {
     db.once('value', (snapshot) => {
       const originalData = snapshot.val()
-      const data = [];
-      for(let key in originalData) {
+      const data = []
+      for (let key in originalData) {
         const film = originalData[key]
-        film.id = key;
+        film.id = key
         data.push(film)
       }
       resolve(data)
