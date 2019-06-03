@@ -1,42 +1,42 @@
 
 // Selectors
-const inputSlctr = document.getElementById('title');
-const filmItemSlctr = document.getElementById('peliculas');
-const detailsSlctr = document.getElementById('details');
+const inputSlctr = document.getElementById('title')
+const filmItemSlctr = document.getElementById('peliculas')
+const detailsSlctr = document.getElementById('details')
 
 // CRUD functions - create, read, update, delete
-function addMovie(title) {
-  const url = '/api/movies';
-  const data = {title: title}
+function addMovie (title) {
+  const url = '/api/movies'
+  const data = { title: title }
   return fetch(url, {
     method: 'POST',
     body: JSON.stringify(data),
     headers: new Headers({
       'Content-Type': 'application/json'
-    }),
+    })
   })
-  .then(res => res.json())
-  .catch(error => console.error('Error:', error))
+    .then(res => res.json())
+    .catch(error => console.error('Error:', error))
 }
 
-function filmList (){
-  const url = '/api/movies';
+function filmList () {
+  const url = '/api/movies'
   fetch(url)
-  .then(r => r.json())
-  .then(data => renderfilmList(data))
-  .catch(error => console.error('Error:', error))
+    .then(r => r.json())
+    .then(data => renderfilmList(data))
+    .catch(error => console.error('Error:', error))
 }
 
-function getMovieDetails(id){
-  const url = `/api/movies/${id}`;
+function getMovieDetails (id) {
+  const url = `/api/movies/${id}`
   fetch(url)
-  .then(r => r.json())
-  .then(data => renderFilmInfo(data))
-  .catch(error => console.error('Error:', error))
+    .then(r => r.json())
+    .then(data => renderFilmInfo(data))
+    .catch(error => console.error('Error:', error))
 }
 
-function editMovieDetails(id, newTitle){
-  const url = '/api/movies';
+function editMovieDetails (id, newTitle) {
+  const url = '/api/movies'
   const data = {
     Title: newTitle,
     id: id
@@ -46,26 +46,25 @@ function editMovieDetails(id, newTitle){
     body: JSON.stringify(data),
     headers: new Headers({
       'Content-Type': 'application/json'
-    }),
+    })
   })
-  .then(res => res.json())
-  .catch(error => console.error('Error:', error))
+    .then(res => res.json())
+    .catch(error => console.error('Error:', error))
 }
 
-function deleteMovie (id){
-  const url = '/api/movies';
-  const data = { id: id };
+function deleteMovie (id) {
+  const url = '/api/movies'
+  const data = { id: id }
   return fetch(url, {
     method: 'DELETE',
     body: JSON.stringify(data),
     headers: new Headers({
       'Content-Type': 'application/json'
-    }),
+    })
   })
-  .then(res => res.json())
-  .catch(error => console.error('Error:', error))
+    .then(res => res.json())
+    .catch(error => console.error('Error:', error))
 }
-
 
 // Rendering functions
 function renderfilmList (data = []) {
@@ -75,20 +74,20 @@ function renderfilmList (data = []) {
     <button type="button" data-action="edit" class="nes-btn is-warning">Edit</button>
     <button type="button" data-action="delete" class="nes-btn is-error">Delete</button>
     </li>`
-  }).join("")
-  filmItemSlctr.innerHTML = htmlContent;
+  }).join('')
+  filmItemSlctr.innerHTML = htmlContent
 }
 
-function renderFilmInfo(data){
-    detailsSlctr.innerHTML = `<ul>
+function renderFilmInfo (data) {
+  detailsSlctr.innerHTML = `<ul>
           <li>Actors: ${data.Actors}</li>
           <li>Director: ${data.Director}</li>
           <li>Genre: ${data.Genre}</li>
           <li>Plot: ${data.Plot}</li>
       </ul>`
-  }
+}
 
-filmList();
+filmList()
 
 // Eventos
 
@@ -111,12 +110,12 @@ filmItemSlctr.addEventListener('click', (evt) => {
       let newTitle = prompt('Escribe el nuevo título de la peli')
       if (newTitle) {
         editMovieDetails(filmId, newTitle)
-        .then(filmList)
+          .then(filmList)
       }
     } else if (action === 'delete') {
       if (confirm('Deseas borrar esta peli?')) {
         deleteMovie(filmId)
-        .then(filmList)
+          .then(filmList)
       }
     }
   }
