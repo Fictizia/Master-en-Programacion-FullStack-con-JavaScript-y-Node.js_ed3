@@ -3,6 +3,8 @@ const { port } = require('./config')
 const { getAllMovies, getMovieDetails, editMovieDetails, addNewMovie, deleteMovie } = require('./controllers/api')
 const app = express()
 const bodyParser = require('body-parser')
+const cors = require('cors')
+const helmet = require('helmet')
 
 /* ---- @TODO ----
 - [x] Eliminar express-validator/check por validator normal.
@@ -17,16 +19,18 @@ const bodyParser = require('body-parser')
     - [x] Crear una copia de /public; 
     - [x] Mapear las funcionalidades de app.js
     - [x] Migrar las func. de app.js al nuevo app.js siguiendo el esquema de funciones y haciendo las llamadas a AJAX
-- [ ] Mejorar la gestión de errores con un middelware propio (Hablar con @Ulises)
-- [ ] Añadir CORS a las rutas de la /api/ directamente o con el middelware cors (Npm)
+- [x] Normalizacion: Devolver un array de peliculas y no un objeto con peliculas. 
+- [x] Añadir CORS a las rutas de la /api/ directamente o con el middelware cors (Npm) y Helmet para seguridad
 - [ ] Refactorizar todo y darle un último repasito
 - [ ] Mejorar el Readme
 - [ ] Normalizacion: OMBD data -> Title a title y cambio de comportamiento en el front
-- [ ] Normalizacion: Devolver un array de peliculas y no un objeto con peliculas. 
+- [ ] Mejorar la gestión de errores con un middelware propio (Hablar con @Ulises)
 */
 
 app.use(express.static('public'))
 app.use(bodyParser.json())
+app.use(cors())
+app.use(helmet())
 
 app.get('/', (req, res) => {
   res.sendFile('./public/index/html')
