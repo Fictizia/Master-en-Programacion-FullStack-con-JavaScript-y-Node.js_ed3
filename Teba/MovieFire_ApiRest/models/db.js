@@ -8,22 +8,13 @@ function getAllFilmsDB () {
   return new Promise((resolve, reject) => {
     db.once('value', (snapshot) => {
       const originalData = snapshot.val()
-      const data = []
-      // @TODO: resolver
-      /*
-
-      {
-        "-LfOniihOKPbedDrHCNu": {
-          title: "Minions"
-        }
+      const data = [];
+      for(let key in originalData) {
+        const film = originalData[key]
+        film.id = key;
+        data.push(film)
       }
-      --- objetivo ----
-      [{
-        id: "-LfOniihOKPbedDrHCNu"
-        title: "Minions"
-      }]
-      */
-      resolve(originalData)
+      resolve(data)
     }, reject)
   })
 }
