@@ -729,3 +729,14 @@
 - https://scotch-res.cloudinary.com/image/upload/dpr_1,w_850,q_auto:good,f_auto/media/54040/Rsw3mrItT2inTaGEqVTQ_image03-e90f8e8989.png.jpg
 - http://2.bp.blogspot.com/-jepU8tKljYg/Vb7xGeVNinI/AAAAAAAAA_o/YkV9V-UkgLA/s1600/middleware.jpg
 - https://i.giphy.com/vd6jhmiMLvGN2.gif
+
+
+### clase84
+
+
+### clase85
+
+- https://cdn-images-1.medium.com/max/1600/1*a2Da_CQHUsSKTCTRI2tYhQ.png
+- https://cdn-images-1.medium.com/max/1600/0*P7XjBh6QtYZ5z7wJ.
+- https://firebase.google.com/docs/firestore/images/structure-data.png?hl=es-419
+- https://codelabs.developers.google.com/codelabs/firebase-cloud-firestore-workshop-swift/img/157cea4471719f0f.png

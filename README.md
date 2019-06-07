@@ -122,6 +122,7 @@ Fecha | Teoría | Recursos | Contenido
 31/05/19 | [Clase 82](teoria/clase82.md) | Clase 82 | Bases de datos: Relacionales II
 03/06/19 | [Clase 83](teoria/clase83.md) | [Clase 83](recursos/clase83.md) | Bases de datos: No-relacionales I
 05/06/19 | [Clase 84](teoria/clase84.md) | Clase 84 | Bases de datos: No-relacionales II
+07/06/19 | [Clase 85](teoria/clase85.md) | [Clase 85](recursos/clase85.md) | Firebase III: Cloud Firestore
 
 
 
