@@ -740,3 +740,9 @@
 - https://cdn-images-1.medium.com/max/1600/0*P7XjBh6QtYZ5z7wJ.
 - https://firebase.google.com/docs/firestore/images/structure-data.png?hl=es-419
 - https://codelabs.developers.google.com/codelabs/firebase-cloud-firestore-workshop-swift/img/157cea4471719f0f.png
+
+
+
+### clase86
+- https://cdn-images-1.medium.com/fit/t/1600/480/1*r19LkMzh3ciz0lRBXf546A.png
+- https://t3chfest.uc3m.es/2018/static/resources/events_cards/98.png?q=1517275807

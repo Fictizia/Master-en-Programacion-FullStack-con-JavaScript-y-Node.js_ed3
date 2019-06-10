@@ -123,7 +123,7 @@ Fecha | Teoría | Recursos | Contenido
 03/06/19 | [Clase 83](teoria/clase83.md) | [Clase 83](recursos/clase83.md) | Bases de datos: No-relacionales I
 05/06/19 | [Clase 84](teoria/clase84.md) | Clase 84 | Bases de datos: No-relacionales II
 07/06/19 | [Clase 85](teoria/clase85.md) | [Clase 85](recursos/clase85.md) | Firebase III: Cloud Firestore
-
+10/06/19 | [Clase 86](teoria/clase86.md) | [Clase 86](recursos/clase86.md) | Scraping con Puppeteer
 
 
 [Temario](https://coggle.it/diagram/W5ZfeGRd293lprIt/t/master-js-y-node-de-fictizia)
