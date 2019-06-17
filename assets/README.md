@@ -759,3 +759,14 @@
 - https://nodemon.io
 - https://raw.githubusercontent.com/motdotla/dotenv/master/dotenv.png
 - https://pm2.io/doc/img/runtime/runtime-black.png
+
+
+### clase89
+
+- https://upload.wikimedia.org/wikipedia/en/a/a9/Heroku_logo.png 
+- https://www.i2coalition.com/wp-content/uploads/2017/09/logo-ovh-us-horizontal-blue.png
+- https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Microsoft_Azure_Logo.svg/1280px-Microsoft_Azure_Logo.svg.png
+- https://eventil.com/events/programmer-un-service-d-39-ia-avec-un-minimum-de-code
+- https://studio3t.com/wp-content/uploads/digital-ocean-logo.png
+- https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/AmazonWebservices_Logo.svg/2000px-AmazonWebservices_Logo.svg.png
+- https://www.beeva.com/wp-content/uploads/2018/02/google.cloud-platform-app-1200x565.jpg
