@@ -770,3 +770,14 @@
 - https://studio3t.com/wp-content/uploads/digital-ocean-logo.png
 - https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/AmazonWebservices_Logo.svg/2000px-AmazonWebservices_Logo.svg.png
 - https://www.beeva.com/wp-content/uploads/2018/02/google.cloud-platform-app-1200x565.jpg
+
+
+### clase90
+
+- https://cdn-images-1.medium.com/max/1200/1*6z2rS247RKJJxdWDetYm2Q.png 
+- https://rahulpnath.com/images/codereview_friendly.png 
+- http://www.commitstrip.com/wp-content/uploads/2012/08/Strips-Pair-coding-550-finalenglish.jpg 
+- http://www.edu-art.in/wp-content/uploads/2017/12/5.jpg 
+- https://www.testbytes.net/wp-content/uploads/2018/06/Brace-YourselfSoftware-Testing-Memes-Are-Here-2.jpg 
+- https://upload.wikimedia.org/wikipedia/commons/0/0b/TDD_Global_Lifecycle.png 
+- https://martinfowler.com/bliki/images/testPyramid/test-pyramid.png 

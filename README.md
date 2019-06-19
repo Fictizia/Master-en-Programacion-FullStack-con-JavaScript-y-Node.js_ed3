@@ -127,7 +127,7 @@ Fecha | Teoría | Recursos | Contenido
 12/06/19 | [Clase 87](teoria/clase87.md) | [Clase 87](recursos/clase87.md) | CLI con Nodejs 
 14/06/19 | [Clase 88](teoria/clase88.md) | [Clase 88](recursos/clase88.md) | Node funcionando con PM2, Nodemon, etc... 
 17/06/19 | [Clase 89](teoria/clase89.md) | [Clase 89](recursos/clase89.md) | Deploy en Cloud
-
+19/06/19 | [Clase 90](teoria/clase90.md) | [Clase 90](recursos/clase90.md) | Testing: Fundamentos
 
 
 [Temario](https://coggle.it/diagram/W5ZfeGRd293lprIt/t/master-js-y-node-de-fictizia)
