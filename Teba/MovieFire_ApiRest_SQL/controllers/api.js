@@ -1,6 +1,6 @@
 // Require de las funciones de la DB
 // Validator
- const gotMovieInfo = require('.lib/omdb')
+const gotMovieInfo = require('.lib/omdb')
 
 
 function getFullFilmList(req, res, next){
