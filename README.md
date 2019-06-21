@@ -128,6 +128,8 @@ Fecha | Teoría | Recursos | Contenido
 14/06/19 | [Clase 88](teoria/clase88.md) | [Clase 88](recursos/clase88.md) | Node funcionando con PM2, Nodemon, etc... 
 17/06/19 | [Clase 89](teoria/clase89.md) | [Clase 89](recursos/clase89.md) | Deploy en Cloud
 19/06/19 | [Clase 90](teoria/clase90.md) | [Clase 90](recursos/clase90.md) | Testing: Fundamentos
+21/06/19 | [Clase 91](teoria/clase91.md) | [Clase 91](recursos/clase91.md) | Testing: Unit Testing
+
 
 
 [Temario](https://coggle.it/diagram/W5ZfeGRd293lprIt/t/master-js-y-node-de-fictizia)

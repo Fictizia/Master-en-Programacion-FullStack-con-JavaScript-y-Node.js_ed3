@@ -781,3 +781,14 @@
 - https://www.testbytes.net/wp-content/uploads/2018/06/Brace-YourselfSoftware-Testing-Memes-Are-Here-2.jpg 
 - https://upload.wikimedia.org/wikipedia/commons/0/0b/TDD_Global_Lifecycle.png 
 - https://martinfowler.com/bliki/images/testPyramid/test-pyramid.png 
+
+
+### clase91
+
+- http://ashleynolan.co.uk/assets/img/blog/tooling-survey/2015/q7.jpg 
+- http://krystianczaplicki.com/wp-content/uploads/2018/07/chrome-devtools.jpg 
+- https://antfroger.github.io/slides-javascript-unit-testing/images/qunit.png 
+- https://cdn-images-1.medium.com/max/2000/1*AjcpO5fXga08mo2AJU93uQ.png 
+- https://i2.wp.com/blog.fossasia.org/wp-content/uploads/2017/07/sinon.jpg?resize=592%2C266&ssl=1 
+- https://er1x.github.io/images/2015-06/i-have-no-idea-what-im-doing-dog.jpg 
+
