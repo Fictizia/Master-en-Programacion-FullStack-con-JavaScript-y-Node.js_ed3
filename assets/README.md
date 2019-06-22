@@ -792,3 +792,8 @@
 - https://i2.wp.com/blog.fossasia.org/wp-content/uploads/2017/07/sinon.jpg?resize=592%2C266&ssl=1 
 - https://er1x.github.io/images/2015-06/i-have-no-idea-what-im-doing-dog.jpg 
 
+
+### Saturday1
+- http://zowi.bq.com/wp-content/uploads/2015/11/proy__montaje-y-desmontaje.png
+- https://www.phoneservicecenter.es/wp-content/uploads/2016/12/Esquema_conexiones_Zowi-1024x811.png
+- http://diwo.bq.com/wp-content/uploads/2016/02/DSC_0392_800pxls.jpg
