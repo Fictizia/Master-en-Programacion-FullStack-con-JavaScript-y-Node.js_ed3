@@ -130,7 +130,7 @@ Fecha | Teoría | Recursos | Contenido
 19/06/19 | [Clase 90](teoria/clase90.md) | [Clase 90](recursos/clase90.md) | Testing: Fundamentos
 21/06/19 | [Clase 91](teoria/clase91.md) | [Clase 91](recursos/clase91.md) | Testing: Unit Testing
 22/06/19 | [Saturday Coding I](teoria/saturday1.md) | Saturday Coding II | Live Coding: Zowiki
-
+24/06/19 | [Clase 92](teoria/clase92.md) | [Clase 92](recursos/clase92.md) | Testing: E2E Testing & Específicos
 
 
 

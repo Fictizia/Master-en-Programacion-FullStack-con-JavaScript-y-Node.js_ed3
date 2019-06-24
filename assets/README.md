@@ -797,3 +797,14 @@
 - http://zowi.bq.com/wp-content/uploads/2015/11/proy__montaje-y-desmontaje.png
 - https://www.phoneservicecenter.es/wp-content/uploads/2016/12/Esquema_conexiones_Zowi-1024x811.png
 - http://diwo.bq.com/wp-content/uploads/2016/02/DSC_0392_800pxls.jpg
+
+
+### clase92
+
+- https://cdn-images-1.medium.com/max/1600/1*UtZzMT32fRMnSN-HmgiSVQ.gif 
+- https://cdn-images-1.medium.com/fit/t/1600/480/1*wby6AkTf3SggijT3GSTu4w.png 
+- https://i.imgflip.com/1jz03k.jpg 
+- https://www.paulbarrs.com/wp-content/uploads/2017/09/devices.jpg 
+- https://i.ytimg.com/vi/fsF7enQY8uI/maxresdefault.jpg 
+
+
