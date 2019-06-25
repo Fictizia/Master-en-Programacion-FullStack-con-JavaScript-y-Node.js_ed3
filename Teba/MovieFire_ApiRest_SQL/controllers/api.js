@@ -1,52 +1,42 @@
-// Require de las funciones de la DB
-// Validator
-const gotMovieInfo = require('.lib/omdb')
+const { getMovieDetailsDB, getAllMoviesDB, editMovieDB, createMovieDB, deleteMovieDB} = require('../models/db')
+// @TODO: Validator
+const {gotMovieInfo} = require('../lib/omdb')
 
 
 function getFullFilmList(req, res, next){
-    res.json([{
-        id: '001',
-        Title: 'The Matrix'
-    }, 
-    {
-        id: '002',
-        Title: 'Banana'
-    }
-    ])
+    getAllMoviesDB()
+        .then(data => res.json(data))
+        .catch(err => res.status(500).json({err}))
 }
 
 function getMovieDetails (req, res, next){
     let id = req.params.id;
-    console.log(`Mira los detalles de la peli ${id}!`)
-    res.json({
-        id,
-        Title: 'The Matrix'
-    })
+    getMovieDetailsDB(id)
+        .then(data => res.json(data))
+        .catch(error => res.status(500).json({error}))
 }
 
 function createMovie(req, res, next){
     let {title} = req.body;
-    console.log(`Aquí creamos una peli con el título ${title}`);
-    res.json({ 
-        id: '001',
-        Title: title
-    })
+    gotMovieInfo(title)
+        .then(createMovieDB) 
+        .then(data => res.json({msg: 'Movie has been created'}))
+        .catch(error => res.status(500).json({error}))
 }
-
 
 function editMovieTitle(req, res, next){
     let newTitle = req.body.title;
-    console.log(`Aquí editamos la peli con el nuevo titulo ${newTitle}`)
-    res.json({
-        id: '001',
-        Title: newTitle
-    })
+    let id = req.body.id;
+    editMovieDB(id, newTitle)
+        .then(data => res.json({msg: 'Movie has been updated!'}))
+        .catch(error => res.status(500).json({error}))
 }
 
 function deleteMovie(req, res, next){
     let id = req.body.id;
-    console.log(`Aquí borramos la peli con el id ${id}`)
-    res.json({})
+    deleteMovieDB(id)
+        .then(data => res.json({msg: 'Movie has been deleted!'}))
+        .catch(error => res.status(500).json({error}))
 }
 
 module.exports =  {getFullFilmList, getMovieDetails, editMovieTitle, createMovie, deleteMovie}
