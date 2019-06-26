@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="-256 353 583 371" width="583pt" height="371pt" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata> Produced by OmniGraffle 7.5 
+    <dc:date>2018-02-28 20:15:05 +0000</dc:date>
+  </metadata>
+  <defs>
+    <font-face font-family="Arial" font-size="18" panose-1="2 11 7 4 2 2 2 2 2 4" units-per-em="1000" underline-position="-105.95703" underline-thickness="104.98047" slope="0" x-height="518.5547" cap-height="715.8203" ascent="905.2734" descent="-211.91406" font-weight="bold">
+      <font-face-src>
+        <font-face-name name="Arial-BoldMT"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Menlo" font-size="20" panose-1="2 11 7 9 3 6 4 2 2 4" units-per-em="1000" underline-position="-63.47656" underline-thickness="43.94531" slope="0" x-height="546.875" cap-height="729.9805" ascent="928.2227" descent="-235.83984" font-weight="bold">
+      <font-face-src>
+        <font-face-name name="Menlo-Bold"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" viewBox="-1 -3 6 6" markerWidth="6" markerHeight="6" color="black">
+      <g>
+        <path d="M 3.8577778 0 L 0 -1.4466667 L 0 1.4466667 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+  </defs>
+  <g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
+    <title>Canvas 1</title>
+    <rect fill="white" width="582.5197" height="369.92126"/>
+    <g>
+      <title>Layer 1</title>
+      <rect x="-255.1181" y="354.3307" width="581.10236" height="368.50393" fill="white"/>
+      <rect x="212.59842" y="354.3307" width="113.38583" height="368.50393" fill="#327cbd" fill-opacity=".5"/>
+      <rect x="212.59842" y="354.3307" width="113.38583" height="368.50393" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <rect x="-14.173228" y="354.3307" width="113.38583" height="368.50393" fill="#327cbd" fill-opacity=".5"/>
+      <rect x="-14.173228" y="354.3307" width="113.38583" height="368.50393" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <rect x="99.2126" y="354.3307" width="113.38583" height="368.50393" fill="#327cbd" fill-opacity=".5"/>
+      <rect x="99.2126" y="354.3307" width="113.38583" height="368.50393" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <rect x="-127.55905" y="354.3307" width="113.38583" height="368.50393" fill="#327cbd" fill-opacity=".5"/>
+      <rect x="-127.55905" y="354.3307" width="113.38583" height="368.50393" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(-112.29759 387.88273)" fill="black">
+        <tspan font-family="Arial" font-size="18" font-weight="bold" x=".48095703" y="16" textLength="87.03809">Dockerfile</tspan>
+      </text>
+      <text transform="translate(18.20264 387.88273)" fill="black">
+        <tspan font-family="Arial" font-size="18" font-weight="bold" x=".48876953" y="16" textLength="52.02246">Image</tspan>
+      </text>
+      <text transform="translate(112.55905 373.91507)" fill="black">
+        <tspan font-family="Arial" font-size="18" font-weight="bold" x=".4970703" y="16" textLength="84.00586">Container</tspan>
+        <tspan font-family="Arial" font-size="18" font-weight="bold" x="6.5043945" y="36.588867" textLength="71.99121">Stopped</tspan>
+      </text>
+      <text transform="translate(225.94488 373.91507)" fill="black">
+        <tspan font-family="Arial" font-size="18" font-weight="bold" x=".4970703" y="16" textLength="84.00586">Container</tspan>
+        <tspan font-family="Arial" font-size="18" font-weight="bold" x="6.012207" y="36.588867" textLength="72.97559">Running</tspan>
+      </text>
+      <rect x="-255.1181" y="354.3307" width="127.55905" height="85.03937" fill="#327cbd"/>
+      <rect x="-255.1181" y="354.3307" width="127.55905" height="85.03937" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(-250.1181 384.8504)" fill="white">
+        <tspan font-family="Menlo" font-size="20" font-weight="bold" fill="white" x="22.65648" y="19" textLength="72.24609">docker</tspan>
+      </text>
+    </g>
+    <g>
+      <title>Layer 2</title>
+      <rect x="-255.1181" y="439.3701" width="581.10236" height="56.69291" fill="#327cbd" fill-opacity=".5"/>
+      <rect x="-255.1181" y="439.3701" width="581.10236" height="56.69291" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <rect x="-255.1181" y="496.063" width="581.10236" height="56.69291" fill="#327cbd" fill-opacity=".5"/>
+      <rect x="-255.1181" y="496.063" width="581.10236" height="56.69291" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <rect x="-255.1181" y="552.7559" width="581.10236" height="56.69291" fill="#327cbd" fill-opacity=".5"/>
+      <rect x="-255.1181" y="552.7559" width="581.10236" height="56.69291" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(-221.77165 458.5433)" fill="black">
+        <tspan font-family="Menlo" font-size="20" font-weight="bold" x=".39746094" y="19" textLength="60.20508">build</tspan>
+      </text>
+      <text transform="translate(-227.77165 515.2362)" fill="black">
+        <tspan font-family="Menlo" font-size="20" font-weight="bold" x=".37695312" y="19" textLength="72.24609">create</tspan>
+      </text>
+      <text transform="translate(-221.77165 571.9291)" fill="black">
+        <tspan font-family="Menlo" font-size="20" font-weight="bold" x=".39746094" y="19" textLength="60.20508">start</tspan>
+      </text>
+      <rect x="-255.1181" y="609.4488" width="581.10236" height="56.69291" fill="#327cbd" fill-opacity=".5"/>
+      <rect x="-255.1181" y="609.4488" width="581.10236" height="56.69291" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(-215.77165 628.62204)" fill="black">
+        <tspan font-family="Menlo" font-size="20" font-weight="bold" x=".41796875" y="19" textLength="48.16406">stop</tspan>
+      </text>
+      <rect x="-255.1181" y="666.1417" width="581.10236" height="56.69291" fill="#327cbd" fill-opacity=".5"/>
+      <rect x="-255.1181" y="666.1417" width="581.10236" height="56.69291" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(-209.77165 685.31496)" fill="black">
+        <tspan font-family="Menlo" font-size="20" font-weight="bold" x=".43847656" y="19" textLength="36.123047">run</tspan>
+      </text>
+    </g>
+    <g>
+      <title>Layer 3</title>
+      <line x1="-70.86614" y1="467.71653" x2="27.115748" y2="467.71653" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.8346457"/>
+      <line x1="42.519685" y1="524.40945" x2="140.50157" y2="524.40945" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.8346457"/>
+      <line x1="155.90551" y1="581.10236" x2="253.8874" y2="581.10236" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.8346457"/>
+      <line x1="269.29134" y1="637.7953" x2="171.30945" y2="637.7953" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.8346457"/>
+      <line x1="42.519685" y1="694.4882" x2="253.8874" y2="694.4882" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.8346457"/>
+    </g>
+  </g>
+</svg>

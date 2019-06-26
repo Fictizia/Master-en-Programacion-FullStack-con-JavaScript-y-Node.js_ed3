@@ -808,3 +808,23 @@
 - https://i.ytimg.com/vi/fsF7enQY8uI/maxresdefault.jpg 
 
 
+### clase93
+
+- http://www.commitstrip.com/en/2016/12/10/a-server-thats-so-2014/
+- https://cdn-images-1.medium.com/max/600/1*BXQXYg3Y-_2ougVn0bmumQ.png
+- https://logonoid.com/images/docker-logo.png
+- https://www.logolynx.com/images/logolynx/2c/2cf096c1092f10feb771f1f47cebb168.png
+- https://imgur.com/BRG3aKB
+- https://res.cloudinary.com/dukp6c7f7/image/upload/f_auto,fl_lossy,q_auto/s3-ghost/2016/06/o7leok.png
+- https://blog-assets.spotinst.com/app/uploads/2018/05/23151904/k8t_new.jpg
+- https://jmgvirtualconsulting-8a7c.kxcdn.com/uploads/2018/07/ventajas-virtualizacion-jmgvirtualconsulting-1000x495.jpg
+- https://www.redhat.com/cms/managed-files/server-usage-500x131.png
+- https://www.redhat.com/cms/managed-files/server-usage-for-virtualization-500x131.png
+- https://tech.osteel.me/images/2015/01/25/vagrant.png
+- http://profesblog.es/wp-content/uploads/2017/07/vmware-logo2.png
+- https://cdn.worldvectorlogo.com/logos/virtualbox.svg
+- http://i0.wp.com/www.teraswap.com/blog/wp-content/uploads/2014/09/containervm.png
+- https://d1.awsstatic.com/product-marketing/containers/Containers_whats_in_a_container.945c530bfe6e19ea90510967fe8c56be746626b8.png
+- http://blog.aodbc.es/wp-content/uploads/2017/10/Docker_Cheat_Sheet1.png
+- http://weibeld.net/misc/assets/docker-cheatsheet-1.svg
+- http://images.linoxide.com/docker-commands-cheatsheet-part2-700x900.png

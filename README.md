@@ -131,6 +131,8 @@ Fecha | Teoría | Recursos | Contenido
 21/06/19 | [Clase 91](teoria/clase91.md) | [Clase 91](recursos/clase91.md) | Testing: Unit Testing
 22/06/19 | [Saturday Coding I](teoria/saturday1.md) | Saturday Coding II | Live Coding: Zowiki
 24/06/19 | [Clase 92](teoria/clase92.md) | [Clase 92](recursos/clase92.md) | Testing: E2E Testing & Específicos
+26/06/19 | [Clase 93](teoria/clase93.md) | [Clase 93](recursos/clase93.md) | Virtualización con Docker y Kubernetes
+
 
 
 
