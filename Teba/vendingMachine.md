@@ -264,8 +264,6 @@ var maquinaExpendedora = {
 
 ```js
 
-
-
 var maquinaExpendedora = {
     admin: {
       secreto: "ficticiaMola"

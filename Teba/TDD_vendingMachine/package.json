@@ -1,0 +1,19 @@
+{
+  "name": "tdd_vendingmachine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "lint:fix": "standard --fix",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "author": "Teba Gomez",
+  "license": "AGPL-3.0",
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "standard": "^12.0.1"
+  }
+}
