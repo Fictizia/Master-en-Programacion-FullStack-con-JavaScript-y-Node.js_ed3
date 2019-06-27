@@ -10,7 +10,7 @@ function seedClients() {
     }, {
         nombre: "Carlos Perez",
         usuario: "cPerez",
-        contraseña: "pass2",
+        contraseña: "pass_2",
         tipo: "usuario",
         presupuesto: "100",
         gasto: []

@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`methods for managing clients and their needs must avoid adding existing clients 1`] = `
+Array [
+  Object {
+    "contraseña": "pass",
+    "gasto": Array [],
+    "nombre": "Ulises Gascón",
+    "presupuesto": "1000",
+    "tipo": "admin",
+    "usuario": "ulises",
+  },
+  Object {
+    "contraseña": "pass_2",
+    "gasto": Array [],
+    "nombre": "Carlos Perez",
+    "presupuesto": "100",
+    "tipo": "usuario",
+    "usuario": "cPerez",
+  },
+]
+`;
+
+exports[`methods for managing clients and their needs must create new client 1`] = `
+Array [
+  Object {
+    "contraseña": "pass",
+    "gasto": Array [],
+    "nombre": "Ulises Gascón",
+    "presupuesto": "1000",
+    "tipo": "admin",
+    "usuario": "ulises",
+  },
+  Object {
+    "contraseña": "pass_2",
+    "gasto": Array [],
+    "nombre": "Carlos Perez",
+    "presupuesto": "100",
+    "tipo": "usuario",
+    "usuario": "cPerez",
+  },
+  Object {
+    "contraseña": "pass2",
+    "gasto": Array [],
+    "nombre": "Teba Gomez",
+    "presupuesto": "100",
+    "tipo": "usuario",
+    "usuario": "teba",
+  },
+]
+`;
+
+exports[`methods for managing clients and their needs must remove specific client 1`] = `
+Array [
+  Object {
+    "contraseña": "pass_2",
+    "gasto": Array [],
+    "nombre": "Carlos Perez",
+    "presupuesto": "100",
+    "tipo": "usuario",
+    "usuario": "cPerez",
+  },
+]
+`;
