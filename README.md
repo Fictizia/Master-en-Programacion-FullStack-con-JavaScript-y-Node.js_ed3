@@ -132,7 +132,7 @@ Fecha | Teoría | Recursos | Contenido
 22/06/19 | [Saturday Coding I](teoria/saturday1.md) | Saturday Coding II | Live Coding: Zowiki
 24/06/19 | [Clase 92](teoria/clase92.md) | [Clase 92](recursos/clase92.md) | Testing: E2E Testing & Específicos
 26/06/19 | [Clase 93](teoria/clase93.md) | [Clase 93](recursos/clase93.md) | Virtualización con Docker y Kubernetes
-
+28/06/19 | [Clase 94](teoria/clase94.md) | [Clase 94](recursos/clase94.md) | DevOps: CI y CD
 
 
 
