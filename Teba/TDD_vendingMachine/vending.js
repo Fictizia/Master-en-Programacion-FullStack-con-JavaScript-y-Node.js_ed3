@@ -1,5 +1,9 @@
 // Métodos de la máquina expendedora
 
+function UserError(msg) {
+    this.msg = msg;
+ }
+
 
 function maquinaExpendedora(config={},clientes, productos){
     // Aquí se ponen todos los métodos
@@ -12,29 +16,25 @@ function maquinaExpendedora(config={},clientes, productos){
         },
         isClient: function(userName){
             const match = clientes.filter(client => client.usuario === userName)
-            if(match.length === 0){
-                return false;
-            } else {
-                return true;
-            }
+            return match.length !== 0;
         },
         addClient: function(client){
-            let clientExists = false;
-            clientes.forEach(elem => {
-                if(elem.usuario === client.usuario){
-                    clientExists = true;
-                }
-            }) 
-            if(!clientExists){
+            if(!client.usuario){
+                throw new Error("Missing Client Info!");
+            }
+            if(!this.isClient(client.usuario)){
                 clientes.push(client)
             }
         },
         removeClient: function(user){
+            if(!this.isClient(user)){
+                return false
+            }
             clientes = clientes.filter(client => client.usuario !== user)
+            return true
         }
 
     };
 }
-
 
 module.exports = { maquinaExpendedora }
