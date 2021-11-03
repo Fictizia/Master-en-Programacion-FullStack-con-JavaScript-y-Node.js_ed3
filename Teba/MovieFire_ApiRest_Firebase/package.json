@@ -24,6 +24,6 @@
     "firebase": "^6.0.2",
     "got": "^9.6.0",
     "helmet": "^3.18.0",
-    "validator": "^10.11.0"
+    "validator": "^13.7.0"
   }
 }
